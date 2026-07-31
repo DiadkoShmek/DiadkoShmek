@@ -1,16 +1,20 @@
-## Hi there 👋
+# Артур Онисько — AI-native automation
 
-<!--
-**DiadkoShmek/DiadkoShmek** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build small, inspectable automation and agent-workflow artifacts with Python, APIs, explicit state, bounded retries, and clear failure boundaries.
 
-Here are some ideas to get you started:
+## Focus
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Reliable AI/agent workflow patterns
+- API and webhook automation
+- Evidence-backed technical handoff
+- Small prototypes that can be read, tested, and challenged
+
+## Public proof
+
+[evidence-gated-agent-workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows) — a runnable Python artifact for stable operation fingerprints, persisted external IDs, bounded polling, and fail-closed terminal states.
+
+The repository is intentionally narrow: it shows a contract and its tests, not inflated production claims.
+
+## Contact
+
+For a scoped remote AI automation, integration, or reliability task, contact me via [LinkedIn](https://www.linkedin.com/in/%D0%B0%D1%80%D1%82%D1%83%D1%80-%D0%BE%D0%BD%D0%B8%D1%81%D1%8C%D0%BA%D0%BE-842296411/).
