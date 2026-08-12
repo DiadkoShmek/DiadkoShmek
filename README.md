@@ -12,11 +12,12 @@
 
 ### [Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows/releases/tag/public-proof-v1.7.0)
 
-Immutable release `public-proof-v1.7.0` містить шість локальних reference-контурів для систем, які не мають права перетворювати stale/missing/conflicting evidence, crash, unknown job id, неповний artifact handoff або неперевірений action commitment на успіх.
+Immutable release `public-proof-v1.7.0` містить сім локальних reference-контурів для систем, які не мають права перетворювати stale/missing/conflicting evidence, crash, unknown job id, неповний artifact handoff, неперевірений action commitment або непідтверджений local context на успіх.
 
 - evidence admission, bounded polling і durable workflow state;
 - receipt-last immutable artifact handoff із historical held-FD readback без current-path claim після повернення;
 - typed action/pre-state commitment перед локальною симуляцією;
+- dependency-free lexical retrieval із точним source digest і лише `local-context-review-ready` межею;
 - replay/conflict refusal та review-required handoff;
 - `network_access_performed=false`;
 - `external_action_performed=false`.
