@@ -10,9 +10,9 @@
 
 ## Що можна перевірити публічно
 
-### [Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows/releases/tag/public-proof-v1.7.0)
+### [Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows/releases/tag/public-proof-v1.8.0)
 
-Immutable release `public-proof-v1.7.0` містить сім локальних reference-контурів для систем, які не мають права перетворювати stale/missing/conflicting evidence, crash, unknown job id, неповний artifact handoff, неперевірений action commitment або непідтверджений local context на успіх.
+Immutable release `public-proof-v1.8.0` містить сім локальних reference-контурів для систем, які не мають права перетворювати stale/missing/conflicting evidence, crash, unknown job id, неповний artifact handoff, неперевірений action commitment або непідтверджений local context на успіх.
 
 - evidence admission, bounded polling і durable workflow state;
 - receipt-last immutable artifact handoff із historical held-FD readback без current-path claim після повернення;
@@ -71,7 +71,7 @@ Immutable release `public-proof-v1.7.0` містить сім локальних
 
 ## Контакт
 
-[LinkedIn](https://github.com/DiadkoShmek) · [Public proof v1.7](https://github.com/DiadkoShmek/evidence-gated-agent-workflows/releases/tag/public-proof-v1.7.0) · [Sprint](https://diadkoshmek.github.io/evidence-gated-agent-workflows/ai-systems-sprint.html)
+[LinkedIn](https://github.com/DiadkoShmek) · [Public proof v1.8](https://github.com/DiadkoShmek/evidence-gated-agent-workflows/releases/tag/public-proof-v1.8.0) · [Sprint](https://diadkoshmek.github.io/evidence-gated-agent-workflows/ai-systems-sprint.html)
 
 ---
 
