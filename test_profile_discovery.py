@@ -5,7 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 README = ROOT / "README.md"
-RELEASE = "https://github.com/DiadkoShmek/evidence-gated-agent-workflows/releases/tag/public-proof-v1.6.0"
+RELEASE = "https://github.com/DiadkoShmek/evidence-gated-agent-workflows/releases/tag/public-proof-v1.7.0"
 SPRINT = "https://diadkoshmek.github.io/evidence-gated-agent-workflows/ai-systems-sprint.html"
 INQUIRY = "https://github.com/DiadkoShmek/evidence-gated-agent-workflows/issues/new?template=client-inquiry.yml"
 
@@ -26,6 +26,10 @@ class ProfileDiscoveryContractTest(unittest.TestCase):
         self.assertNotIn("17 deterministic tests", self.readme)
         self.assertIn("python3 run_proof.py", self.readme)
         self.assertIn("ALL PUBLIC PROOFS PASSED", self.readme)
+        self.assertIn("Immutable release `public-proof-v1.7.0`", self.readme)
+        self.assertIn("Public proof v1.7", self.readme)
+        self.assertIn("historical held-FD readback без current-path claim", self.readme)
+        self.assertNotIn("public-proof-v1.6.0", self.readme)
         self.assertGreaterEqual(self.readme.count(RELEASE), 2)
 
     def test_public_files_do_not_expose_local_paths_or_authority_claims(self):
