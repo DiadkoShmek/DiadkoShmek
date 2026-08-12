@@ -5,6 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 README = ROOT / "README.md"
+WORKFLOW = ROOT / ".github" / "workflows" / "profile-proof.yml"
 RELEASE = "https://github.com/DiadkoShmek/evidence-gated-agent-workflows/releases/tag/public-proof-v1.7.0"
 SPRINT = "https://diadkoshmek.github.io/evidence-gated-agent-workflows/ai-systems-sprint.html"
 INQUIRY = "https://github.com/DiadkoShmek/evidence-gated-agent-workflows/issues/new?template=client-inquiry.yml"
@@ -13,6 +14,7 @@ INQUIRY = "https://github.com/DiadkoShmek/evidence-gated-agent-workflows/issues/
 class ProfileDiscoveryContractTest(unittest.TestCase):
     def setUp(self):
         self.readme = README.read_text(encoding="utf-8")
+        self.workflow = WORKFLOW.read_text(encoding="utf-8")
 
     def test_profile_routes_proof_to_one_exact_offer_and_review_intake(self):
         for route in (RELEASE, SPRINT, INQUIRY):
@@ -47,6 +49,23 @@ class ProfileDiscoveryContractTest(unittest.TestCase):
             targets,
         )
         self.assertIn("не є частиною публічного proof", self.readme)
+
+    def test_profile_proof_workflow_is_exact_and_read_only(self):
+        checkout = "actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1"
+        setup_python = "actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97"
+        proof = "run: python3 -m unittest -v test_profile_discovery.py"
+        uses = re.findall(r"(?m)^\s+uses:\s+(\S+)", self.workflow)
+
+        self.assertEqual(uses, [checkout, setup_python])
+        self.assertEqual(self.workflow.count(checkout), 1)
+        self.assertEqual(self.workflow.count(setup_python), 1)
+        self.assertEqual(self.workflow.count(proof), 1)
+        self.assertLess(self.workflow.index(checkout), self.workflow.index(setup_python))
+        self.assertLess(self.workflow.index(setup_python), self.workflow.index(proof))
+        self.assertRegex(self.workflow, r"(?m)^permissions:\n  contents: read$")
+        self.assertIn('python-version: "3.12"', self.workflow)
+        self.assertNotRegex(self.workflow, r"(?m)^\s+[a-z-]+: write$")
+        self.assertNotIn("id-token: write", self.workflow)
 
 
 if __name__ == "__main__":
