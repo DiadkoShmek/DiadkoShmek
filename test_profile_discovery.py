@@ -22,6 +22,8 @@ class ProfileDiscoveryContractTest(unittest.TestCase):
         self.assertIn("python3 run_proof.py", self.readme)
         self.assertIn("прототипи", self.readme)
         self.assertIn("не історії про впровадження в клієнтів", self.readme)
+        self.assertIn("https://diadkoshmek.github.io/mae7-viewer/", self.readme)
+        self.assertIn("https://github.com/DiadkoShmek/mae7-viewer", self.readme)
 
     def test_profile_has_no_fixed_offer_or_private_paths(self):
         for sales_fragment in ("$1,500", "Proof Sprint", "fixed-scope", "3–5 working days"):
