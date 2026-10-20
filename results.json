@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "codingame-mad-pod-racing-2026-10-21",
+      "competition": "CodinGame · Mad Pod Racing",
+      "format": "continuous_arena",
+      "status": "snapshot",
+      "account": "Architect.",
+      "league": "Legend",
+      "rank": 86,
+      "rank_scope": "Legend League",
+      "participants": 1657,
+      "as_of": "2026-10-21",
+      "observed_at": "2026-10-20T22:06:15.975Z",
+      "display_timezone": "Europe/Helsinki",
+      "source_url": "https://www.codingame.com/multiplayer/bot-programming/mad-pod-racing",
+      "profile_url": "https://www.codingame.com/profile/effff781bd270b96c3fddbba39a29b4a7099847",
+      "evidence": {
+        "path": "evidence/codingame-2026-10-21.jpg",
+        "sha256": "98ef2618d3be4dfe2caa78419479f90d61e49bfbcec72e1b399881f527f569ef"
+      },
+      "boundary": "Dated league ranking snapshot, not a final tournament result or an all-time best."
+    },
+    {
+      "id": "zoria-2026-preliminary-2026-10-19",
+      "competition": "Zoria 2026",
+      "format": "tournament",
+      "status": "preliminary",
+      "account": "diadkoshmek",
+      "rank": 5,
+      "rank_scope": "overall preliminary score of second-stage participants",
+      "participants": 9,
+      "as_of": "2026-10-19",
+      "checked_at": "2026-10-20T22:06:05.463Z",
+      "display_timezone": "Europe/Helsinki",
+      "source_url": "https://zoria.net/news/#19102026-попередній-підсумок-другого-етапу",
+      "expected_final_at": "2026-10-21T18:00:00Z",
+      "boundary": "Public table excludes episode R3; no final placement, award or payment claimed."
+    }
+  ]
+}
