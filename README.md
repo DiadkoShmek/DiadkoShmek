@@ -8,6 +8,7 @@
 
 - **[Signal Desk](https://diadkoshmek.github.io/talent-research-workflow-prototype/?lang=uk&showcase=1)** — дослідження відкритих джерел і передача знахідок на людський розгляд. [Код і методика](https://github.com/DiadkoShmek/talent-research-workflow-prototype).
 - **[Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)** — виконувані приклади автоматизацій, які зупиняються за відсутніх або суперечливих даних. Перевірка: `python3 run_proof.py`.
+- **[STROIKA · 3D-переглядач](https://diadkoshmek.github.io/mae7-viewer/)** — інтерактивна модель будівлі та фасадних шарів для візуального огляду. [Опис і код](https://github.com/DiadkoShmek/mae7-viewer).
 
 Це відкриті прототипи, а не історії про впровадження в клієнтів.
 
