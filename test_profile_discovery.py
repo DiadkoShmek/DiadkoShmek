@@ -29,6 +29,11 @@ class ProfileDiscoveryContractTest(unittest.TestCase):
         self.assertNotIn("/home/pustota", self.readme)
         self.assertNotIn("file://", self.readme)
 
+    def test_open_source_work_links_upstream_and_keeps_pending_status(self):
+        self.assertIn("https://github.com/PrimeIntellect-ai/verifiers/pull/2925", self.readme)
+        self.assertIn("https://github.com/AndreyBegma/FilesDrop/pull/32", self.readme)
+        self.assertIn("21.10.2026 обидва PR відкриті, ще не злиті", self.readme)
+
     def test_profile_links_are_public_https_targets(self):
         targets = re.findall(r"\[[^]]+\]\(([^)]+)\)", self.readme)
         self.assertTrue(targets)

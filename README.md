@@ -11,6 +11,13 @@
 
 Це відкриті прототипи, а не історії про впровадження в клієнтів.
 
+## Внески у відкриті проєкти
+
+- **[verifiers · PR #2925](https://github.com/PrimeIntellect-ai/verifiers/pull/2925)** — ізоляція параметрів генерації для агентів з окремо заданими моделлю чи клієнтом.
+- **[FilesDrop · PR #32](https://github.com/AndreyBegma/FilesDrop/pull/32)** — повторне очищення файлів після збою та дотримання таймауту під час DNS.
+
+Станом на 21.10.2026 обидва PR відкриті, ще не злиті.
+
 ## Інженерні звіти
 
 **[Кейси: гіпотези, зміни й перевірки](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/ENGINEERING.md)** · [Результати та докази](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.md)
