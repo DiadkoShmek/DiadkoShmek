@@ -115,7 +115,7 @@ class EngineeringReportContractTest(unittest.TestCase):
 
     def test_process_is_primary_and_autonomy_is_not_invented(self):
         self.assertIn("https://github.com/DiadkoShmek/DiadkoShmek/blob/main/ENGINEERING.md", README.read_text(encoding="utf-8"))
-        for boundary in ("Ігровий бот", "AI-агент розробки", "Людина + інструменти + бот", "не виміряне"):
+        for boundary in ("Ігровий бот", "AI-агент розробки", "Людина визначає напрям", "не виміряні"):
             self.assertIn(boundary, self.index)
         self.assertIn("не контрольований порівняльний бенчмарк", self.index)
         self.assertTrue(self.extract["unmeasured"])
@@ -135,6 +135,27 @@ class EngineeringReportContractTest(unittest.TestCase):
                 self.assertRegex(row[field], r"^[a-f0-9]{64}$")
         self.assertIn("Не приписую це місце V89b", self.report)
         self.assertIn("відтворити матчі", self.report)
+
+    def test_public_entry_is_short_and_method_remains_available(self):
+        self.assertLess(len(README.read_text(encoding="utf-8").split()), 260)
+        self.assertLess(len(self.index.split()), 260)
+        self.assertIn("<details>", self.report)
+        self.assertIn("Методика, дані та обмеження", self.report)
+        self.assertIn("після цієї невдачі", self.report)
+        self.assertIn("English summary", self.report)
+        folder_index = (ROOT / "reports/README.md").read_text(encoding="utf-8")
+        self.assertIn("codingame-2026-10.md", folder_index)
+
+    def test_public_markdown_relative_links_resolve_inside_repository(self):
+        for path in ROOT.rglob("*.md"):
+            if ".git" in path.parts:
+                continue
+            for target in re.findall(r"!?\[[^]]*\]\(([^)]+)\)", path.read_text(encoding="utf-8")):
+                if target.startswith(("https://", "#")):
+                    continue
+                resolved = (path.parent / target.split("#")[0]).resolve()
+                self.assertTrue(resolved.is_relative_to(ROOT.resolve()), (path.name, target))
+                self.assertTrue(resolved.is_file(), (path.name, target))
 
 
 if __name__ == "__main__":
