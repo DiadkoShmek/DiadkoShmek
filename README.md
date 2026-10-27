@@ -22,12 +22,13 @@
 
 На 21.10.2026 обидва PR відкриті, ще не злиті.
 
-## Інженерні звіти
+## Змагання
 
-**[Кейси: гіпотези, зміни й перевірки](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/ENGINEERING.md)** · [Результати та докази](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.md)
+**[Zoria 2026 · UA SKILLS](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.md#zoria-2026--підсумок-ua-skills) — призер.** Системна розробка: бот, штаб, стратегія, ресурсні обмеження.
 
-- **CodinGame · Mad Pod Racing:** Legend League, **86/1657** — зріз рейтингу на 21.10.2026.
-- **Zoria 2026:** **5/9** у попередній таблиці від 19.10.2026; остаточний підсумок ще очікується.
+**[CodinGame · Mad Pod Racing](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/reports/codingame-2026-10.md) — гоночний C++-бот.** Керування двома машинами. **86-те місце з 1657 у Legend League** — зріз рухомого рейтингу 21.10.2026.
+
+[Результати](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.md) · [Розбори](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/ENGINEERING.md)
 
 ## Зв'язок
 

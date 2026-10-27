@@ -82,8 +82,12 @@ class ResultsJournalContractTest(unittest.TestCase):
         for row in self.records:
             with self.subTest(record=row["id"]):
                 date.fromisoformat(row["as_of"])
-                self.assertGreaterEqual(row["rank"], 1)
-                self.assertLessEqual(row["rank"], row["participants"])
+                if "rank" in row:
+                    self.assertGreaterEqual(row["rank"], 1)
+                    self.assertLessEqual(row["rank"], row["participants"])
+                else:
+                    self.assertEqual(row["result"], "prize_winner")
+                    self.assertNotIn("participants", row)
                 self.assertIn(row["status"], ("snapshot", "preliminary", "final"))
                 self.assertTrue(row["boundary"])
                 self.assertTrue(row["source_url"].startswith("https://"))
@@ -104,12 +108,19 @@ class ResultsJournalContractTest(unittest.TestCase):
         self.assertIn(f'{row["rank"]}/{row["participants"]}', self.journal)
         self.assertIn(row["rank_scope"], self.journal)
 
-    def test_pending_tournament_does_not_become_an_award_or_payment(self):
+    def test_preliminary_rank_and_final_announcement_remain_distinct(self):
         row = next(row for row in self.records if row["competition"] == "Zoria 2026")
         self.assertEqual(row["status"], "preliminary")
         self.assertNotIn("prize_amount", row)
         self.assertNotIn("payment_received", row)
-        self.assertIn("ще очікується", self.readme)
+        final = next(row for row in self.records if row.get("result") == "prize_winner")
+        self.assertEqual(final["status"], "final")
+        self.assertEqual(final["account"], row["account"])
+        self.assertNotIn("rank", final)
+        self.assertNotIn("prize_amount", final)
+        self.assertNotIn("payment_received", final)
+        self.assertNotIn("ще очікується", self.readme)
+        self.assertNotIn("5/9", self.readme)
         self.assertIn("не є їх публікацією", self.journal)
 
 
