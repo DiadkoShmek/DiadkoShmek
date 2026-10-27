@@ -37,6 +37,20 @@
       "source_url": "https://zoria.net/news/#19102026-попередній-підсумок-другого-етапу",
       "expected_final_at": "2026-10-21T18:00:00Z",
       "boundary": "Public table excludes episode R3; no final placement, award or payment claimed."
+    },
+    {
+      "id": "zoria-2026-prize-winner-observed-2026-10-27",
+      "competition": "Zoria 2026",
+      "organizer": "UA SKILLS",
+      "format": "tournament",
+      "status": "final",
+      "result": "prize_winner",
+      "account": "diadkoshmek",
+      "as_of": "2026-10-27",
+      "date_basis": "date organizer announcement was checked; not the announcement publication date",
+      "display_timezone": "Europe/Helsinki",
+      "source_url": "https://ua.linkedin.com/company/ua-skills",
+      "boundary": "Organizer names this account among five prize winners. This record does not establish an exact final rank, a ranked participant count or payment."
     }
   ]
 }
