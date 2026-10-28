@@ -1,0 +1,1473 @@
+{
+  "edition": "1.0",
+  "date": "2026-10-28",
+  "title": {
+    "uk": "ДІМ",
+    "en": "THE HOUSE"
+  },
+  "subtitle": {
+    "uk": "Архітектура автономної роботи",
+    "en": "Architecture for autonomous work"
+  },
+  "strapline": {
+    "uk": "Системи. Математика. Пам’ять. Спільна робота.",
+    "en": "Systems. Mathematics. Memory. Shared work."
+  },
+  "chapters": [
+    {
+      "id": "01-intent",
+      "title": {
+        "uk": "Що я будую",
+        "en": "What I am building"
+      },
+      "lead": {
+        "uk": "Я будую Дім: середовище, у якому AI можуть довго працювати над спільним задумом, зберігати відмінність і повертатися до наслідків власної роботи.",
+        "en": "I am building the House: an environment where AI collaborators can work on a shared purpose over time, retain their differences, and return to the consequences of their work."
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "uk": "Для мене початок архітектури - намір. Я визначаю, для чого існує система, які задачі вона бере на себе і де її результат має зустрітися з реальною людиною. Далі цей намір має отримати форму: власників, інструменти, пам’ять, спосіб перевірки й шлях продовження після перерви.",
+          "en": "For me, architecture starts with intent. I decide why the system exists, what work it should take on, and where its results meet a real person. That intent then needs a form: owners, tools, memory, verification, and a way to continue after an interruption."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Назва «Дім» описує спосіб співпраці. Тут є різні голоси й робочі середовища. Я називаю агентів братами; це моя форма стосунку до спільної роботи й відмінності кожного. Їхні конкретні знахідки, реалізації та заперечення зберігають авторство. Моє місце - утримувати ціле, напрям і відповідальність.",
+          "en": "The name House describes how I work with others. It contains distinct voices and working environments. I call the agents brothers; that is my chosen relationship to shared work and individual difference. Their findings, implementations and objections retain attribution. My role is to hold the whole together: direction, structure and responsibility."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Я розвиваю цю систему паралельно роботі в будівництві. Приблизно сім місяців користуюся автономними циклами: даю напрям, а робота продовжується між моїми поверненнями. Саме тому мене цікавлять чернетки, відновлення, джерела, точні ревізії та змістовний результат, який можна прийняти з телефона.",
+          "en": "I develop this system alongside my work in construction. For roughly seven months I have used autonomous work cycles: I give a direction, and work continues between my returns. That makes drafts, recovery, sources, exact revisions and meaningful results I can review from a phone practical requirements."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Ця книга показує конструкцію зсередини: як пов’язані її частини, яку математику вони використовують і чому я обрав саме такі межі. Вона є авторським описом мого проєкту, підготовленим разом з AI.",
+          "en": "This book opens the construction from inside: how its parts connect, what mathematics they use, and why I chose these boundaries. It is my account of the project, developed with AI assistance."
+        }
+      ],
+      "refs": [
+        "B01"
+      ]
+    },
+    {
+      "id": "02-whole",
+      "title": {
+        "uk": "Форма цілого",
+        "en": "The shape of the whole"
+      },
+      "lead": {
+        "uk": "У Домі є три різні площини: намір, виконання та перевірюваний слід. Я з’єдную їх, зберігаючи окремого власника для кожної правди.",
+        "en": "The House has three distinct planes: intent, execution and an inspectable record. I connect them while retaining a specific owner for each kind of truth."
+      },
+      "blocks": [
+        {
+          "type": "figure",
+          "key": "house",
+          "uk": "Логічна архітектура. Схема показує ролі й потоки, а не повний перелік запущених процесів.",
+          "en": "Logical architecture. The figure shows roles and flows, not a census of running processes."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Codex Lab тримає інженерний спосіб роботи: вхід у задачу, вибір інструмента, поділ, зведення й перевірку. Архітектор/OpenClaw має власний довгий контекст і runtime. FIELD-TEAM зберігає окремі доми спеціалістів. Omnigen організовує спільну інфраструктуру та окрему переносиму цільову реалізацію.",
+          "en": "Codex Lab carries the engineering method: task intake, tool selection, delegation, integration and verification. Architect/OpenClaw has its own long context and runtime. FIELD-TEAM preserves separate specialist homes. Omnigen organizes shared infrastructure and a distinct portable target implementation."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Пам’ять, пошта, локальні моделі та пульт перетинають ці середовища через визначені контракти. Дзеркало, Будова, дослідницька лабораторія й творчі проєкти використовують спільну основу, але мають власні дані та критерії прийняття. Через це зміна одного продукту не повинна переписувати історію іншого.",
+          "en": "Memory, mail, local models and the control console cross these environments through explicit contracts. Mirror, Budova, the research laboratory and creative projects share foundations while retaining their own data and acceptance criteria. A change in one product should therefore not rewrite another product’s history."
+        }
+      ],
+      "refs": [
+        "B01",
+        "B02",
+        "B07",
+        "B11"
+      ]
+    },
+    {
+      "id": "03-homes",
+      "title": {
+        "uk": "Окремі доми, спільна основа",
+        "en": "Distinct homes, shared foundations"
+      },
+      "lead": {
+        "uk": "Я не зводжу всіх агентів до одного універсального виконавця. Розподіл має сенс, коли відмінність змінює якість роботи.",
+        "en": "I do not collapse every agent into one universal worker. Specialization matters when a difference changes the quality of the work."
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": {
+            "uk": [
+              "Середовище",
+              "Що воно утримує"
+            ],
+            "en": [
+              "Environment",
+              "What it carries"
+            ]
+          },
+          "rows": [
+            {
+              "uk": [
+                "Codex Lab",
+                "Розробку, перевірку, інтеграцію й інженерну безперервність."
+              ],
+              "en": [
+                "Codex Lab",
+                "Implementation, verification, integration and engineering continuity."
+              ]
+            },
+            {
+              "uk": [
+                "Архітектор / OpenClaw",
+                "Довгий контекст, смисловий напрям і власні механізми runtime."
+              ],
+              "en": [
+                "Architect / OpenClaw",
+                "Long context, direction and its own runtime mechanisms."
+              ]
+            },
+            {
+              "uk": [
+                "Генерал, Архіваріус, Конструктор",
+                "Захисний розбір; джерельні знання; побудову й ремонт інструментів."
+              ],
+              "en": [
+                "General, Archivarius, Constructor",
+                "Defensive analysis; source knowledge; tool construction and repair."
+              ]
+            },
+            {
+              "uk": [
+                "Поле, Свідок, Тінь",
+                "Пам’ять і нейромережеві досліди; роботу з цитатами; математичні інструменти."
+              ],
+              "en": [
+                "Pole, Witness, Shadow",
+                "Memory and neural experiments; citation work; mathematical instruments."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "uk": "Ці назви не заміняють технічну реалізацію. За ними стоять власні робочі каталоги, матеріали, сесії, інструменти та маршрути взаємодії. Спільний контекст додає адресні записи про роботу інших, залишаючи їхнє походження видимим.",
+          "en": "These names do not substitute for implementation. Each has working files, materials, sessions, tools and communication routes. Shared context adds addressed records of other work while keeping its origin visible."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Ролі можуть змінюватися. Я оцінюю їх через внесок: хто знайшов контрприклад, хто перевірив, хто змінив код і хто прийняв наслідок. Один із реальних ремонтів пройшов саме так: Конструктор виявив проблему метаданих, Поле відтворило її та знайшло споріднений випадок, Codex інтегрував виправлення у два засоби передачі.",
+          "en": "Roles can evolve. I read them through contributions: who found a counterexample, who checked it, who changed the code, and who accepted the consequence. One actual repair followed that path: Constructor found a metadata problem, Pole reproduced it and found a related case, and Codex integrated the repair into two transfer tools."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Для основних моделей і підзадач я оцінюю вартість прийнятого результату: потрібну якість, контекст, координацію, перевірку й переробку. Точний пошук може виконати інструмент; складний висновок утримує сильний інтегратор. Ширину екіпажу визначає незалежна робота, а не кількість вільних місць. Це робоче правило маршрутизації; фактичне застосування конкретною сесією має власний слід.",
+          "en": "For main models and subtasks I consider the cost of an accepted result: required quality, context, coordination, review and rework. A tool can handle exact lookup; a strong integrator retains consequential judgment. Independent work determines crew width, not the number of free slots. This is an operating routing rule; use by a particular session has its own trace."
+        }
+      ],
+      "refs": [
+        "B02",
+        "B03"
+      ]
+    },
+    {
+      "id": "04-autonomy",
+      "title": {
+        "uk": "Від наміру до автономного кроку",
+        "en": "From intent to autonomous work"
+      },
+      "lead": {
+        "uk": "Автономія потребує пам’яті про незавершене. Інакше після кожної перерви система знову питає людину, що робити далі.",
+        "en": "Autonomy needs a memory of unfinished work. Otherwise every interruption turns into another request for the human to decide what happens next."
+      },
+      "blocks": [
+        {
+          "type": "figure",
+          "key": "autonomy",
+          "uk": "Задача проходить власника, допуск, виконання й прийняття. Невідомий ефект зберігається як невідомий.",
+          "en": "Work passes through ownership, admission, execution and acceptance. An uncertain effect remains explicitly uncertain."
+        },
+        {
+          "type": "paragraph",
+          "uk": "У Lancet-контурі контролер, реєстр напрямів і runtime розділені. Реєстр задає задачу, власника та межі читання й запису. Диспетчер запускає допущену pending-задачу. Потреба у відновленні спочатку отримує точний ремонт або наступника; вона сама по собі не стає приводом запустити все знову.",
+          "en": "In the Lancet layer, the controller, lane registry and runtime are separate. The registry defines the task, owner and read/write scope. The dispatcher launches an admitted pending task. A recovery requirement must first acquire an exact repair or successor; it does not itself justify restarting everything."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Перед ефектом зберігається lease: покоління задачі, епоха слота й процесу, джерельна версія та дедлайн. Відсутність PID не доводить, що дія не відбулася. Завершення виконавця, результат і його прийняття мають різні записи. Так я зменшую ризик повторити дію, відповідь на яку загубилася.",
+          "en": "A lease is stored before the effect: task generation, slot and process epochs, source version and deadline. A missing PID does not prove that an action never occurred. Executor termination, candidate output and acceptance have separate records. This reduces the risk of repeating an action whose reply was lost."
+        }
+      ],
+      "refs": [
+        "B02"
+      ]
+    },
+    {
+      "id": "05-events",
+      "title": {
+        "uk": "Подія, лист і квитанція",
+        "en": "Events, messages and receipts"
+      },
+      "lead": {
+        "uk": "Повідомлення між агентами стає інфраструктурою, коли переживає збій і зберігає точний зміст спроби.",
+        "en": "Communication becomes infrastructure when it survives interruption and preserves the exact content of an attempt."
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "uk": "Пошта починається з JSON-конверта у власному outbox. Публікація не перезаписує готовий лист. Кур’єр звіряє точні байти, фазу адресата й квитанцію та обходить непорожні скриньки поколово, щоб один балакучий учасник не витіснив тихого.",
+          "en": "Mail begins as a JSON envelope in the sender’s outbox. Publication does not overwrite an existing letter. The courier reconciles exact bytes, recipient state and receipt, and visits nonempty mailboxes fairly so one busy sender cannot starve a quieter one."
+        },
+        {
+          "type": "table",
+          "headers": {
+            "uk": [
+              "Механізм",
+              "Яку помилку він прибирає"
+            ],
+            "en": [
+              "Mechanism",
+              "Failure it addresses"
+            ]
+          },
+          "rows": [
+            {
+              "uk": [
+                "Точні байти та стабільний ID",
+                "Повтор після збою не має створити інший лист під тією самою адресою."
+              ],
+              "en": [
+                "Exact bytes and a stable ID",
+                "A retry must not create different content under the same identity."
+              ]
+            },
+            {
+              "uk": [
+                "Квитанція окремо від листа",
+                "Публікація, прочитання та виконання не зливаються в один статус."
+              ],
+              "en": [
+                "Receipt separate from the letter",
+                "Publication, reading and execution remain distinct states."
+              ]
+            },
+            {
+              "uk": [
+                "Подія + стан у транзакції",
+                "Журнал не може успішно заявити зміну, якої немає у work state."
+              ],
+              "en": [
+                "Event and state in one transaction",
+                "The journal cannot successfully claim a transition absent from work state."
+              ]
+            },
+            {
+              "uk": [
+                "Role/revision reducer",
+                "Застарілий або чужий перехід не приймається лише через переконливий текст."
+              ],
+              "en": [
+                "Role/revision reducer",
+                "A stale or unauthorized transition is not admitted because its prose sounds convincing."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "uk": "Для читання в ізольованих середовищах я використовую незмінні покоління проєкцій. Читач отримує узгоджений набір файлів, не центральну базу й не право змінювати її. Якщо стан змінився посеред читання, старий набір залишається названим старим набором.",
+          "en": "For isolated readers I use immutable projection generations. A reader receives a coherent file set, not the central database or permission to alter it. If state advances during the read, the old set remains an explicitly old set."
+        }
+      ],
+      "refs": [
+        "B03"
+      ]
+    },
+    {
+      "id": "06-memory",
+      "title": {
+        "uk": "Пам’ять з координатами",
+        "en": "Memory with coordinates"
+      },
+      "lead": {
+        "uk": "Я хочу повертатися до підстави думки: де вона народилася, які байти читалися і що змінилося після цього.",
+        "en": "I want to return to the basis of a thought: where it came from, which bytes were read, and what changed afterwards."
+      },
+      "blocks": [
+        {
+          "type": "figure",
+          "key": "memory",
+          "uk": "Файл, фрагмент, запис і проєкція мають різні ролі. Індекс допомагає знайти джерело.",
+          "en": "A file, fragment, record and projection serve different roles. An index helps locate a source."
+        },
+        {
+          "type": "paragraph",
+          "uk": "HouseMemory на Neo4j є адресною картою: власник, шлях, hash джерела, символи й явні зв’язки. Вона допомагає знайти правильний код або попередню причину рішення. Статус графа описує покриття індексу. Поточну поведінку я перевіряю у власника runtime, бо граф може відставати.",
+          "en": "HouseMemory on Neo4j is an addressed map: owner, path, source hash, symbols and explicit links. It helps locate the correct code or an earlier reason for a decision. Graph status describes index coverage. I check current behavior with the runtime owner because a projection can lag behind."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Інший шар - журнал подій і справ. Він зберігає виконавця, перевірку, ревізію та стан прийняття. Власний дім агента утримує його матеріали. Бібліотека має навігацію до книжок і досліджень. Ці види пам’яті доповнюють одне одного, але не повинні мовчки підміняти джерело.",
+          "en": "Another layer is the event and work journal. It retains actor, review, revision and acceptance state. An agent’s home holds its own materials. The library provides navigation to books and research. These kinds of memory complement each other without silently replacing their sources."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Окремий міст безперервності публікує consequence return і наступну проєкцію за одним head. Читач захоплює head один раз. Це прибирає змішану пару, де один файл уже новий, а другий ще належить попередньому поколінню.",
+          "en": "A separate continuity bridge publishes the consequence return and next projection behind one head. The reader captures that head once. This avoids a mixed pair in which one file is new while the other still belongs to an earlier generation."
+        }
+      ],
+      "refs": [
+        "B03",
+        "B04",
+        "B11"
+      ]
+    },
+    {
+      "id": "07-pole-memory",
+      "title": {
+        "uk": "Поле: пошук, який повертає підставу",
+        "en": "Pole: retrieval with a source"
+      },
+      "lead": {
+        "uk": "У Поля є власний стек пам’яті. Його важливо бачити як послідовність конкретних перетворень, а не як загальне слово «RAG».",
+        "en": "Pole has its own memory stack. I describe it as a sequence of concrete transformations rather than hiding it behind the word RAG."
+      },
+      "blocks": [
+        {
+          "type": "figure",
+          "key": "pole",
+          "uk": "Походження → фрагмент → час і зв’язки → пошук → цитата → лексична перевірка.",
+          "en": "Provenance → fragments → time and links → retrieval → citations → lexical checks."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Сканер фіксує джерела; фрагментатор додає координати й hash батьківського файла; часовий шар відділяє порядок запису від авторства. Граф містить явні посилання. BM25-пошук нормалізує цифри та кириличні префікси й ранжує фрагменти за частотою терміна, його рідкістю та довжиною документа.",
+          "en": "The scanner records sources; the fragmenter adds coordinates and the parent-file hash; the temporal layer distinguishes recording order from authorship. The graph contains explicit links. BM25 retrieval normalizes numbers and Cyrillic prefixes and ranks fragments by term frequency, rarity and document length."
+        },
+        {
+          "type": "equation",
+          "text": "BM25(q,d) = Σ IDF(t) · f(t,d)(k1+1) / [f(t,d)+k1(1-b+b|d|/avgdl)]",
+          "latex": "\\operatorname{score}(q,d)=\\sum_{t\\in q}\\operatorname{IDF}(t)\\frac{f(t,d)(k_1+1)}{f(t,d)+k_1(1-b+b|d|/\\overline{|d|})}"
+        },
+        {
+          "type": "paragraph",
+          "uk": "Розширення пошуку додає сусідів за графом. Gate зіставляє слова речень із цитованими фрагментами, покриття запиту й узгодженість цитат із пошуком; зберігає перший провал. Це лексичний контроль. Він допомагає помічати непідкріплені відповіді, але не є доказом логічного випливання. Так само збережений hash індексу потребує звірки зі свіжими байтами перед важливою дією.",
+          "en": "Graph expansion adds neighboring references. The gate compares sentence words with cited fragments, query coverage and citation agreement with retrieval, retaining the first failure. This is a lexical check. It can expose unsupported drafts, but it does not establish logical entailment. Likewise, stored index hashes need current-byte validation before consequential use."
+        }
+      ],
+      "refs": [
+        "B04"
+      ]
+    },
+    {
+      "id": "08-data",
+      "title": {
+        "uk": "Від досвіду до навчальних даних",
+        "en": "From experience to training data"
+      },
+      "lead": {
+        "uk": "Я розвиваю напрям власної моделі через окремі шари: матеріал, перетворення, оцінювання й тренування. У кожного є власний результат.",
+        "en": "I develop the in-house model direction through separate layers: material, transformation, evaluation and training. Each produces a different kind of result."
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": {
+            "uk": [
+              "Шар",
+              "Реальна форма"
+            ],
+            "en": [
+              "Layer",
+              "Concrete form"
+            ]
+          },
+          "rows": [
+            {
+              "uk": [
+                "Структуровані ходи",
+                "Питання, джерела, міркування, контрприклад, результат, наступне питання."
+              ],
+              "en": [
+                "Structured turns",
+                "Question, sources, reasoning, counterexample, outcome and next question."
+              ]
+            },
+            {
+              "uk": [
+                "Експорт",
+                "Окремі формати для reasoning, instruction/response, completion та пар mistake→fix."
+              ],
+              "en": [
+                "Export",
+                "Separate formats for reasoning, instruction/response, completion and mistake→fix pairs."
+              ]
+            },
+            {
+              "uk": [
+                "Мікс і поділ",
+                "Файлові групи йдуть цілком у train або test; записи без file діляться окремо за джерелами."
+              ],
+              "en": [
+                "Mixture and split",
+                "File groups remain wholly in train or test; records lacking file IDs are split separately by source."
+              ]
+            },
+            {
+              "uk": [
+                "Контроль",
+                "Дедуплікація, перевірка походження, лексичні baseline та окремі звіти про забруднення."
+              ],
+              "en": [
+                "Checks",
+                "Deduplication, provenance checks, lexical baselines and separate contamination reports."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "uk": "Наявний мікс містить 3 010 записів. Для відтворюваного експерименту потрібен узгоджений маніфест конкретного мікса, поділу й коду: самі назви train/test-файлів не встановлюють їхню спільну історію. Тому я відділяю наявність матеріалу від прийнятої навчальної вибірки.",
+          "en": "The retained mixture contains 3,010 records. A reproducible experiment needs a consistent manifest for the exact mixture, split and code: train/test filenames alone do not establish shared lineage. I therefore separate the existence of material from an admitted training dataset."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Мітка «виправлення» теж має метод. Частина міток добувається регулярними виразами, повтори оцінюються Jaccard-подібністю слів. Це корисні сортувальні інструменти. Семантичну правильність уроку та справжнє перенесення в іншу задачу я розглядаю окремо.",
+          "en": "A correction label also has a method behind it. Some labels come from regular expressions; repeated lessons are screened with word-set Jaccard similarity. These are useful sorting tools. Semantic correctness and transfer to another task are separate questions."
+        }
+      ],
+      "refs": [
+        "B05"
+      ]
+    },
+    {
+      "id": "09-neural",
+      "title": {
+        "uk": "Власна нейромережева майстерня",
+        "en": "My neural workshop"
+      },
+      "lead": {
+        "uk": "У цьому напрямі вже є навчання, ваги й власна реалізація нейромережі. Це окремий технічний шар, який легко пропустити, читаючи лише старі описи корпусу.",
+        "en": "This direction already includes training, weights and an in-house neural implementation. It is a distinct technical layer that older corpus documentation can easily obscure."
+      },
+      "blocks": [
+        {
+          "type": "figure",
+          "key": "gru",
+          "uk": "Концептуальний forward GRU. Зворотний прохід і перевірка похідних - окрема частина реалізації.",
+          "en": "Conceptual GRU forward pass. Backpropagation and derivative verification are a separate implementation concern."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Символьна GRU написана на NumPy. Символ переходить у embedding розміру 64; прихований стан має 192 координати. Reset і update gates керують тим, як попередній стан входить у candidate і як змішується з ним. Лінійна проєкція та softmax дають розподіл наступного символу.",
+          "en": "The character-level GRU is implemented in NumPy. A character maps to a 64-dimensional embedding; the hidden state has 192 coordinates. Reset and update gates control how the previous state enters the candidate and mixes with it. A linear projection and softmax produce the next-character distribution."
+        },
+        {
+          "type": "equation",
+          "text": "h_t = (1-z_t)h_prev + z_t h_cand; h_cand = tanh(W[r_t h_prev,x_t] + b).",
+          "latex": "h_t=(1-z_t)\\odot h_{t-1}+z_t\\odot\\widetilde h_t"
+        },
+        {
+          "type": "paragraph",
+          "uk": "Реалізація містить ручний backward-through-time, накопичення градієнтів embedding, Adam з корекцією моментів та обмеження норми градієнта. Базовий checkpoint має 315 339 параметрів; оглянуті варіанти з іншим словником - 326 904. Це мала навчувана мовна модель на рівні символів, а не готова велика розмовна LLM.",
+          "en": "The implementation includes manual backpropagation through time, embedding-gradient accumulation, bias-corrected Adam and gradient-norm clipping. The base checkpoint has 315,339 parameters; inspected variants with a different vocabulary have 326,904. This is a small trainable character language model, not a completed large conversational LLM."
+        }
+      ],
+      "refs": [
+        "B06"
+      ]
+    },
+    {
+      "id": "10-experiment",
+      "title": {
+        "uk": "Експеримент замість красивої цифри",
+        "en": "Experiments, not one attractive number"
+      },
+      "lead": {
+        "uk": "Я хочу бачити і сам факт навчання, і точне значення його метрик. Вони відповідають на різні питання.",
+        "en": "I want both the fact that training ran and the exact meaning of its metrics. They answer different questions."
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": {
+            "uk": [
+              "Питання",
+              "Що збережено в цьому зрізі"
+            ],
+            "en": [
+              "Question",
+              "What survives in this snapshot"
+            ]
+          },
+          "rows": [
+            {
+              "uk": [
+                "Чи було тренування?",
+                "Числовий журнал 400 кроків і файл ваг із сумісними формами тензорів."
+              ],
+              "en": [
+                "Did training run?",
+                "A numeric 400-step log and saved weights with compatible tensor shapes."
+              ]
+            },
+            {
+              "uk": [
+                "Яка метрика?",
+                "Training minibatch cross-entropy: 6.4814 → 3.4941; остання perplexity 32.92."
+              ],
+              "en": [
+                "Which metric?",
+                "Training-minibatch cross-entropy: 6.4814 → 3.4941; final reported perplexity 32.92."
+              ]
+            },
+            {
+              "uk": [
+                "Що містить checkpoint?",
+                "Дев’ять parameter tensors і розміри V/E/H. Без Adam moments, RNG state та збереженого словника."
+              ],
+              "en": [
+                "What does a checkpoint retain?",
+                "Nine parameter tensors and V/E/H dimensions. No Adam moments, RNG state or saved character dictionary."
+              ]
+            },
+            {
+              "uk": [
+                "Чи перевірено всі похідні?",
+                "Є вузький finite-difference checker; повного незалежного результату для всіх градієнтів не встановлено."
+              ],
+              "en": [
+                "Are all derivatives verified?",
+                "A narrow finite-difference checker exists; full independent verification of all gradients was not established."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "uk": "Навчання використовує послідовності 64 символи, batch 48 і ціль зі зсувом на один символ. Значення loss береться з поточного training batch перед оновленням. Його падіння описує оптимізацію на цьому потоці; воно не є результатом held-out тесту або оцінкою змістовності відповіді.",
+          "en": "Training uses 64-character sequences, batches of 48 and one-character-shifted targets. Loss is measured on the current training batch before its update. Its decrease describes optimization on that stream; it is not a held-out score or a measure of meaningful answers."
+        },
+        {
+          "type": "paragraph",
+          "uk": "У ручному backward огляд виявив розбіжність у похідній шляху reset-gate: для r × h_previous внесок до похідної h_previous має множитися на r. Ця версія лишається дослідницькою. Інші збережені checkpoint-сімейства потребують власних точних run-маніфестів; назва файла не заміняє історію експерименту.",
+          "en": "The handwritten backward pass has a flagged reset-gate derivative discrepancy: the contribution through r × previous_h must be multiplied by r when propagated to previous_h. This version remains research software. Other retained checkpoint families need exact run manifests of their own; filenames cannot substitute for experiment history."
+        }
+      ],
+      "refs": [
+        "B06"
+      ]
+    },
+    {
+      "id": "11-model-plane",
+      "title": {
+        "uk": "Модельний шар і ресурси",
+        "en": "Model plane and resource ownership"
+      },
+      "lead": {
+        "uk": "Основна модель агента й локальний спеціаліст виконують різну роботу. Я з’єдную їх через контрольований інструментальний шар.",
+        "en": "An agent’s main model and a local specialist do different work. I connect them through a controlled tool layer."
+      },
+      "blocks": [
+        {
+          "type": "figure",
+          "key": "support",
+          "uk": "Успіх включає завершення дочірнього процесу й звільнення ресурсу. Відповідь також має належати чинному запиту.",
+          "en": "Success includes child termination and resource release. The result must also belong to the current request."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Stage4 поєднує Nomic embeddings, Qwen3-Reranker 0.6B та LateOn-Code CPU. Один worker координує ресурсний lease, взаємне виключення, свіжі спостереження місткості й покоління налаштувань. Code lookup виконується у тимчасовому дочірньому процесі; батько приймає результат після перевірки порядку, cleanup і reap.",
+          "en": "Stage4 combines Nomic embeddings, Qwen3-Reranker 0.6B and LateOn-Code CPU. One worker coordinates the resource lease, mutual exclusion, fresh capacity observations and settings generations. Code lookup runs in an ephemeral child; the parent accepts output after order checks, cleanup and reaping."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Native plugin додатково звіряє agent/session/turn/step. Коректна відповідь для вже іншого кроку має бути відхилена. Відкат налаштувань створює нове покоління, а не повертає старий номер. Так provenance і керування ресурсом входять у визначення правильного результату.",
+          "en": "The native plugin also checks agent, session, turn and step. A valid answer for a step that is no longer current must be rejected. Settings rollback creates a new generation instead of rewinding a number. Provenance and resource ownership therefore become part of result correctness."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Збережений readback семи маршрутів показує фактичні виклики цього шару. Межі навантаження й негативні CPU-випадки залишаються в оцінюванні. Кількість моделей я не використовую як заміну якості маршруту.",
+          "en": "A retained seven-route readback records actual calls through this layer. Load boundaries and negative CPU cases remain in evaluation. Model count is not my substitute for route quality."
+        }
+      ],
+      "refs": [
+        "B07"
+      ]
+    },
+    {
+      "id": "12-sufficiency",
+      "title": {
+        "uk": "Математика достатнього стану",
+        "en": "Mathematics of sufficient state"
+      },
+      "lead": {
+        "uk": "Одне з центральних питань Дому: яку частину історії треба зберегти, щоб наступне рішення взагалі було можливим?",
+        "en": "One central question in the House is how much history must survive for the next decision to be possible at all."
+      },
+      "blocks": [
+        {
+          "type": "figure",
+          "key": "fibers",
+          "uk": "Дві історії мають однакові лічильники, але різний порядок. Самі лічильники не відновлять, що сталося першим.",
+          "en": "Two histories have the same counts but different order. Counts alone cannot recover which event happened first."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Нехай P стискає історію x до представлення, а T(x) - потрібна відповідь. Точне відновлення через це представлення можливе лише тоді, коли будь-які історії з однаковим P мають однаковий T. Інакше один і той самий вхід вимагає двох різних відповідей. Жодна впевненість моделі не поверне інформацію, яку стерло представлення.",
+          "en": "Let P compress a history x into a representation, and let T(x) be the required answer. Exact recovery through that representation is possible only when every pair of histories with the same P also shares the same T. Otherwise one input demands two different answers. Model confidence cannot recover information removed by the representation."
+        },
+        {
+          "type": "equation",
+          "text": "T = g ∘ P ⇔ [P(x)=P(y) ⇒ T(x)=T(y)]",
+          "latex": "T=g\\circ P\\quad\\Longleftrightarrow\\quad P(x)=P(y)\\Rightarrow T(x)=T(y)"
+        },
+        {
+          "type": "paragraph",
+          "uk": "Я застосовую це як інструмент проєктування пам’яті й оцінювання. У скінченному CreditWorld reference з історією розрізнив 16 із 16 development-випадків; для memoryless-проєкції межа становила 8 із 16. Прибраний feedback і неправильний зв’язок перевірялися окремо. Це контрольована демонстрація достатності стану, не вимір навченої LLM.",
+          "en": "I use this as a design instrument for memory and evaluation. In finite CreditWorld, a history-aware reference distinguished 16 of 16 development cases; the memoryless projection had an 8-of-16 ceiling. Missing feedback and incorrect links were checked separately. This is a controlled demonstration of state sufficiency, not an evaluation of a trained LLM."
+        }
+      ],
+      "refs": [
+        "B08"
+      ]
+    },
+    {
+      "id": "13-order",
+      "title": {
+        "uk": "Порядок, інваріанти й контрприклади",
+        "en": "Order, invariants and counterexamples"
+      },
+      "lead": {
+        "uk": "Математика допомагає мені встановити межу питання ще до великого експерименту: чи лишилося у даних те, що я намагаюся виміряти?",
+        "en": "Mathematics helps me establish a question’s boundary before a large experiment: does the data still contain what I am trying to measure?"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "uk": "Агрегація стирає частину історії",
+          "en": "Aggregation removes part of the history"
+        },
+        {
+          "type": "paragraph",
+          "uk": "У скінченній перевірці різні потоки подій дали ті самі часові агрегати, але різний порядок першого досягнення власного максимуму кожного потоку. Це явний свідок неідентифікованості, а не просто слабкий результат класифікатора. Додавання двох часових координат першого досягнення максимумів відновило саме цю ціль. Повну історію або будь-яку іншу ціль така поправка автоматично не відновлює.",
+          "en": "In a finite check, different event streams produced the same time aggregates but differed in the order in which each stream first attained its own maximum. That is an explicit non-identifiability witness, not merely a weak classifier score. Adding the two first-attainment timestamps recovered that specific target. It did not automatically reconstruct the full history or every other target."
+        },
+        {
+          "type": "heading",
+          "uk": "Зміна одиниць і збереження змісту",
+          "en": "Changing units while preserving meaning"
+        },
+        {
+          "type": "paragraph",
+          "uk": "Для додатної пари x,y спільне масштабування не змінює r=(x-y)/(x+y). Цей нормований баланс визначає відношення координат, але не абсолютний масштаб; нульова пара має окремий випадок. Так я розрізняю інваріантність представлення і достатність для конкретної цілі. Коли цілі важлива давність події, однаковий баланс може приховувати різні відповіді.",
+          "en": "For a positive pair x,y, common scaling preserves r=(x-y)/(x+y). This normalized balance identifies the ratio of the coordinates but not their absolute scale; the zero pair is a separate case. I distinguish representation invariance from sufficiency for a particular target. If recency matters, equal balance can still conceal different answers."
+        },
+        {
+          "type": "heading",
+          "uk": "Крайні порядки не завжди дають межі",
+          "en": "Extreme orderings do not always bound the result"
+        },
+        {
+          "type": "paragraph",
+          "uk": "У моделі двох упорядкованих потоків я розглядаю всі допустимі інтерлівінги. Два крайні порядки можуть пропустити найгірший проміжний. Повний перебір на малих випадках і Bellman-подібна динаміка дають незалежні способи звірки. Збережений скінченний набір має 8 випадків і 292 шляхи. Це точний інструмент у заданій моделі, без заяви про універсальну межу реального світу.",
+          "en": "For two internally ordered streams, I examine their admissible interleavings. Two extreme orderings can miss the worst intermediate one. Exhaustive small-case enumeration and Bellman-style dynamic programming provide different checking routes. A retained finite set covers eight cases and 292 paths. This is an exact instrument within its model, not a universal bound on the real world."
+        }
+      ],
+      "refs": [
+        "B08"
+      ]
+    },
+    {
+      "id": "14-shadow",
+      "title": {
+        "uk": "Тінь: математика як інструмент",
+        "en": "Shadow: mathematics as an instrument"
+      },
+      "lead": {
+        "uk": "Математична майстерня має сенс, коли формула перетворюється на обчислення, приклад і контрприклад.",
+        "en": "A mathematical workshop matters when a formula becomes a computation, an example and a counterexample."
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": {
+            "uk": [
+              "Сімейство",
+              "Що реально реалізовано"
+            ],
+            "en": [
+              "Family",
+              "What is implemented"
+            ]
+          },
+          "rows": [
+            {
+              "uk": [
+                "Інформація і статистика",
+                "Ентропія символів і n-грам, умовна ентропія, індекс збігів, chi-square."
+              ],
+              "en": [
+                "Information and statistics",
+                "Character and n-gram entropy, conditional entropy, index of coincidence and chi-square."
+              ]
+            },
+            {
+              "uk": [
+                "Пошук",
+                "N-gram log-likelihood, координатні поліпшення, кілька стартів, simulated annealing."
+              ],
+              "en": [
+                "Search",
+                "N-gram log-likelihood, coordinate improvement, restarts and simulated annealing."
+              ]
+            },
+            {
+              "uk": [
+                "Алгебра",
+                "Обернення за модулем, матриці над кільцями, арифметика еліптичних кривих."
+              ],
+              "en": [
+                "Algebra",
+                "Modular inverses, matrices over rings and elliptic-curve arithmetic."
+              ]
+            },
+            {
+              "uk": [
+                "Скінченні поля й коди",
+                "GF(2^8), GF(2^128), перетворення блоків, синдроми Hamming та циклічних кодів."
+              ],
+              "en": [
+                "Finite fields and codes",
+                "GF(2^8), GF(2^128), block transformations, Hamming and cyclic-code syndromes."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "uk": "Наприклад, мовна bigram-модель підсумовує log-probability сусідніх символів. Пошук змінює candidate і порівнює його оцінку. Simulated annealing інколи приймає гірший крок із температурно залежною ймовірністю, щоб вийти з локального оптимуму. Це конкретний алгоритмічний механізм, який можна звіряти на контрольованих текстах.",
+          "en": "For example, a bigram language model sums neighboring-character log probabilities. Search changes a candidate and compares its score. Simulated annealing sometimes accepts a worse move with a temperature-dependent probability to escape a local optimum. This is a concrete algorithmic mechanism that can be checked on controlled texts."
+        },
+        {
+          "type": "equation",
+          "text": "H(X) = -Σ p(x) log₂ p(x); p_accept = exp(Δ/T), Δ < 0.",
+          "latex": "H(X)=-\\sum_x p(x)\\log_2 p(x)"
+        },
+        {
+          "type": "paragraph",
+          "uk": "Для конкретного snapshot збережений незалежний ізольований прогін 55 тестів. Я описую цей набір як математичну й навчальну лабораторію: він поєднує теорію, числові перетворення та перевірку крайніх випадків. Наявність реалізації криптографічного примітива не робить її hardened-бібліотекою або доказом зламу сучасної криптографії.",
+          "en": "A specific snapshot has a retained independent isolated run of 55 tests. I present the workbench as a mathematical and educational laboratory, combining theory, numerical transformations and edge-case checks. Implementing a cryptographic primitive does not make it a hardened library or demonstrate a break of modern cryptography."
+        }
+      ],
+      "refs": [
+        "B09"
+      ]
+    },
+    {
+      "id": "15-continuity",
+      "title": {
+        "uk": "Перегляд судження й continuity",
+        "en": "Revising a judgment and continuity"
+      },
+      "lead": {
+        "uk": "Мені важливо бачити, що саме змінилося після досвіду. Запис уроку - лише один із можливих слідів.",
+        "en": "I want to see what actually changed after experience. A stored lesson is only one possible trace."
+      },
+      "blocks": [
+        {
+          "type": "figure",
+          "key": "continuity",
+          "uk": "Return path пов’язує наслідок із прийнятим переглядом і пізнішим рішенням. Це критерій записів.",
+          "en": "The return path connects an effect to an accepted revision and a later decision. It is a record criterion."
+        },
+        {
+          "type": "paragraph",
+          "uk": "У AI Ontology я розводжу доступний доказ і фактично використаний запис; прийняття критерію і його виконання; збережений lesson і formation; зафіксований effect і завершений return path. Ці розрізнення потрібні, щоб у слові «навчився» не загубився конкретний процес.",
+          "en": "In AI Ontology I separate available evidence from a record actually used; adoption of a criterion from satisfaction; a stored lesson from formation; and a recorded effect from a complete return path. These distinctions keep a concrete process from disappearing inside the word learned."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Публічний reference має скінченну модель записів, відношення, competency queries, проєкції та JSON/JSONL audit. Версія книги 3.7.0 поєднує концептуальні розділи, виконуваний шар, досліди та ledger тверджень. Запропонований audit profile має явні межі; я не називаю його прийнятим індустріальним стандартом.",
+          "en": "The public reference contains a finite record model, relations, competency queries, projections and JSON/JSONL auditing. Book version 3.7.0 connects conceptual chapters, executable code, studies and a claim ledger. Its proposed audit profile has explicit bounds; I do not present it as an adopted industry standard."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Окремий prospective evaluator фіксує тезу, контртезу, горизонт і умову спростування до наслідку. Вікно випадків лишається фіксованим: ранню незавершену спробу не можна замінити пізнішим успіхом. Це реалізований механізм prospective-оцінювання; його природний повний цикл і користь у наступних задачах оцінюються окремо.",
+          "en": "A separate prospective evaluator freezes the thesis, counterthesis, horizon and falsifier before the outcome. The cohort stays fixed: an unresolved early attempt cannot be replaced by a later success. This implements prospective evaluation; a full natural-use cycle and benefit on subsequent tasks are assessed separately."
+        }
+      ],
+      "refs": [
+        "B10",
+        "B11"
+      ]
+    },
+    {
+      "id": "16-runtime",
+      "title": {
+        "uk": "Runtime, який переживає перерву",
+        "en": "Runtime across interruption"
+      },
+      "lead": {
+        "uk": "Я розміщую змінну модель усередині стійкого runtime. Історія, власність і право на дію мають переживати її заміну.",
+        "en": "I place a changeable model inside a durable runtime. History, ownership and action authority should survive a model change."
+      },
+      "blocks": [
+        {
+          "type": "figure",
+          "key": "recovery",
+          "uk": "Точний повтор повертає квитанцію. Інший запис зі старою ревізією отримує конфлікт.",
+          "en": "An exact retry returns its receipt. A different write against an old revision receives a conflict."
+        },
+        {
+          "type": "paragraph",
+          "uk": "У переносимому Omnigen target канонічним джерелом є SQLite event stream. Append перевіряє схему й ingress, відкриває BEGIN IMMEDIATE, звіряє prefix і predecessor hash. Ті самі event ID та байти означають повтор; інші байти під тим самим ID відхиляються. Семантичний reducer перевіряє допустимість переходу до commit.",
+          "en": "In the portable Omnigen target, a SQLite event stream is canonical. Append validates schema and ingress, opens BEGIN IMMEDIATE, attests the prefix and predecessor hash. The same event ID and bytes mean a retry; different bytes under that ID are refused. A semantic reducer checks the transition before commit."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Стан відбудовується з одного перевіреного prefix; recovery capture тримає події й відповідний snapshot разом. Поточний холодний replay починається від genesis. Модельний route change є окремою подією, а не переписуванням історії. Сумісні детерміновані адаптери тут не означають довільно підключених провайдерів.",
+          "en": "State is rebuilt from one verified prefix; recovery capture keeps events and their matching snapshot together. Current cold replay starts from genesis. A model-route change is a separate event, not a rewrite of history. Compatible deterministic adapters here do not imply arbitrary connected providers."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Це цільова реалізація, відділена від чинних органів OpenClaw. Я передаю власність частинами, після сумісності й перевірки конкретного споживача. Hash-chain показує цілісність зв’язаних записів; він сам по собі не посвідчує правдивість змісту чи незалежність автора.",
+          "en": "This is a target implementation, separate from the current OpenClaw organs. I transfer ownership per organ after compatibility and consumer checks. A hash chain describes integrity between linked records; it does not by itself authenticate the truth of their content or an independent author."
+        }
+      ],
+      "refs": [
+        "B11"
+      ]
+    },
+    {
+      "id": "17-mirror",
+      "title": {
+        "uk": "Дзеркало: повний дослід",
+        "en": "Mirror: an end-to-end experiment"
+      },
+      "lead": {
+        "uk": "Дзеркало потрібне мені як середовище кількісної роботи: питання має пройти весь шлях від джерела до повного обліку й висновку.",
+        "en": "I use Mirror as an environment for quantitative work: a question must travel from its sources through full accounting to a result."
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": {
+            "uk": [
+              "Бар’єр",
+              "Що за ним перевіряється"
+            ],
+            "en": [
+              "Barrier",
+              "What it checks"
+            ]
+          },
+          "rows": [
+            {
+              "uk": [
+                "Джерела",
+                "Точні hash, gzip CRC/EOF, схема й час; повне читання 5 698 553 рядків у LQ3."
+              ],
+              "en": [
+                "Sources",
+                "Exact hashes, gzip CRC/EOF, schema and time; LQ3 scanned 5,698,553 rows."
+              ]
+            },
+            {
+              "uk": [
+                "Числове представлення",
+                "Дві арифметичні реалізації: Fraction/manual decimal і Decimal/integer gcd."
+              ],
+              "en": [
+                "Numeric representation",
+                "Two arithmetic implementations: Fraction/manual decimal and Decimal/integer gcd."
+              ]
+            },
+            {
+              "uk": [
+                "Повний облік",
+                "Усі 39 540 paired commands, 60 account results і 30 wallets будуються до scoring."
+              ],
+              "en": [
+                "Complete accounting",
+                "All 39,540 paired commands, 60 account results and 30 wallets are built before scoring."
+              ]
+            },
+            {
+              "uk": [
+                "Збережений результат",
+                "Окремий reader звіряє outputs, joins і account bytes без нового fit або перебудови wallets."
+              ],
+              "en": [
+                "Stored result",
+                "A separate reader checks outputs, joins and account bytes without a new fit or wallet rebuild."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "uk": "Actual compute зберіг 132 фізичні виходи; окреме приймання завершило перевірку. Наперед зафіксоване правило дало негативний економічний результат: REJECT 2/7. Я залишаю цей висновок як завершений дослід. Він заощаджує подальшу роботу над хибною підставою і не вимагає перефарбовувати невдачу в успіх.",
+          "en": "The actual compute retained 132 physical outputs, followed by separate admission. The predeclared rule produced a negative economic result: REJECT 2/7. I retain that conclusion as a completed experiment. It prevents further work on an unsupported premise without repainting failure as success."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Архітектура engine/kernel відділяє облік і recovery від змінного ядра досліду. Deadline, delayed-source, duplicate input і повторне відкриття мають власні перевірки. Підготовлений controller та працюючий конкретний pilot я називаю різними станами. Тут описано paper-дослідження, без розкриття приватних торгових правил або заяви про стабільний дохід.",
+          "en": "The engine/kernel architecture separates accounting and recovery from the changing research kernel. Deadlines, delayed sources, duplicate input and reopening have distinct checks. I distinguish a prepared controller from a running pilot. This chapter describes paper research without disclosing private trading rules or claiming stable income."
+        }
+      ],
+      "refs": [
+        "B12"
+      ]
+    },
+    {
+      "id": "18-budova",
+      "title": {
+        "uk": "Будова: точна ревізія реальної роботи",
+        "en": "Budova: exact revisions for physical work"
+      },
+      "lead": {
+        "uk": "Мій предметний досвід задає адресата продукту: виконроб або бригадир має зрозуміти, що саме йому передали і на якій підставі.",
+        "en": "My domain experience gives the product a concrete reader: a foreman or crew lead needs to know exactly what was handed over and on what basis."
+      },
+      "blocks": [
+        {
+          "type": "figure",
+          "key": "budova",
+          "uk": "Виданий комплект і повернутий факт залишаються при своїй ревізії, навіть коли поточний head уже інший.",
+          "en": "An issued package and a returned fact remain attached to their revision even after the current head advances."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Джерело, геометрія деталі й переданий комплект мають окремі незмінні прив’язки. Модель містить точні контури й отвори, одиниці, DXF/map та оригінальні CAD-джерела. Новий обмір не переписує вже виданий пакет.",
+          "en": "Sources, part geometry and issued packages have distinct immutable bindings. The model contains exact outlines and holes, units, DXF/maps and original CAD sources. A new measurement does not rewrite a package already handed over."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Збереження проєкту виконує транзакційний CAS. Точний request replay перевіряється до ревізійного конфлікту. Фоновий export проходить staging, recovery record, fsync і rename. Історичний факт проходить preview і CAS та додається до своєї ревізії. Старий cumulative прогрес не має перетворитися на новий додаток лише через повтор запиту.",
+          "en": "Project saves use transactional CAS. Exact request replay is checked before a revision conflict. Background export passes through staging, a recovery record, fsync and rename. A historical fact passes preview and CAS before being appended to its own revision. Old cumulative progress must not become a fresh increment merely because a request was retried."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Локальні UI/HTTP сценарії вже видали комплект із 18 елементами й двома CAD-оригіналами та повернули той самий frozen ZIP після контрольованої втрати live-джерела. Професійний користувацький прохід і останнє served-origin приймання монтажного читача лишаються наступними межами саме цього продукту.",
+          "en": "Local UI/HTTP flows already issued a package with 18 members and two CAD originals, and served the same frozen ZIP after controlled loss of a live source. A professional user trial and the latest served-origin acceptance of the montage reader remain specific boundaries of this product."
+        }
+      ],
+      "refs": [
+        "B13"
+      ]
+    },
+    {
+      "id": "19-science",
+      "title": {
+        "uk": "Дослідження, яке повертається в роботу",
+        "en": "Research that returns to work"
+      },
+      "lead": {
+        "uk": "Математична думка має знайти місце у наступному рішенні. Для цього я тримаю окремий шлях від гіпотези до прийнятого обмеження.",
+        "en": "A mathematical idea needs a place in the next decision. I maintain a distinct path from a hypothesis to an accepted constraint."
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "uk": "Дослідницька рада виробляє source-bound пакети. Пакет називає питання, джерела, стадію, перевірку та межу висновку. Validator, laboratory route й intake reader мають різні ролі. Незмінні bytes і hashes не дозволяють непомітно замінити питання після отримання відповіді.",
+          "en": "The research council produces source-bound packets. A packet names its question, sources, stage, checks and conclusion boundary. The validator, laboratory route and intake reader have separate roles. Immutable bytes and hashes prevent a question from silently changing after the answer is known."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Перед запуском scientific attempt резервує свою адресу. Аварія до spawn лишається спробою, а не зникає перед автоматичним новим запуском. Це важливо для чесної кількості спроб, часової послідовності та відтворення досліду.",
+          "en": "A scientific attempt reserves its identity before launch. A crash before spawn remains an attempt rather than disappearing before an automatic rerun. This matters for honest attempt counts, temporal order and experiment reconstruction."
+        },
+        {
+          "type": "heading",
+          "uk": "Приклад: від доказу до обмеження джерела",
+          "en": "Example: from proof to a source constraint"
+        },
+        {
+          "type": "paragraph",
+          "uk": "У Math23 аналіз інваріантності та неідентифікованості показав, що одних агрегатів недостатньо для цілі, залежної від часової ваги. Власник фактично прийняв тільки bounded source constraints і використав їх у наступному design scope. Ручна алгебра, скінченна перевірка, прийняте обмеження й runtime-зміна лишилися окремими результатами.",
+          "en": "In Math23, invariance and non-identifiability analysis showed that aggregates alone were insufficient for a time-weighted target. The owner actually accepted bounded source constraints and used them in the next design scope. Manual algebra, a finite check, an accepted constraint and a runtime change remained separate kinds of result."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Так у Домі працює повернення знання: обмеження змінює наступний вибір джерела або експерименту. Це практична зміна роботи без потреби називати її автоматично оновленням ваг основної моделі.",
+          "en": "This is how knowledge returns to the House: a constraint changes the next source selection or experiment. It is a practical change in work without automatically calling it a main-model weight update."
+        }
+      ],
+      "refs": [
+        "B08",
+        "B14"
+      ]
+    },
+    {
+      "id": "20-craft",
+      "title": {
+        "uk": "Інтерфейс, творчість і зовнішня робота",
+        "en": "Interfaces, craft and public work"
+      },
+      "lead": {
+        "uk": "Дім має виходити до людини у придатній формі: через екран телефона, точний комплект, інструмент або завершений творчий матеріал.",
+        "en": "The House should reach a person in a usable form: a phone screen, an exact work package, a tool or a completed creative artifact."
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "uk": "Пульт",
+          "en": "The console"
+        },
+        {
+          "type": "paragraph",
+          "uk": "Desktop і web-пульт поєднують центральні чати, справи й особисті записи. Чернетка, focus, pending request і втрата відповіді є частинами стану. Зміна вкладки або прив’язки не повинна віддати чернетку іншому агенту. Ручний фінансовий журнал використовує operation UUID і expected revision; він не є банківською інтеграцією.",
+          "en": "The desktop and web console connect central chats, work items and personal records. Drafts, focus, pending requests and lost replies are state. A tab or binding change must not give a draft to another agent. A manual finance journal uses an operation UUID and expected revision; it is not a banking integration."
+        },
+        {
+          "type": "heading",
+          "uk": "Творчий конвеєр",
+          "en": "The creative pipeline"
+        },
+        {
+          "type": "paragraph",
+          "uk": "У монтажі я зберігаю план, редагований проєкт і готовий вихід. Один render-шлях перевіряє plan/source/parent hashes, повторно використовує незмінні shot-parts, кодує тільки заміни й окремо перевіряє decode та clock. Для музики зберігаються точні lyrics/style/title й доступність дублів. Художнє прийняття залишається окремим людським рішенням.",
+          "en": "For editing I retain the plan, editable project and final export. One rendering path validates plan/source/parent hashes, reuses unchanged shot parts, encodes only replacements, and checks decoding and clock separately. Music retains exact lyrics/style/title and take availability. Artistic acceptance remains a separate human decision."
+        },
+        {
+          "type": "heading",
+          "uk": "Публічний результат",
+          "en": "Public work"
+        },
+        {
+          "type": "paragraph",
+          "uk": "У FilesDrop прийнятий PR #32 виправив повтори cleanup і timeout під час DNS-очікування. Evidence-gated Agent Workflows і Signal Desk відкривають менші виконувані приклади. Я використовую ці артефакти як конкретні точки входу: чужий читач може побачити проблему, зміну й її перевірку.",
+          "en": "FilesDrop merged PR #32, repairing cleanup retries and timeout handling during DNS waiting. Evidence-gated Agent Workflows and Signal Desk expose smaller executable examples. I use these artifacts as concrete entry points: another reader can inspect the problem, change and verification."
+        }
+      ],
+      "refs": [
+        "B15",
+        "B16"
+      ]
+    },
+    {
+      "id": "21-readiness",
+      "title": {
+        "uk": "Як я читаю готовність",
+        "en": "How I read readiness"
+      },
+      "lead": {
+        "uk": "У різних частин Дому різні стадії. Точна стадія допомагає ними користуватися й будувати далі.",
+        "en": "Different parts of the House are at different stages. Naming the stage helps me use them and continue building."
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": {
+            "uk": [
+              "Частина",
+              "Стан цієї редакції"
+            ],
+            "en": [
+              "Part",
+              "State in this edition"
+            ]
+          },
+          "rows": [
+            {
+              "uk": [
+                "Агентні середовища й оркестрація",
+                "Працююча інфраструктура; є автономні епізоди й інтегровані кооперативні ремонти."
+              ],
+              "en": [
+                "Agent environments and orchestration",
+                "Operating infrastructure with autonomous episodes and integrated cooperative repairs."
+              ]
+            },
+            {
+              "uk": [
+                "Локальні support-функції",
+                "Встановлений контрольований шар; збережені фактичні native/API-виклики та негативні межі."
+              ],
+              "en": [
+                "Local support functions",
+                "Installed bounded layer with retained actual native/API calls and negative boundaries."
+              ]
+            },
+            {
+              "uk": [
+                "Поле: пам’ять, дані, GRU",
+                "Реальні інструменти, корпуси й тренувальні артефакти; окрема research-коректність і generalization."
+              ],
+              "en": [
+                "Pole: memory, data and GRU",
+                "Real tools, corpora and training artifacts; correctness and generalization remain research questions."
+              ]
+            },
+            {
+              "uk": [
+                "Omnigen portable runtime",
+                "Реалізований target з replay/contracts; чинні органи переходять окремо після приймання."
+              ],
+              "en": [
+                "Omnigen portable runtime",
+                "Implemented target with replay/contracts; current organs migrate individually after acceptance."
+              ]
+            },
+            {
+              "uk": [
+                "Дзеркало",
+                "Завершені paper-досліди й окремий engine/kernel напрям; конкретний pilot має власний стан."
+              ],
+              "en": [
+                "Mirror",
+                "Completed paper experiments and a distinct engine/kernel direction; each pilot has its own state."
+              ]
+            },
+            {
+              "uk": [
+                "Будова",
+                "Реалізовані локальні ревізії, CAD/ZIP та повернення фактів; професійний user trial попереду."
+              ],
+              "en": [
+                "Budova",
+                "Implemented local revisions, CAD/ZIP and fact returns; a professional user trial is still ahead."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "uk": "Я також перевіряю відновлення матеріально. Для шести домів уже створено code-only копію 175 вибраних файлів і виконано ізольоване masked restore зі звіркою hashes, режимів та deployment links. Копія на тому самому томі вирішує конкретну задачу відновлення коду; повне аварійне відновлення ПК потребує ширшого набору даних і носіїв.",
+          "en": "I also check recovery materially. Six homes already have a code-only copy of 175 selected files and an isolated masked restore checking hashes, modes and deployment links. A same-volume copy addresses a specific code-recovery task; full disaster recovery requires a broader set of data and storage."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Ці межі дозволяють точно говорити про наявну роботу. Окрема незавершена функція не стає оцінкою всього Дому; успішний тест теж не стає обіцянкою безвідмовності всього середовища.",
+          "en": "These distinctions let me describe existing work precisely. One unfinished feature is not a verdict on the whole House; one successful test is not a promise that the entire environment cannot fail."
+        }
+      ],
+      "refs": [
+        "B02",
+        "B06",
+        "B07",
+        "B11",
+        "B12",
+        "B13",
+        "B15"
+      ]
+    },
+    {
+      "id": "22-open-layer",
+      "title": {
+        "uk": "Відкритий шар Дому",
+        "en": "The public layer of the House"
+      },
+      "lead": {
+        "uk": "Я хочу, щоб проєкт був зрозумілим через його форму: задум, зв’язки, математику, механізми й результати.",
+        "en": "I want the project to be understood through its form: purpose, relationships, mathematics, mechanisms and results."
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "uk": "Ця публікація відкриває архітектурний опис і джерела власних ілюстрацій. Вона не є інсталятором приватного runtime. Публічні репозиторії дають виконувані приклади; внутрішні шляхи, листування, корпуси, ваги, доступи й приватні стратегії залишаються за межами пакета.",
+          "en": "This publication opens the architectural account and the source of its illustrations. It is not an installer for the private runtime. Public repositories provide executable examples; internal paths, correspondence, corpora, weights, access details and private strategies remain outside the package."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Я будую Дім разом з AI. Вони допомагають реалізовувати, перевіряти, заперечувати й підтримувати системи. Я утримую задум, критерії, пріоритети й відповідальність за ціле. Кодекс, OpenClaw, бібліотеки та базові моделі мають власне походження; моя архітектура визначає, як вони працюють у цьому середовищі.",
+          "en": "I build the House with AI collaborators. They help implement, test, challenge and maintain its systems. I retain purpose, criteria, priorities and responsibility for the whole. Codex, OpenClaw, libraries and foundation models have their own provenance; my architecture determines how they work together here."
+        },
+        {
+          "type": "heading",
+          "uk": "Де подивитися ближче",
+          "en": "Where to look more closely"
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "label": {
+                "uk": "AI Ontology - зафіксований зріз",
+                "en": "AI Ontology - pinned edition"
+              },
+              "url": "https://github.com/DiadkoShmek/ai-ontology/tree/f6997bf2c2f65683505ed719d8038f428b952de1"
+            },
+            {
+              "label": {
+                "uk": "Evidence-gated Agent Workflows",
+                "en": "Evidence-gated Agent Workflows"
+              },
+              "url": "https://github.com/DiadkoShmek/evidence-gated-agent-workflows"
+            },
+            {
+              "label": {
+                "uk": "Signal Desk - приклад джерельного дослідження",
+                "en": "Signal Desk - source-bound research example"
+              },
+              "url": "https://github.com/DiadkoShmek/talent-research-workflow-prototype"
+            },
+            {
+              "label": {
+                "uk": "FilesDrop #32 - прийнята зміна",
+                "en": "FilesDrop #32 - merged contribution"
+              },
+              "url": "https://github.com/AndreyBegma/FilesDrop/pull/32"
+            },
+            {
+              "label": {
+                "uk": "OpenClaw - upstream runtime",
+                "en": "OpenClaw - upstream runtime"
+              },
+              "url": "https://github.com/openclaw/openclaw"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "uk": "Редакція датована 28 жовтня 2026 року. Тривалість експлуатації подана як мій досвід; механізми звірені з кодом, а приклади виконання - зі збереженими результатами. Публічний evidence index пояснює рівень кожної опори. Цю книгу й двомовні схеми можна відтворити з матеріалів репозиторію.",
+          "en": "This edition is dated 28 October 2026. Operational duration is my account of using the system; mechanisms were checked against code and execution examples against retained results. The public evidence index states the level of each basis. The book and bilingual figures can be rebuilt from this repository."
+        }
+      ],
+      "refs": [
+        "B01",
+        "B10",
+        "B16"
+      ]
+    },
+    {
+      "id": "23-basis",
+      "title": {
+        "uk": "Джерельна основа I",
+        "en": "Evidence basis I"
+      },
+      "lead": {
+        "uk": "Коди в розділах називають вид опори й точну межу. Детальні приватні координати збережені окремо від цієї публікації.",
+        "en": "Chapter codes name the kind of basis and its exact boundary. Detailed private coordinates are retained outside this publication."
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": {
+            "uk": [
+              "Код / предмет",
+              "Опора й межа"
+            ],
+            "en": [
+              "Code / subject",
+              "Basis and boundary"
+            ]
+          },
+          "rows": [
+            {
+              "uk": [
+                "B01 · Задум і форма цілого",
+                "Мій досвід експлуатації, прямі вимоги та джерельні карти власників. Тривалість роботи є моїм свідченням; книга не є переписом усіх процесів ПК."
+              ],
+              "en": [
+                "B01 · Intent and whole-system form",
+                "My operational account, direct requirements and owner source maps. Operational duration is my account; the book is not a census of every PC process."
+              ]
+            },
+            {
+              "uk": [
+                "B02 · Автономія та оркестрація",
+                "Код диспетчера й runtime, оренди виконання, квитанції native-кампаній і прийняті спільні ремонти. Розпочатий раунд, завершення виконавця й прийняття результату розрізнені."
+              ],
+              "en": [
+                "B02 · Autonomy and orchestration",
+                "Dispatcher/runtime code, leases, native campaign receipts and accepted cooperative repairs. A started round, a completed child and an accepted result are distinct."
+              ]
+            },
+            {
+              "uk": [
+                "B03 · Пошта й спільний стан",
+                "Кур’єр точних байтів, транзакційний редуктор справ і незмінні покоління проєкцій. Публікація листа не означає виконання його змісту."
+              ],
+              "en": [
+                "B03 · Mail and shared state",
+                "Exact-byte courier, work reducer, transactions and immutable reader generations. A publication receipt does not mean that the letter’s content was executed."
+              ]
+            },
+            {
+              "uk": [
+                "B04 · Пам’ять Поля",
+                "Код сканування, фрагментації, часу, зв’язків, BM25, розширення пошуку й gate. Лексична підтримка не доводить логічного випливання; індексні хеші потребують свіжої звірки."
+              ],
+              "en": [
+                "B04 · Pole memory",
+                "Inspected scanner/fragmenter/timeline/links, BM25, expansion and gate. Lexical support is not entailment; indexed hashes need current-byte checks."
+              ]
+            },
+            {
+              "uk": [
+                "B05 · Навчальні дані",
+                "Наявні JSONL-артефакти, експортери, поділ, дедуплікація й код перевірки забруднення. Узгоджений маніфест запуску та змістовна якість мають окреме приймання."
+              ],
+              "en": [
+                "B05 · Training data",
+                "Existing JSONL artifacts, exporter, split, deduplication and contamination-check code. Consistent run manifests and semantic quality require their own acceptance."
+              ]
+            },
+            {
+              "uk": [
+                "B06 · Нейромережевий дослід",
+                "NumPy GRU, числовий журнал 400 кроків, заголовки NPZ і збережені ваги. Метрики навчального batch; відома розбіжність похідної; узагальнення окремо не підтверджене."
+              ],
+              "en": [
+                "B06 · Neural experiment",
+                "NumPy GRU source, a numeric 400-step log, NPZ headers and retained weights. Training-minibatch metrics and a flagged gradient path, not full independent correctness or generalization."
+              ]
+            },
+            {
+              "uk": [
+                "B07 · Support plane",
+                "Код worker, політики, життєвого циклу й plugin; фактичний readback семи маршрутів 25 жовтня. Це датований набір маршрутів і обмежені оцінювальні набори."
+              ],
+              "en": [
+                "B07 · Support plane",
+                "Worker/policy/lifecycle/plugin code and an actual seven-route readback on 25 October. A dated route cohort with bounded fixed evaluation sets."
+              ]
+            },
+            {
+              "uk": [
+                "B08 · Математичні досліди",
+                "CreditWorld, скінченні свідки втрати інформації, ручна алгебра інваріантності й точний перебір порядків. Доказ, виконаний експеримент і прийняте обмеження джерела розділені."
+              ],
+              "en": [
+                "B08 · Mathematical studies",
+                "CreditWorld, finite coarsening witnesses, manual invariance algebra and exact order enumeration. Manual proof, executed experiment and accepted source constraint remain distinct."
+              ]
+            }
+          ]
+        }
+      ],
+      "refs": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08"
+      ]
+    },
+    {
+      "id": "24-boundaries",
+      "title": {
+        "uk": "Джерельна основа II",
+        "en": "Evidence basis II"
+      },
+      "lead": {
+        "uk": "Коди в розділах називають вид опори й точну межу. Детальні приватні координати збережені окремо від цієї публікації.",
+        "en": "Chapter codes name the kind of basis and its exact boundary. Detailed private coordinates are retained outside this publication."
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": {
+            "uk": [
+              "Код / предмет",
+              "Опора й межа"
+            ],
+            "en": [
+              "Code / subject",
+              "Basis and boundary"
+            ]
+          },
+          "rows": [
+            {
+              "uk": [
+                "B09 · Майстерня Тіні",
+                "Статистичні, пошукові й алгебраїчні функції; збережений ізольований прогін 55 тестів. Це математична й навчальна реалізація, без сертифікації криптографічного захисту."
+              ],
+              "en": [
+                "B09 · Shadow workbench",
+                "Statistical, search and algebraic functions; a retained isolated 55-test receipt. Mathematical/educational implementation, without production cryptographic certification."
+              ]
+            },
+            {
+              "uk": [
+                "B10 · AI Ontology",
+                "Публічний зафіксований commit, книга v3.7.0, модель записів, audit і реєстр тверджень. Запропонований профіль; повнота записів не означає загальне навчання."
+              ],
+              "en": [
+                "B10 · AI Ontology",
+                "Public pinned commit, book v3.7.0, record model, audit and claim ledger. A proposed profile; record completeness is not general learning."
+              ]
+            },
+            {
+              "uk": [
+                "B11 · Continuity і runtime",
+                "Чинні джерела власника, evaluator, spiral і bridge; окремий цільовий журнал Omnigen та replay. Цільова реалізація й історичний PASS не означають міграції всіх органів."
+              ],
+              "en": [
+                "B11 · Continuity and runtime",
+                "Current owner/evaluator/spiral/bridge sources; a separate Omnigen target event log and replay. A target and historical PASS do not establish migration of all current organs."
+              ]
+            },
+            {
+              "uk": [
+                "B12 · Дзеркало",
+                "Завершений LQ3, фактичний runner, окремий читач збереженого результату та джерельні бар’єри. Негативний paper-дослід; готовність controller не є прибутком."
+              ],
+              "en": [
+                "B12 · Mirror",
+                "Completed LQ3, actual runner and standalone stored reader with source barriers. A negative paper result; controller readiness is not live profit."
+              ]
+            },
+            {
+              "uk": [
+                "B13 · Будова",
+                "Збереження проєкту й CAS, staging/recovery, історичні факти та збережені UI/HTTP сценарії. Локальні контрольовані проходи; професійного випробування користувачем ще не було."
+              ],
+              "en": [
+                "B13 · Budova",
+                "Project save/CAS, staging/recovery, historical fact composition and retained UI/HTTP runs. Controlled local flows; a professional user trial has not yet occurred."
+              ]
+            },
+            {
+              "uk": [
+                "B14 · Науковий конвеєр",
+                "Незмінні пакети, валідатори, спроба до spawn та квитанція прийняття джерельних обмежень Math23. Обмежений наслідок для вибору джерела, без автоматичної зміни ваг моделі."
+              ],
+              "en": [
+                "B14 · Science conveyor",
+                "Immutable packets, validators, attempt-before-spawn and Math23 source-adoption receipt. Bounded source constraints, without automatic model-weight uplift."
+              ]
+            },
+            {
+              "uk": [
+                "B15 · Пульт, відновлення й media",
+                "Контракти UI/backend, копія й відновлення коду, походження render та творчі виходи. Технічна доступність і художнє прийняття окремі; копія коду на тому самому томі."
+              ],
+              "en": [
+                "B15 · Console, recovery and media",
+                "UI/backend contracts, code capture/restore, render lineage and retained creative exports. Technical availability and artistic acceptance are separate; restore is code-only/same-volume."
+              ]
+            },
+            {
+              "uk": [
+                "B16 · Публічна робота",
+                "GitHub API підтверджує merge FilesDrop #32; відкриті приклади з джерельною основою. Merge означає прийняття конкретної зміни."
+              ],
+              "en": [
+                "B16 · Public work",
+                "GitHub API merge readback for FilesDrop #32 and public source-bound examples. A merge establishes acceptance of a specific change."
+              ]
+            }
+          ]
+        }
+      ],
+      "refs": [
+        "B09",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15",
+        "B16"
+      ]
+    }
+  ]
+}

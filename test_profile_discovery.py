@@ -28,13 +28,17 @@ class ProfileDiscoveryContractTest(unittest.TestCase):
     def test_profile_has_no_fixed_offer_or_private_paths(self):
         for sales_fragment in ("$1,500", "Proof Sprint", "fixed-scope", "3–5 working days"):
             self.assertNotIn(sales_fragment, self.readme)
-        self.assertNotIn("/home/pustota", self.readme)
+        self.assertNotRegex(self.readme, r"/home/[^/]+")
         self.assertNotIn("file://", self.readme)
 
-    def test_open_source_work_links_upstream_and_keeps_pending_status(self):
+    def test_open_source_work_links_upstream_and_states_current_disposition(self):
         self.assertIn("https://github.com/PrimeIntellect-ai/verifiers/pull/2925", self.readme)
         self.assertIn("https://github.com/AndreyBegma/FilesDrop/pull/32", self.readme)
-        self.assertIn("21.10.2026 обидва PR відкриті, ще не злиті", self.readme)
+        self.assertIn("FilesDrop #32", self.readme)
+        self.assertIn("· merged", self.readme)
+        self.assertIn("https://github.com/PrimeIntellect-ai/verifiers/pull/2973", self.readme)
+        self.assertIn("superseded, не злитий", self.readme)
+        self.assertNotIn("21.10.2026 обидва PR відкриті, ще не злиті", self.readme)
 
     def test_profile_links_are_public_https_targets(self):
         targets = re.findall(r"\[[^]]+\]\(([^)]+)\)", self.readme)
@@ -178,3 +182,4 @@ class EngineeringReportContractTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+

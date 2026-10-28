@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg width="1000" height="550" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 550" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>memory / uk</title>
+	<desc>Code-native architecture illustration; conceptual relationships and explicit boundaries.</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="550"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-550)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1000" height="550" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,11%,16%); fill-rule: evenodd;"/>
+			<rect x="38" y="260" width="180" height="115" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="50.019287109375" y="322.15999999999997" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 19px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,644) scale(1,-1)">Байти джерела</text>
+			<text x="96.860595703125" y="297.84" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 19px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,595) scale(1,-1)">+ хеш</text>
+			<path d="M 218,318 L 260,318 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="260 318, 249 323, 249 313" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<rect x="269" y="289" width="178" height="94" rx="12" ry="12" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<rect x="276" y="279" width="178" height="94" rx="12" ry="12" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<rect x="283" y="269" width="178" height="94" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="310.15869140625" y="328.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,656) scale(1,-1)">Фрагменти</text>
+			<path d="M 466,318 L 509,318 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="509 318, 498 323, 498 313" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<path d="M 554,364 L 625,331 Z" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 625,331 L 558,275 Z" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 625,331 L 681,382 Z" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 625,331 L 681,271 Z" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="554" cy="364" r="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<circle cx="625" cy="331" r="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<circle cx="558" cy="275" r="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<circle cx="681" cy="382" r="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<circle cx="681" cy="271" r="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<text x="540.68994140625" y="214.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,428) scale(1,-1)">Граф / індекс</text>
+			<path d="M 706,318 L 751,318 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="751 318, 740 323, 740 313" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<rect x="767" y="260" width="193" height="115" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="827.0166015625" y="322.44" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,644) scale(1,-1)">Пошук</text>
+			<text x="811.90234375" y="295.56" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,591) scale(1,-1)">+ цитати</text>
+			<path d="M 128,242 L 128,160 Z" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 2; stroke-dasharray: 6, 6;"/>
+			<path d="M 128,160 L 865,160 Z" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 2; stroke-dasharray: 6, 6;"/>
+			<path d="M 865,160 L 865,244 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2; stroke-dasharray: 6, 6;"/>
+			<polygon points="865 244, 860 233, 870 233" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<rect x="315" y="125" width="400" height="63" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="367.86669921875" y="148.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,296) scale(1,-1)">Звірка джерела й свіжості</text>
+			<text x="267.00048828125" y="59.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,118) scale(1,-1)">Знайдене твердження потребує джерела</text>
+		</g>
+	</g>
+</svg>

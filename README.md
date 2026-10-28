@@ -1,39 +1,39 @@
-# Привіт, я Артур 👋
+# Дім · автономна AI-інженерія
 
-Мій шлях — будівництво й робота з AI-інструментами. Мене цікавить, як думка стає конструкцією — і як змінюється після зустрічі з реальністю.
+[English](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/README.en.md) · [Книга українською](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/uk/README.md) · [Book in English](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/en/README.md)
 
-Підтверджена доставка ще не означає прочитання. Збережений урок ще не означає зміни практики. Досліджую розриви між описом, дією й наслідком.
+Я будую Дім: середовище тривалої автономної роботи зі спеціалізованими агентами, спільною пам’яттю, локальними моделями й математичними інструментами.
 
-Я задаю напрям і критерії результату; AI-агенти беруть суттєву участь у дослідженні, коді й перевірках. Участь розкриваю.
+Мій шлях — будівництво та робота з AI-інструментами. Я визначаю напрям, архітектуру й критерії; AI-агенти беруть суттєву участь у дослідженні, реалізації та перевірках.
 
-## Проєкти
+[![Архітектурний розріз Дому](https://raw.githubusercontent.com/DiadkoShmek/DiadkoShmek/main/house/assets/diagrams/section-uk.svg)](https://github.com/DiadkoShmek/DiadkoShmek/tree/main/house)
 
-- **[AI Ontology](https://github.com/DiadkoShmek/ai-ontology)** — авторська книга про ідентичність, голос, пам’ять і перегляд агентних систем; виконувана модель та досліди. [Українська](https://diadkoshmek.github.io/ai-ontology/) · [English](https://diadkoshmek.github.io/ai-ontology/en/).
-- **[Signal Desk](https://diadkoshmek.github.io/talent-research-workflow-prototype/?lang=uk&showcase=1)** — відкриті джерела й людський розгляд знахідок. [Код](https://github.com/DiadkoShmek/talent-research-workflow-prototype).
-- **[Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)** — виконувані приклади автоматизацій, які зупиняються за відсутніх або суперечливих даних. Перевірка: `python3 run_proof.py`.
+## Усередині Дому
+
+**[Архітектура автономної роботи](https://github.com/DiadkoShmek/DiadkoShmek/tree/main/house)** — авторська двомовна книга: співпраця агентів, пам’ять Поля, власна GRU з навчанням, достатність стану, контрприклади, локальні спеціалісти, відновлення, Дзеркало й Будова.
+
+[PDF · українська](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/pdf/the-house-uk.pdf) · [PDF · English](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/pdf/the-house-en.pdf)
+
+## Відкриті проєкти
+
+- **[AI Ontology](https://github.com/DiadkoShmek/ai-ontology)** — книга, виконувана модель і досліди про агентну continuity, пам’ять та перегляд суджень.
+- **[Signal Desk](https://diadkoshmek.github.io/talent-research-workflow-prototype/?lang=uk&showcase=1)** — відкриті джерела й людський розгляд. [Код](https://github.com/DiadkoShmek/talent-research-workflow-prototype).
+- **[Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)** — перевірювані автоматизації. `python3 run_proof.py`.
 - **[STROIKA · 3D-переглядач](https://diadkoshmek.github.io/mae7-viewer/)** — будівля й фасадні шари. [Код](https://github.com/DiadkoShmek/mae7-viewer).
 
-Інженерні приклади — прототипи, а не історії про впровадження в клієнтів.
+Ці відкриті приклади й прототипи мають власні межі; це не історії про впровадження в клієнтів.
 
-## Внески у відкриті проєкти
+## Внески
 
-- **[verifiers · PR #2925](https://github.com/PrimeIntellect-ai/verifiers/pull/2925)** — ізоляція параметрів генерації для агентів з окремо заданими моделлю чи клієнтом.
-- **[FilesDrop · PR #32](https://github.com/AndreyBegma/FilesDrop/pull/32)** — повторне очищення файлів після збою та дотримання таймауту під час DNS.
+- **[FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged** — повтори cleanup і timeout під час DNS.
+- **[verifiers #2925](https://github.com/PrimeIntellect-ai/verifiers/pull/2925)** — відтворення проблеми, яке [допомогло супроводжувачам](https://github.com/PrimeIntellect-ai/verifiers/pull/2925#issuecomment-6385135636) підготувати [#2973](https://github.com/PrimeIntellect-ai/verifiers/pull/2973). Мій PR закритий як superseded, не злитий.
 
-На 21.10.2026 обидва PR відкриті, ще не злиті.
+## Змагання та розбори
 
-## Змагання
+**Zoria 2026 · UA SKILLS — призер.** CodinGame · Mad Pod Racing — C++-бот; **86/1657 у Legend League**, зріз 21.10.2026.
 
-**[Zoria 2026 · UA SKILLS](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.md#zoria-2026--підсумок-ua-skills) — призер.** Системна розробка: бот, штаб, стратегія, ресурсні обмеження.
+[Результати й джерела](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.md) · [Інженерні розбори](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/ENGINEERING.md)
 
-**[CodinGame · Mad Pod Racing](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/reports/codingame-2026-10.md) — гоночний C++-бот.** Керування двома машинами. **86-те місце з 1657 у Legend League** — зріз рухомого рейтингу 21.10.2026.
+## Зв’язок
 
-[Результати](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.md) · [Розбори](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/ENGINEERING.md)
-
-## Зв'язок
-
-[Написати в LinkedIn](https://www.linkedin.com/in/%D0%B0%D1%80%D1%82%D1%83%D1%80-%D0%BE%D0%BD%D0%B8%D1%81%D1%8C%D0%BA%D0%BE-842296411/) — для питань, заперечень і спільної роботи. Можна почати з конкретного спостереження.
-
----
-
-**English:** Construction practitioner exploring AI-assisted engineering, agent continuity and accountable revision. [Book](https://diadkoshmek.github.io/ai-ontology/en/) · [Conversation](https://www.linkedin.com/in/%D0%B0%D1%80%D1%82%D1%83%D1%80-%D0%BE%D0%BD%D0%B8%D1%81%D1%8C%D0%BA%D0%BE-842296411/).
+[LinkedIn](https://www.linkedin.com/in/%D0%B0%D1%80%D1%82%D1%83%D1%80-%D0%BE%D0%BD%D0%B8%D1%81%D1%8C%D0%BA%D0%BE-842296411/) — для конкретних питань, заперечень і спільної роботи.

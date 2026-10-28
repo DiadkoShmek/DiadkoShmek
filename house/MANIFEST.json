@@ -1,0 +1,445 @@
+{
+  "schema": "house-book-publication-v1",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "4cad133d4f0a6cf4bba15f1b8bbae48d6a55f20b94f75487c51a93cc6a5af59f",
+      "bytes": 26
+    },
+    {
+      "path": "EVIDENCE.md",
+      "sha256": "e9b589fcc63402978d6ec09ffad49ff511340974bb05a58bee535fca986efdf6",
+      "bytes": 9353
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "d5963dd6443e344b214ad2feb7d0de7c13214548a13feb0f8a530b7749549810",
+      "bytes": 1206
+    },
+    {
+      "path": "README.md",
+      "sha256": "486e119ec539051cb8d57113ccd138e668269dbd895d0bd46cb97e8de170c3e5",
+      "bytes": 2223
+    },
+    {
+      "path": "README.uk.md",
+      "sha256": "4b3adebec3047243b125a9f2d9e9334aa85c322a7b11d65e55f88c1cfd2b8ec8",
+      "bytes": 3172
+    },
+    {
+      "path": "assets/diagrams/autonomy-en.svg",
+      "sha256": "d5dfb532b162cbc8389aad0df26585148f4f23798fa654931b58c4ddb3dc5f0a",
+      "bytes": 6100
+    },
+    {
+      "path": "assets/diagrams/autonomy-uk.svg",
+      "sha256": "ddba0b1b1555b073db83a5796bb71d9284ecb85a12a5bef7ba1b7abff60d76d4",
+      "bytes": 6214
+    },
+    {
+      "path": "assets/diagrams/budova-en.svg",
+      "sha256": "54a167a747e4041154fa364da5d7fe8750023562369e9d6b0da1e9fc60b08dd5",
+      "bytes": 5027
+    },
+    {
+      "path": "assets/diagrams/budova-uk.svg",
+      "sha256": "cbe67425224641c5821c3478ae18e951ded601ddaed45ed1356963d19d7c0c79",
+      "bytes": 5140
+    },
+    {
+      "path": "assets/diagrams/continuity-en.svg",
+      "sha256": "b5984fcff61170a6547e22e6dd8df903ffc0d313d646deffd86ed7019e825350",
+      "bytes": 5502
+    },
+    {
+      "path": "assets/diagrams/continuity-uk.svg",
+      "sha256": "67c82bff1e29158ac7ecb740fee2be05a1a550ad17e0efbe56e5df10449bbc67",
+      "bytes": 5609
+    },
+    {
+      "path": "assets/diagrams/fibers-en.svg",
+      "sha256": "a8751bf319df1d0d46e05a4c0264e8e05b38fcbec7aa91e2eb0a8c1f0193ddd9",
+      "bytes": 5711
+    },
+    {
+      "path": "assets/diagrams/fibers-uk.svg",
+      "sha256": "c9308c483f384a6f6e81aacb19124d28cf6da8b35d6bf1ac625cf2ea671d1b18",
+      "bytes": 5812
+    },
+    {
+      "path": "assets/diagrams/gru-en.svg",
+      "sha256": "f2cc1213a6d2e6ec140ea4b183b11030dab89cb9040038c2b8267ccc97cc6760",
+      "bytes": 7314
+    },
+    {
+      "path": "assets/diagrams/gru-uk.svg",
+      "sha256": "fd98fbb35a95da7cb9515925a42c60b21113920aa34de7e39cc6a704743b9999",
+      "bytes": 7388
+    },
+    {
+      "path": "assets/diagrams/house-en.svg",
+      "sha256": "b3a873d7a84c018d4223cd3c46ff2f34abb102a43f43acd4b07e336fb078ab55",
+      "bytes": 6551
+    },
+    {
+      "path": "assets/diagrams/house-uk.svg",
+      "sha256": "82960ae32eb1e0ff72ce75ea71cc9a927e06e31666aa776f2b481c30d2abbd5c",
+      "bytes": 6707
+    },
+    {
+      "path": "assets/diagrams/memory-en.svg",
+      "sha256": "606e1a386c599471ad17d728594959a8c4f507b75e1d0ef45ed39c82bdee1f0e",
+      "bytes": 6020
+    },
+    {
+      "path": "assets/diagrams/memory-uk.svg",
+      "sha256": "c001dbd9387a0318081510a45fac4ba674ee7886f1923d6527faeef1e1367994",
+      "bytes": 6137
+    },
+    {
+      "path": "assets/diagrams/pole-en.svg",
+      "sha256": "8de10a4d59f7f429cb3c8ebabac0a289ed2ec5d6b4299df1d62407eaec5ea247",
+      "bytes": 5346
+    },
+    {
+      "path": "assets/diagrams/pole-uk.svg",
+      "sha256": "42829c5465a75203e5e6e53a8ee3f02be3b12af97c1c61b02b72d3d4bdc27a5d",
+      "bytes": 5430
+    },
+    {
+      "path": "assets/diagrams/recovery-en.svg",
+      "sha256": "457370814fa586e0ae88b846d2cbb0e71cfb41e3d404cd3e0bbf1d9b51905d9b",
+      "bytes": 5096
+    },
+    {
+      "path": "assets/diagrams/recovery-uk.svg",
+      "sha256": "ec30c809c53f3cdd943ca5951f94c36adf12e9e6c803654dd682bdf6ac16b43b",
+      "bytes": 5201
+    },
+    {
+      "path": "assets/diagrams/section-en.svg",
+      "sha256": "6868855b8788ee772c7a17110abff55f40c195acdc8d733be0dc812098d5c892",
+      "bytes": 6237
+    },
+    {
+      "path": "assets/diagrams/section-uk.svg",
+      "sha256": "9522f96fe36ea7f132b75914630bc95cbef8e5cc431866fd92572fb1641dd1a2",
+      "bytes": 6271
+    },
+    {
+      "path": "assets/diagrams/support-en.svg",
+      "sha256": "b8a234921c706b6ae00654315960334808760afe666ad8c99b1006be0a5cf437",
+      "bytes": 5405
+    },
+    {
+      "path": "assets/diagrams/support-uk.svg",
+      "sha256": "82a7bf08b132f1fd02b1669cc9bd431acfcc5d0a7c0ff9897388bfacef7b2e9e",
+      "bytes": 5759
+    },
+    {
+      "path": "book/en/01-intent.md",
+      "sha256": "dd7a0b947626bc1dd8a16ee03e3e374c843073fc719e6f759b39b564ae26df45",
+      "bytes": 1384
+    },
+    {
+      "path": "book/en/02-whole.md",
+      "sha256": "290ccc1c7abb91e18ed9531f436c1e97da3c78f44b24055c29d3d4d12bfb4574",
+      "bytes": 1231
+    },
+    {
+      "path": "book/en/03-homes.md",
+      "sha256": "7fbb64c1857ed97e5cd8c94095d6db68e2c93c722eac784d5ebe55482d582206",
+      "bytes": 1649
+    },
+    {
+      "path": "book/en/04-autonomy.md",
+      "sha256": "94956ae67279b02aaa6a912c3a4ef86a51f8a4b478fba784c073e20881dbbcfa",
+      "bytes": 1188
+    },
+    {
+      "path": "book/en/05-events.md",
+      "sha256": "9efd1867004e856ee1113e79076f1b5c363a7303c2737934d4d1e33a9d6f9173",
+      "bytes": 1230
+    },
+    {
+      "path": "book/en/06-memory.md",
+      "sha256": "e33b49c1868588abb25aea0b3ff7cd3460b104682e253bfb2133bc024fc64f9e",
+      "bytes": 1370
+    },
+    {
+      "path": "book/en/07-pole-memory.md",
+      "sha256": "686f36ecdb19f88bac96bd4473e244fcdf3c5bee3415e8e24b3891595655262a",
+      "bytes": 1306
+    },
+    {
+      "path": "book/en/08-data.md",
+      "sha256": "333a60012d5bd72affa74dfb5c103d01057c73d2c08ef8246490888314e031cd",
+      "bytes": 1315
+    },
+    {
+      "path": "book/en/09-neural.md",
+      "sha256": "5cd58418211209e89ff924f8f9e051c2f32e78e9873dc3c2264992c2b5086849",
+      "bytes": 1275
+    },
+    {
+      "path": "book/en/10-experiment.md",
+      "sha256": "71cbd7957b7a96b24847d1577cdfd326f84aee88afb2f6928ccdcc1f67f114ac",
+      "bytes": 1426
+    },
+    {
+      "path": "book/en/11-model-plane.md",
+      "sha256": "80a7fbab857bd994d6b4a74d1d7236fb3444fd2a2e8bf70dc94e87525539ce31",
+      "bytes": 1302
+    },
+    {
+      "path": "book/en/12-sufficiency.md",
+      "sha256": "bc54c5aa1cbf848d40d7e8a614ba1df52d4eda444ceacdd57ff0539eac60bf89",
+      "bytes": 1306
+    },
+    {
+      "path": "book/en/13-order.md",
+      "sha256": "5cf7dc5339f04f2f1e8ad3d17dec31fc8727e3e94a7106ebcfc128dd47f16dd7",
+      "bytes": 1563
+    },
+    {
+      "path": "book/en/14-shadow.md",
+      "sha256": "b085eff479c690e0be0e9becb33a383c2ed2c4c8374b5f9a5e66f0566b63852e",
+      "bytes": 1412
+    },
+    {
+      "path": "book/en/15-continuity.md",
+      "sha256": "7fef0750dcc8ea27670d5f1516e32b74f9b2ed7a50aa31a5af449fa62f7efe96",
+      "bytes": 1465
+    },
+    {
+      "path": "book/en/16-runtime.md",
+      "sha256": "f1c9f106b809fe969cff048c31d1316a05ea7d4fde54ae1c645307956733f4f1",
+      "bytes": 1420
+    },
+    {
+      "path": "book/en/17-mirror.md",
+      "sha256": "e44adacf0b5bf8f0271adcd584dd09ccdfeaa97c71d9fb97f64963fbcd1ae400",
+      "bytes": 1386
+    },
+    {
+      "path": "book/en/18-budova.md",
+      "sha256": "da0c6a008f001def79bc9ffd792cd7da9bcb88962df8a22865a1bfaaa5aec505",
+      "bytes": 1437
+    },
+    {
+      "path": "book/en/19-science.md",
+      "sha256": "e74df6d57f2638704850e3c0e5ad72e93a494239abf1be544628ce606905da1b",
+      "bytes": 1417
+    },
+    {
+      "path": "book/en/20-craft.md",
+      "sha256": "9f57d7c8024e7e5c46051ffff1ebdfb089ef7382f15e35fe25b16523fa02f6b7",
+      "bytes": 1307
+    },
+    {
+      "path": "book/en/21-readiness.md",
+      "sha256": "062eb76057098dbf1cbc526580d33107388bb1eeeb5b975e1dea1690110d45e4",
+      "bytes": 1703
+    },
+    {
+      "path": "book/en/22-open-layer.md",
+      "sha256": "80bc99fca4c584501c9b81fd1e66898338f9bd1774b26e6122cf5e726666f8f1",
+      "bytes": 1764
+    },
+    {
+      "path": "book/en/23-basis.md",
+      "sha256": "80405453b4dd17a95c694e8c7538cdaf6c277bdc2932fef4461cf3f90c8afc30",
+      "bytes": 2078
+    },
+    {
+      "path": "book/en/24-boundaries.md",
+      "sha256": "525f20e9399d6f633f200f949fdd328bdf8a6aae7ac87f980b3006465d1712b2",
+      "bytes": 1984
+    },
+    {
+      "path": "book/en/BOOK.md",
+      "sha256": "97ecdda4344864a94afda445893da51a573a6a01fb42a2978fa504937ce19c40",
+      "bytes": 33809
+    },
+    {
+      "path": "book/en/README.md",
+      "sha256": "88378ff60e4ed99de6de8ec0373b585c23c2ac6f93280013fc7c5068aaceed39",
+      "bytes": 1410
+    },
+    {
+      "path": "book/evidence.json",
+      "sha256": "a81149e367baf0d5a464486969cb427f765c37b9eb07753b6049159a6f253f57",
+      "bytes": 11185
+    },
+    {
+      "path": "book/manuscript.json",
+      "sha256": "368c4ea992b93f301a93d0e89569edaadd540f108995509c790e85c980d67857",
+      "bytes": 102296
+    },
+    {
+      "path": "book/uk/01-intent.md",
+      "sha256": "7d3f6d4bc724af523900a9511ed9530b78141e88ed0bce5d9d13c69df08f16aa",
+      "bytes": 2320
+    },
+    {
+      "path": "book/uk/02-whole.md",
+      "sha256": "61c4240a739b79ed5647e0a3304ac10bca52646892a454edcea168d3bb36cc34",
+      "bytes": 1916
+    },
+    {
+      "path": "book/uk/03-homes.md",
+      "sha256": "b6e030f318c8b6a2339c3e9b6f713abf4bbb2d341a25db8a5a8268f90f7ddd1c",
+      "bytes": 2852
+    },
+    {
+      "path": "book/uk/04-autonomy.md",
+      "sha256": "2c7b64b5706185e56880e49e8687024fb90595be9bb844cea6feed0f4862a8c2",
+      "bytes": 1851
+    },
+    {
+      "path": "book/uk/05-events.md",
+      "sha256": "9c68eef088c55f42f00179e30a26f87c3c0bf8b9f750dba3835acb411f42b000",
+      "bytes": 2013
+    },
+    {
+      "path": "book/uk/06-memory.md",
+      "sha256": "e210848eef442c5f534fa5a2d1787cf69df1479d13a2d2daff4dd85038697664",
+      "bytes": 2117
+    },
+    {
+      "path": "book/uk/07-pole-memory.md",
+      "sha256": "3fc0069bc2e3903258c6e08f7f5293969ef7b07808cde56fcb42e290f6f31219",
+      "bytes": 2072
+    },
+    {
+      "path": "book/uk/08-data.md",
+      "sha256": "c51e108076c3f289132860bdd118b72dd08a6f43a8c0882c92140881deec5270",
+      "bytes": 2094
+    },
+    {
+      "path": "book/uk/09-neural.md",
+      "sha256": "187c4934d3262611999eae8d240376eb5f391996f11985d2e282cf4a1b7223b4",
+      "bytes": 1853
+    },
+    {
+      "path": "book/uk/10-experiment.md",
+      "sha256": "02e5831914b8684f3229f9021a3d0d862fdac2c1217d4bb9ec874aeb75b90ede",
+      "bytes": 2134
+    },
+    {
+      "path": "book/uk/11-model-plane.md",
+      "sha256": "6f0230982ea783e00e482c4f041212db3919cedfb32a16765db431b4aad97535",
+      "bytes": 2187
+    },
+    {
+      "path": "book/uk/12-sufficiency.md",
+      "sha256": "43faefe8085342fd6573c33454a900380ab723371c86a3e70ae9346d47e14cd3",
+      "bytes": 2064
+    },
+    {
+      "path": "book/uk/13-order.md",
+      "sha256": "97bf97988d90c5cabfe892063d49ecab31085fd8e6913e22c4b64f54b7c9cde7",
+      "bytes": 2667
+    },
+    {
+      "path": "book/uk/14-shadow.md",
+      "sha256": "b2cc23bdeb24eed61f05b6629ddfba96645eb00090d324fad9c012108979d143",
+      "bytes": 2280
+    },
+    {
+      "path": "book/uk/15-continuity.md",
+      "sha256": "2682c31ef8d3a4cbd6d7b1467f6bf41ee8b0060ad327707169bc96b1334ad579",
+      "bytes": 2288
+    },
+    {
+      "path": "book/uk/16-runtime.md",
+      "sha256": "42df8c96fd8e53a2267988e856ed87b6faef75c4946369033b4847892b32e816",
+      "bytes": 2230
+    },
+    {
+      "path": "book/uk/17-mirror.md",
+      "sha256": "e26e9bf9d63ad8d1a1b51b3ea0267f3c5423be97340bf37c087ad5485029f0af",
+      "bytes": 2177
+    },
+    {
+      "path": "book/uk/18-budova.md",
+      "sha256": "802740d9e748950279bc7dc7a37b847241a5441f11a88775077819ce40abc2e2",
+      "bytes": 2286
+    },
+    {
+      "path": "book/uk/19-science.md",
+      "sha256": "da6367e379007604fa29fe57c11b4d770701fa75af4eb2a9efe6eae856c0571f",
+      "bytes": 2302
+    },
+    {
+      "path": "book/uk/20-craft.md",
+      "sha256": "2243baa7d20f4494080f61d4b90c9650956ac92494b575b9aeb0abe588fc6023",
+      "bytes": 2127
+    },
+    {
+      "path": "book/uk/21-readiness.md",
+      "sha256": "de24d43b8b3fa91422e07b736d669cbcc67719c5ce5a73380bdb7229124fcfd4",
+      "bytes": 2647
+    },
+    {
+      "path": "book/uk/22-open-layer.md",
+      "sha256": "661979cff88e411b8cab8c47a9b0d172ba735662ef27a18d6ec5822adb887b15",
+      "bytes": 2560
+    },
+    {
+      "path": "book/uk/23-basis.md",
+      "sha256": "3adc51d483d9dfba1d7b2c40541579912176a164326ac36cfe3fa651c2a03123",
+      "bytes": 3301
+    },
+    {
+      "path": "book/uk/24-boundaries.md",
+      "sha256": "db669bc8da0a643911972c017c3266ed493cf221a313f97cc401bc8f74be7ec9",
+      "bytes": 3124
+    },
+    {
+      "path": "book/uk/BOOK.md",
+      "sha256": "f850ffc1c5a2f3f493d0fc944516887c25a9a2079f7331860008b08db1edfbc7",
+      "bytes": 53817
+    },
+    {
+      "path": "book/uk/README.md",
+      "sha256": "7c0e807b3afff6c011560965d4958dfb9624a0075107d28926db2fdd63f35228",
+      "bytes": 1957
+    },
+    {
+      "path": "pdf/the-house-en.pdf",
+      "sha256": "3327cda4c044bb3c98e8d3fa5290daee70c9963d5e1d512a65dd38f37b47e724",
+      "bytes": 116502
+    },
+    {
+      "path": "pdf/the-house-uk.pdf",
+      "sha256": "c70e8db3745f49bc1d921c347f3a0794bf2727a277b483c707c4beb8916b779b",
+      "bytes": 140362
+    },
+    {
+      "path": "publication.json",
+      "sha256": "4744c73b1f7f83ed92c95595595be5b99b9f5b1b231b2551978b498e9ac2f490",
+      "bytes": 1544
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "8dd39dc391b6f7077c2f2e89d6ec29cb4bcf7d62b64a467255b0e8ed3811f998",
+      "bytes": 18
+    },
+    {
+      "path": "tools/build.py",
+      "sha256": "cb5d36557643befc928ef004f954b5eed332fb501dd8eb8ce6b7bc46da6eac01",
+      "bytes": 11913
+    },
+    {
+      "path": "tools/check.py",
+      "sha256": "f40adbf9be1896c59300470af21860917199129f9eeacea1e66035721195fa77",
+      "bytes": 3378
+    },
+    {
+      "path": "tools/figures.py",
+      "sha256": "8c3cc6f45a460e595e7cc7a928912f01fcc51e7745bcc1aef4ba8688a3c296ff",
+      "bytes": 18342
+    }
+  ]
+}

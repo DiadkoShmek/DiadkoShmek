@@ -1,0 +1,245 @@
+{
+  "date": "2026-10-28",
+  "entries": [
+    {
+      "id": "B01",
+      "title": {
+        "uk": "Задум і форма цілого",
+        "en": "Intent and whole-system form"
+      },
+      "basis": {
+        "uk": "Мій досвід експлуатації, прямі вимоги та джерельні карти власників.",
+        "en": "My operational account, direct requirements and owner source maps."
+      },
+      "boundary": {
+        "uk": "Тривалість роботи є моїм свідченням; книга не є переписом усіх процесів ПК.",
+        "en": "Operational duration is my account; the book is not a census of every PC process."
+      }
+    },
+    {
+      "id": "B02",
+      "title": {
+        "uk": "Автономія та оркестрація",
+        "en": "Autonomy and orchestration"
+      },
+      "basis": {
+        "uk": "Код диспетчера й runtime, оренди виконання, квитанції native-кампаній і прийняті спільні ремонти.",
+        "en": "Dispatcher/runtime code, leases, native campaign receipts and accepted cooperative repairs."
+      },
+      "boundary": {
+        "uk": "Розпочатий раунд, завершення виконавця й прийняття результату розрізнені.",
+        "en": "A started round, a completed child and an accepted result are distinct."
+      }
+    },
+    {
+      "id": "B03",
+      "title": {
+        "uk": "Пошта й спільний стан",
+        "en": "Mail and shared state"
+      },
+      "basis": {
+        "uk": "Кур’єр точних байтів, транзакційний редуктор справ і незмінні покоління проєкцій.",
+        "en": "Exact-byte courier, work reducer, transactions and immutable reader generations."
+      },
+      "boundary": {
+        "uk": "Публікація листа не означає виконання його змісту.",
+        "en": "A publication receipt does not mean that the letter’s content was executed."
+      }
+    },
+    {
+      "id": "B04",
+      "title": {
+        "uk": "Пам’ять Поля",
+        "en": "Pole memory"
+      },
+      "basis": {
+        "uk": "Код сканування, фрагментації, часу, зв’язків, BM25, розширення пошуку й gate.",
+        "en": "Inspected scanner/fragmenter/timeline/links, BM25, expansion and gate."
+      },
+      "boundary": {
+        "uk": "Лексична підтримка не доводить логічного випливання; індексні хеші потребують свіжої звірки.",
+        "en": "Lexical support is not entailment; indexed hashes need current-byte checks."
+      }
+    },
+    {
+      "id": "B05",
+      "title": {
+        "uk": "Навчальні дані",
+        "en": "Training data"
+      },
+      "basis": {
+        "uk": "Наявні JSONL-артефакти, експортери, поділ, дедуплікація й код перевірки забруднення.",
+        "en": "Existing JSONL artifacts, exporter, split, deduplication and contamination-check code."
+      },
+      "boundary": {
+        "uk": "Узгоджений маніфест запуску та змістовна якість мають окреме приймання.",
+        "en": "Consistent run manifests and semantic quality require their own acceptance."
+      }
+    },
+    {
+      "id": "B06",
+      "title": {
+        "uk": "Нейромережевий дослід",
+        "en": "Neural experiment"
+      },
+      "basis": {
+        "uk": "NumPy GRU, числовий журнал 400 кроків, заголовки NPZ і збережені ваги.",
+        "en": "NumPy GRU source, a numeric 400-step log, NPZ headers and retained weights."
+      },
+      "boundary": {
+        "uk": "Метрики навчального batch; відома розбіжність похідної; узагальнення окремо не підтверджене.",
+        "en": "Training-minibatch metrics and a flagged gradient path, not full independent correctness or generalization."
+      }
+    },
+    {
+      "id": "B07",
+      "title": {
+        "uk": "Support plane",
+        "en": "Support plane"
+      },
+      "basis": {
+        "uk": "Код worker, політики, життєвого циклу й plugin; фактичний readback семи маршрутів 25 жовтня.",
+        "en": "Worker/policy/lifecycle/plugin code and an actual seven-route readback on 25 October."
+      },
+      "boundary": {
+        "uk": "Це датований набір маршрутів і обмежені оцінювальні набори.",
+        "en": "A dated route cohort with bounded fixed evaluation sets."
+      }
+    },
+    {
+      "id": "B08",
+      "title": {
+        "uk": "Математичні досліди",
+        "en": "Mathematical studies"
+      },
+      "basis": {
+        "uk": "CreditWorld, скінченні свідки втрати інформації, ручна алгебра інваріантності й точний перебір порядків.",
+        "en": "CreditWorld, finite coarsening witnesses, manual invariance algebra and exact order enumeration."
+      },
+      "boundary": {
+        "uk": "Доказ, виконаний експеримент і прийняте обмеження джерела розділені.",
+        "en": "Manual proof, executed experiment and accepted source constraint remain distinct."
+      }
+    },
+    {
+      "id": "B09",
+      "title": {
+        "uk": "Майстерня Тіні",
+        "en": "Shadow workbench"
+      },
+      "basis": {
+        "uk": "Статистичні, пошукові й алгебраїчні функції; збережений ізольований прогін 55 тестів.",
+        "en": "Statistical, search and algebraic functions; a retained isolated 55-test receipt."
+      },
+      "boundary": {
+        "uk": "Це математична й навчальна реалізація, без сертифікації криптографічного захисту.",
+        "en": "Mathematical/educational implementation, without production cryptographic certification."
+      }
+    },
+    {
+      "id": "B10",
+      "title": {
+        "uk": "AI Ontology",
+        "en": "AI Ontology"
+      },
+      "basis": {
+        "uk": "Публічний зафіксований commit, книга v3.7.0, модель записів, audit і реєстр тверджень.",
+        "en": "Public pinned commit, book v3.7.0, record model, audit and claim ledger."
+      },
+      "boundary": {
+        "uk": "Запропонований профіль; повнота записів не означає загальне навчання.",
+        "en": "A proposed profile; record completeness is not general learning."
+      }
+    },
+    {
+      "id": "B11",
+      "title": {
+        "uk": "Continuity і runtime",
+        "en": "Continuity and runtime"
+      },
+      "basis": {
+        "uk": "Чинні джерела власника, evaluator, spiral і bridge; окремий цільовий журнал Omnigen та replay.",
+        "en": "Current owner/evaluator/spiral/bridge sources; a separate Omnigen target event log and replay."
+      },
+      "boundary": {
+        "uk": "Цільова реалізація й історичний PASS не означають міграції всіх органів.",
+        "en": "A target and historical PASS do not establish migration of all current organs."
+      }
+    },
+    {
+      "id": "B12",
+      "title": {
+        "uk": "Дзеркало",
+        "en": "Mirror"
+      },
+      "basis": {
+        "uk": "Завершений LQ3, фактичний runner, окремий читач збереженого результату та джерельні бар’єри.",
+        "en": "Completed LQ3, actual runner and standalone stored reader with source barriers."
+      },
+      "boundary": {
+        "uk": "Негативний paper-дослід; готовність controller не є прибутком.",
+        "en": "A negative paper result; controller readiness is not live profit."
+      }
+    },
+    {
+      "id": "B13",
+      "title": {
+        "uk": "Будова",
+        "en": "Budova"
+      },
+      "basis": {
+        "uk": "Збереження проєкту й CAS, staging/recovery, історичні факти та збережені UI/HTTP сценарії.",
+        "en": "Project save/CAS, staging/recovery, historical fact composition and retained UI/HTTP runs."
+      },
+      "boundary": {
+        "uk": "Локальні контрольовані проходи; професійного випробування користувачем ще не було.",
+        "en": "Controlled local flows; a professional user trial has not yet occurred."
+      }
+    },
+    {
+      "id": "B14",
+      "title": {
+        "uk": "Науковий конвеєр",
+        "en": "Science conveyor"
+      },
+      "basis": {
+        "uk": "Незмінні пакети, валідатори, спроба до spawn та квитанція прийняття джерельних обмежень Math23.",
+        "en": "Immutable packets, validators, attempt-before-spawn and Math23 source-adoption receipt."
+      },
+      "boundary": {
+        "uk": "Обмежений наслідок для вибору джерела, без автоматичної зміни ваг моделі.",
+        "en": "Bounded source constraints, without automatic model-weight uplift."
+      }
+    },
+    {
+      "id": "B15",
+      "title": {
+        "uk": "Пульт, відновлення й media",
+        "en": "Console, recovery and media"
+      },
+      "basis": {
+        "uk": "Контракти UI/backend, копія й відновлення коду, походження render та творчі виходи.",
+        "en": "UI/backend contracts, code capture/restore, render lineage and retained creative exports."
+      },
+      "boundary": {
+        "uk": "Технічна доступність і художнє прийняття окремі; копія коду на тому самому томі.",
+        "en": "Technical availability and artistic acceptance are separate; restore is code-only/same-volume."
+      }
+    },
+    {
+      "id": "B16",
+      "title": {
+        "uk": "Публічна робота",
+        "en": "Public work"
+      },
+      "basis": {
+        "uk": "GitHub API підтверджує merge FilesDrop #32; відкриті приклади з джерельною основою.",
+        "en": "GitHub API merge readback for FilesDrop #32 and public source-bound examples."
+      },
+      "boundary": {
+        "uk": "Merge означає прийняття конкретної зміни.",
+        "en": "A merge establishes acceptance of a specific change."
+      }
+    }
+  ]
+}
