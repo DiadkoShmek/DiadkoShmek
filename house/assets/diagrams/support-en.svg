@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg width="1000" height="550" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 550" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>support / en</title>
+	<desc>Code-native architecture illustration; conceptual relationships and explicit boundaries.</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="550"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-550)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1000" height="550" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,11%,16%); fill-rule: evenodd;"/>
+			<rect x="30" y="266" width="160" height="94" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="69.35546875" y="305.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,610) scale(1,-1)">Reserve</text>
+			<path d="M 190,313 L 215,313 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="215 313, 204 318, 204 308" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<rect x="225" y="266" width="160" height="94" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="280.8349609375" y="305.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,610) scale(1,-1)">Load</text>
+			<path d="M 385,313 L 410,313 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="410 313, 399 318, 399 308" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<rect x="420" y="266" width="160" height="94" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="480.3759765625" y="305.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,610) scale(1,-1)">Run</text>
+			<path d="M 580,313 L 605,313 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="605 313, 594 318, 594 308" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<rect x="615" y="266" width="160" height="94" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="653.935546875" y="305.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,610) scale(1,-1)">Cleanup</text>
+			<path d="M 775,313 L 800,313 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="800 313, 789 318, 789 308" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<rect x="810" y="266" width="160" height="94" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="855.7421875" y="305.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,610) scale(1,-1)">Accept</text>
+			<rect x="250" y="420" width="500" height="62" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="362.02734375" y="442.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 22px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,884) scale(1,-1)">Exact turn · exact source</text>
+			<path d="M 305,420 L 305,377 Z" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 2; stroke-dasharray: 6, 6;"/>
+			<path d="M 890,420 L 890,377 Z" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 2; stroke-dasharray: 6, 6;"/>
+			<path d="M 750,450 L 890,450 Z" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 2; stroke-dasharray: 6, 6;"/>
+			<path d="M 890,450 L 890,420 Z" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 2; stroke-dasharray: 6, 6;"/>
+			<path d="M 500,266 L 500,197 Z" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 2;"/>
+			<rect x="300" y="113" width="400" height="76" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="368.88623046875" y="142.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 22px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,284) scale(1,-1)">Failure keeps its reason</text>
+			<text x="267.887451171875" y="51.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,102) scale(1,-1)">Resource release precedes result admission</text>
+		</g>
+	</g>
+</svg>

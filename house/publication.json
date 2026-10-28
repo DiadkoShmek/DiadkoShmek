@@ -1,0 +1,68 @@
+{
+  "edition": "1.0",
+  "date": "2026-10-28",
+  "books": [
+    {
+      "pages": 26,
+      "chapters": {
+        "01-intent": 3,
+        "02-whole": 4,
+        "03-homes": 5,
+        "04-autonomy": 6,
+        "05-events": 7,
+        "06-memory": 8,
+        "07-pole-memory": 9,
+        "08-data": 10,
+        "09-neural": 11,
+        "10-experiment": 12,
+        "11-model-plane": 13,
+        "12-sufficiency": 14,
+        "13-order": 15,
+        "14-shadow": 16,
+        "15-continuity": 17,
+        "16-runtime": 18,
+        "17-mirror": 19,
+        "18-budova": 20,
+        "19-science": 21,
+        "20-craft": 22,
+        "21-readiness": 23,
+        "22-open-layer": 24,
+        "23-basis": 25,
+        "24-boundaries": 26
+      },
+      "language": "en",
+      "pdf": "the-house-en.pdf"
+    },
+    {
+      "pages": 26,
+      "chapters": {
+        "01-intent": 3,
+        "02-whole": 4,
+        "03-homes": 5,
+        "04-autonomy": 6,
+        "05-events": 7,
+        "06-memory": 8,
+        "07-pole-memory": 9,
+        "08-data": 10,
+        "09-neural": 11,
+        "10-experiment": 12,
+        "11-model-plane": 13,
+        "12-sufficiency": 14,
+        "13-order": 15,
+        "14-shadow": 16,
+        "15-continuity": 17,
+        "16-runtime": 18,
+        "17-mirror": 19,
+        "18-budova": 20,
+        "19-science": 21,
+        "20-craft": 22,
+        "21-readiness": 23,
+        "22-open-layer": 24,
+        "23-basis": 25,
+        "24-boundaries": 26
+      },
+      "language": "uk",
+      "pdf": "the-house-uk.pdf"
+    }
+  ]
+}

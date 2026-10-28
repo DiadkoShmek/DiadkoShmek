@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg width="1000" height="550" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 550" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>autonomy / en</title>
+	<desc>Code-native architecture illustration; conceptual relationships and explicit boundaries.</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="550"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-550)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1000" height="550" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,11%,16%); fill-rule: evenodd;"/>
+			<text x="97.275390625" y="426.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(69%,77%,78%); stroke:none;" transform="translate(0,852) scale(1,-1)">01</text>
+			<rect x="35" y="287" width="150" height="108" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="85.600830078125" y="332.5" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,665) scale(1,-1)">Task</text>
+			<path d="M 185,341 L 220,341 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="220 341, 209 346, 209 336" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<text x="292.275390625" y="426.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(69%,77%,78%); stroke:none;" transform="translate(0,852) scale(1,-1)">02</text>
+			<rect x="230" y="287" width="150" height="108" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="270.716064453125" y="345.94" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,691) scale(1,-1)">Owner</text>
+			<text x="265.12255859375" y="319.06" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,638) scale(1,-1)">+ lease</text>
+			<path d="M 380,341 L 415,341 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="415 341, 404 346, 404 336" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<text x="487.275390625" y="426.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(69%,77%,78%); stroke:none;" transform="translate(0,852) scale(1,-1)">03</text>
+			<rect x="425" y="287" width="150" height="108" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="462.01953125" y="332.5" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,665) scale(1,-1)">Worker</text>
+			<path d="M 575,341 L 610,341 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="610 341, 599 346, 599 336" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<text x="682.275390625" y="426.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(69%,77%,78%); stroke:none;" transform="translate(0,852) scale(1,-1)">04</text>
+			<rect x="620" y="287" width="150" height="108" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="657.065673828125" y="332.5" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,665) scale(1,-1)">Review</text>
+			<path d="M 770,341 L 805,341 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="805 341, 794 346, 794 336" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<text x="877.275390625" y="426.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(69%,77%,78%); stroke:none;" transform="translate(0,852) scale(1,-1)">05</text>
+			<rect x="815" y="287" width="150" height="108" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="857.0849609375" y="332.5" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,665) scale(1,-1)">Result</text>
+			<path d="M 500,287 L 500,214 Z" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 2; stroke-dasharray: 6, 6;"/>
+			<rect x="335" y="129" width="330" height="83" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="386.11669921875" y="161.5" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 22px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,323) scale(1,-1)">Uncertainty retained</text>
+			<path d="M 665,171 L 695,171 Z" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 2; stroke-dasharray: 6, 6;"/>
+			<path d="M 695,171 L 695,272 Z" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 2.2; stroke-dasharray: 6, 6;"/>
+			<polygon points="695 272, 690 261, 700 261" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(82%,60%,45%); fill-rule: evenodd;"/>
+			<text x="274.039794921875" y="64.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,128) scale(1,-1)">One owner · bounded work · explicit return</text>
+		</g>
+	</g>
+</svg>

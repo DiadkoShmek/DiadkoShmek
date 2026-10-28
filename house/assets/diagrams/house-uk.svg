@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg width="1000" height="550" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 550" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>house / uk</title>
+	<desc>Code-native architecture illustration; conceptual relationships and explicit boundaries.</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="550"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-550)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1000" height="550" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,11%,16%); fill-rule: evenodd;"/>
+			<rect x="300" y="458" width="360" height="62" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="375.44091796875" y="480.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-weight: 700; font-size: 22px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,960) scale(1,-1)">Людський намір</text>
+			<path d="M 480,458 L 480,429 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="480 429, 485 440, 475 440" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<rect x="65" y="360" width="260" height="65" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="137.271484375" y="383.5" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 22px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,767) scale(1,-1)">Інженерія</text>
+			<rect x="365" y="360" width="260" height="65" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="458.79345703125" y="383.5" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 22px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,767) scale(1,-1)">Смисл</text>
+			<rect x="665" y="360" width="260" height="65" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="718.2578125" y="383.5" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 22px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,767) scale(1,-1)">Дослідження</text>
+			<path d="M 195,344 L 795,344 Z" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 195,360 L 195,344 Z" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 795,360 L 795,344 Z" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 495,360 L 495,315 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="495 315, 500 326, 490 326" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<rect x="65" y="229" width="860" height="82" rx="12" ry="12" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="132.790283203125" y="265.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,530) scale(1,-1)">Пам’ять</text>
+			<text x="319.08349609375" y="265.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,530) scale(1,-1)">Інструменти</text>
+			<text x="572.01318359375" y="265.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,530) scale(1,-1)">Доказ</text>
+			<text x="744.9248046875" y="265.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,530) scale(1,-1)">Відновлення</text>
+			<path d="M 495,229 L 495,193 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="495 193, 500 204, 490 204" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<rect x="65" y="125" width="260" height="65" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="114.17041015625" y="148.5" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 22px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,297) scale(1,-1)">Робочі пакети</text>
+			<rect x="365" y="125" width="260" height="65" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="448.787109375" y="148.5" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 22px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,297) scale(1,-1)">Досліди</text>
+			<rect x="665" y="125" width="260" height="65" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="761.33935546875" y="148.5" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 22px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,297) scale(1,-1)">Медіа</text>
+			<path d="M 495,125 L 495,94 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="495 94, 500 105, 490 105" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<text x="235.9736328125" y="62.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 22px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,124) scale(1,-1)">Спостережений наслідок → наступний вибір</text>
+			<path d="M 936,158 L 960,158 Z" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 960,158 L 960,490 Z" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 960,490 L 679,490 Z" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="679 490, 690 485, 690 495" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(82%,60%,45%); fill-rule: evenodd;"/>
+		</g>
+	</g>
+</svg>

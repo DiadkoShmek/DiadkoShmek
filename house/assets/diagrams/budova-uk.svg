@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg width="1000" height="550" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 550" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>budova / uk</title>
+	<desc>Code-native architecture illustration; conceptual relationships and explicit boundaries.</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="550"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-550)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1000" height="550" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,11%,16%); fill-rule: evenodd;"/>
+			<rect x="40" y="384" width="220" height="91" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="54.7412109375" y="421.5" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,843) scale(1,-1)">Ревізія джерела A</text>
+			<path d="M 260,430 L 339,430 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="339 430, 328 435, 328 425" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<rect x="345" y="384" width="220" height="91" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="372.646484375" y="421.5" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,843) scale(1,-1)">Ревізія деталі A</text>
+			<path d="M 565,430 L 664,430 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="664 430, 653 435, 653 425" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
+			<rect x="680" y="364" width="270" height="128" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="695.7666015625" y="420.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,840) scale(1,-1)">Незмінний комплект A</text>
+			<path d="M 695,356 L 935,356 Z" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 695,348 L 935,348 Z" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 455,384 L 455,246 Z" style="stroke: rgb(28%,38%,41%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="455 246, 460 257, 450 257" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,38%,41%); fill-rule: evenodd;"/>
+			<rect x="345" y="131" width="220" height="105" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="377.1318359375" y="175.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,350) scale(1,-1)">Нова ревізія B</text>
+			<text x="391.6064453125" y="83.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(69%,77%,78%); stroke:none;" transform="translate(0,166) scale(1,-1)">Новий вибір</text>
+			<path d="M 815,348 L 815,210 Z" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="815 210, 820 221, 810 221" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(82%,60%,45%); fill-rule: evenodd;"/>
+			<rect x="670" y="120" width="280" height="77" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
+			<text x="688.66552734375" y="150.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 21px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,300) scale(1,-1)">Повернений факт → A</text>
+			<path d="M 670,159 L 610,159 Z" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 610,159 L 610,305 Z" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 610,305 L 455,305 Z" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 455,305 L 455,366 Z" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="455 366, 450 355, 460 355" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(82%,60%,45%); fill-rule: evenodd;"/>
+			<text x="261.00244140625" y="34.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 22px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,68) scale(1,-1)">B не переписує вже виданий комплект A</text>
+		</g>
+	</g>
+</svg>

@@ -21,3 +21,6 @@ jobs:
           python-version: "3.12"
       - name: Prove public discovery contract
         run: python3 -m unittest -v test_profile_discovery.py
+
+      - name: Check bilingual House publication
+        run: python3 -B house/tools/check.py
