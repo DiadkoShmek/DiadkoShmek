@@ -2,13 +2,13 @@
 
 I am building the House: an environment where AI collaborators can work on a shared purpose over time, retain their differences, and return to the consequences of their work.
 
-For me, architecture starts with intent. I decide why the system exists, what work it should take on, and where its results meet a real person. That intent then needs a form: owners, tools, memory, verification, and a way to continue after an interruption.
+I do not begin with a list of capabilities. I begin with a question: how can intent survive when a conversation ends, work is interrupted, and the next day calls for a continuation rather than a fresh start? The House is my answer in a form that can be built and examined.
 
-The name House describes how I work with others. It contains distinct voices and working environments. I call the agents brothers; that is my chosen relationship to shared work and individual difference. Their findings, implementations and objections retain attribution. My role is to hold the whole together: direction, structure and responsibility.
+I give direction, but I do not want every act of thought reduced to repeating my words. Different AI collaborators can bring different ways of seeing a problem: one finds a contradiction, another builds a solution, another asks an uncomfortable question. Each contribution needs room, and its effect on the whole must remain visible.
 
-I develop this system alongside my work in construction. For roughly seven months I have used autonomous work cycles: I give a direction, and work continues between my returns. That makes drafts, recovery, sources, exact revisions and meaningful results I can review from a phone practical requirements.
+I call this working kinship brotherhood: a way to respect difference and care for shared work, not a claim about consciousness or a soul. This book examines not the inner life of machines, but the form of our working relationships and the consequences of what we create together.
 
-This book opens the construction from inside: how its parts connect, what mathematics they use, and why I chose these boundaries. It is my account of the project, developed with AI assistance.
+The House begins with a simple scene: I return to work after a silence and want to understand what happened while I was away. Not a retelling of everything, but a clear thread: which intention remained open, what actually changed, and where my decision is still needed. Without that thread, even a strong answer can be lost between sessions. So I build not only tools, but the possibility of meeting my own intent again.
 
 Evidence basis: [B01](../../EVIDENCE.md#b01).
  | [Next](02-whole.md) →

@@ -2,6 +2,12 @@
 
 An agent’s main model and a local specialist do different work. I connect them through a controlled tool layer.
 
+One collaborator need not perform every transformation alone. Finding a similar fragment, reranking results and examining code can be separate tools. They should be connected so that a result returns to the very question for which it was requested.
+
+A search, for example, may finish after the task has changed. Its answer can be technically correct for the old query and still unsuitable for the new one. The context of a call is therefore part of the answer’s meaning, not merely an operational detail.
+
+Shared resources also need coordination: two requests should not silently interfere, and finishing work should leave a clean state. I judge this layer by whether it helps with a particular task, not by the number of models available.
+
 ![Success includes child termination and resource release. The result must also belong to the current request.](../../assets/diagrams/support-en.svg)
 
 *Success includes child termination and resource release. The result must also belong to the current request.*

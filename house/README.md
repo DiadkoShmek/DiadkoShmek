@@ -1,34 +1,38 @@
-# The House
+# Онтологія Дому
 
-## Architecture for autonomous work
+Намір. Окремість. Пам’ять. Повернення.
 
-[Profile](https://github.com/DiadkoShmek) · [Українська](README.uk.md) · [Read the book](book/en/README.md) · [English PDF](pdf/the-house-en.pdf) · [Український PDF](pdf/the-house-uk.pdf)
+[![Обкладинка «Онтології Дому»](assets/front-uk.svg)](pdf/the-house-uk.pdf)
 
-![An architectural cross-section of the House](assets/diagrams/section-en.svg)
+**[Читати українською](book/uk/README.md)** · **[PDF українською](pdf/the-house-uk.pdf)** · [English edition](README.en.md)
 
-I build the House as an environment for sustained autonomous work with AI: distinct collaborators, shared memory, local model tools, mathematical research and practical projects.
+> Що лишається від спільної роботи, коли розмова закінчилася?
 
-This book opens the architecture I use. It follows work from intent through ownership, execution and review, then into memory and the next decision. It explains Pole’s retrieval and neural experiments, the mathematics of information loss, cooperative agent work, recovery, Mirror and Budova.
+Я будую Дім як середовище, у якому людський намір, різні AI-учасники, пам’ять та інструменти підтримують довгу роботу. Ця книга пояснює, чому ці частини належать одному цілому, як зберігається відмінність і як наслідок повертається в наступне рішення.
 
-### Read
+## Чотири рухи
 
-- [22 chapters and two reference appendices](book/en/README.md)
-- [Single-page Markdown edition](book/en/BOOK.md)
-- [Ukrainian edition](book/uk/README.md)
-- [Evidence basis and boundaries](EVIDENCE.md)
+**I. Бути разом.** Намір, форма цілого й окремість учасників.
 
-### Inside
+**II. Діяти й відповідати.** Автономний крок, передача роботи й збереження події.
 
-- Distinct agent homes, orchestration leases, durable mail and shared work.
-- Source-addressed memory, BM25, graph expansion and lexical evidence checks.
-- An in-house NumPy character GRU, manual BPTT/Adam and retained training artifacts.
-- Sufficient-state mathematics, invariants, counterexamples and exact finite models.
-- Local support-model lifecycle, transactional state, recovery and immutable work packages.
-- Quantitative experiments, revision-bound construction work, interfaces and creative pipelines.
+**III. Пам’ятати й розрізняти.** Пошук підстав, нейромережевий дослід, достатність стану, математика та перегляд судження.
 
-### Rebuild the publication
+**IV. Повертатися зі зміною.** Відновлення, прикладні системи, дослідження, творчість і відкритий результат.
 
-Python 3.10+ and DejaVu Sans fonts.
+## Обери спосіб читання
+
+- [Книжковий PDF](pdf/the-house-uk.pdf) — A5, ілюстрації, зміст і закладки.
+- [Розділи на GitHub](book/uk/README.md) — читання з телефона й переходи між розділами.
+- [Суцільний текст](book/uk/BOOK.md) — одна сторінка без завантаження.
+- [English](book/en/README.md) · [English PDF](pdf/the-house-en.pdf).
+
+22 розділи та два джерельні додатки. Поняттєвий текст переходить у конкретні механізми: адресну пам’ять, локальний модельний шар, символьну GRU, точні скінченні моделі, відновлення та прикладні робочі комплекти. Вид і межу кожної джерельної опори пояснено в [покажчику](EVIDENCE.md).
+
+<details>
+<summary>Джерела видання та відтворення PDF</summary>
+
+Рукопис: `book/manuscript.json`. Власні векторні ілюстрації й верстка: `tools/`. Python 3.10+, ReportLab і системні шрифти DejaVu Sans/Serif.
 
 ```bash
 cd house
@@ -38,8 +42,8 @@ python -B tools/build.py
 python -B tools/check.py
 ```
 
-Use `--font-dir PATH` if DejaVu Sans is not installed. The scripts have no model, network or private-runtime dependency. They rebuild the book and its illustrations; they do not install the private House systems.
+Скрипти відтворюють видання офлайн після встановлення залежностей. Вони не запускають приватний runtime і не потребують моделі.
 
-I develop the project with AI collaborators. Specific contributions retain attribution; foundation models, OpenClaw and libraries retain their upstream provenance.
+</details>
 
-Edition 1.0 ·28 October 2026. [Publication scope](NOTICE.md).
+Видання 2.0 · 29 жовтня 2026. [Межі публікації й права](NOTICE.md).

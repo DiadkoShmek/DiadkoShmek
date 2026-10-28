@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="620" height="380" preserveAspectRatio="xMinYMin meet" viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="620" height="380"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-380)" style="clip-path: url(#clip)">
+		<g transform="">
+			<circle cx="310" cy="207" r="142" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.8; fill: none; fill-rule: evenodd;"/>
+			<circle cx="310" cy="207" r="171" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.5; fill: none; fill-rule: evenodd;"/>
+			<path d="M 55,71 L 565,71 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<rect x="90" y="81" width="440" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(92%,93%,90%); fill-rule: evenodd;"/>
+			<polygon points="85 255, 310 343, 535 255" style="stroke: rgb(15%,23%,21%); stroke-linecap: butt; stroke-width: 2; fill: none; fill-rule: evenodd;"/>
+			<path d="M 85,249 L 535,249 Z" style="stroke: rgb(67%,43%,27%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<rect x="105" y="99" width="72" height="122" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 1.2; fill: none; fill-rule: evenodd;"/>
+			<path d="M 118,117 L 164,117 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 118,142 L 164,142 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 118,167 L 164,167 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 118,192 L 164,192 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<rect x="130" y="99" width="22" height="28" style="stroke: rgb(67%,43%,27%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(96%,94%,91%); fill-rule: evenodd;"/>
+			<rect x="198" y="99" width="72" height="151" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 1.2; fill: none; fill-rule: evenodd;"/>
+			<path d="M 211,117 L 257,117 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 211,142 L 257,142 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 211,167 L 257,167 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 211,192 L 257,192 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 211,217 L 257,217 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<rect x="223" y="99" width="22" height="28" style="stroke: rgb(67%,43%,27%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(96%,94%,91%); fill-rule: evenodd;"/>
+			<rect x="350" y="99" width="72" height="137" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 1.2; fill: none; fill-rule: evenodd;"/>
+			<path d="M 363,117 L 409,117 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 363,142 L 409,142 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 363,167 L 409,167 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 363,192 L 409,192 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 363,217 L 409,217 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<rect x="375" y="99" width="22" height="28" style="stroke: rgb(67%,43%,27%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(96%,94%,91%); fill-rule: evenodd;"/>
+			<rect x="443" y="99" width="72" height="110" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 1.2; fill: none; fill-rule: evenodd;"/>
+			<path d="M 456,117 L 502,117 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 456,142 L 502,142 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 456,167 L 502,167 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 456,192 L 502,192 Z" style="stroke: rgb(80%,82%,76%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<rect x="468" y="99" width="22" height="28" style="stroke: rgb(67%,43%,27%); stroke-linecap: butt; stroke-width: 1.1; fill: rgb(96%,94%,91%); fill-rule: evenodd;"/>
+			<path d="M 141,87 L 479,87 Z" style="stroke: rgb(67%,43%,27%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<circle cx="141" cy="87" r="3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(67%,43%,27%); fill-rule: evenodd;"/>
+			<circle cx="234" cy="87" r="3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(67%,43%,27%); fill-rule: evenodd;"/>
+			<circle cx="386" cy="87" r="3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(67%,43%,27%); fill-rule: evenodd;"/>
+			<circle cx="479" cy="87" r="3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(67%,43%,27%); fill-rule: evenodd;"/>
+			<circle cx="310" cy="155" r="24" style="stroke: rgb(67%,43%,27%); stroke-linecap: butt; stroke-width: 1.4; fill: none; fill-rule: evenodd;"/>
+			<path d="M 310,99 L 310,131 Z" style="stroke: rgb(67%,43%,27%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 310,179 L 310,249 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 62,72 L 70,174 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 64,98 L 83,112 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 65,107 L 51,120 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 64,123 L 83,137 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 65,132 L 51,145 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 64,148 L 83,162 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 65,157 L 51,170 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 558,72 L 550,174 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<path d="M 556,98 L 537,112 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 555,107 L 569,120 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 556,123 L 537,137 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 555,132 L 569,145 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 556,148 L 537,162 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 555,157 L 569,170 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 0.8;"/>
+		</g>
+	</g>
+</svg>

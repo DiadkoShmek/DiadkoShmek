@@ -2,6 +2,12 @@
 
 I place a changeable model inside a durable runtime. History, ownership and action authority should survive a model change.
 
+Continuity does not mean there will never be an interruption. It means that afterwards enough relationships can be recovered to understand where work stopped and what remains unknown. For that, history must be more durable than any one session.
+
+The model may change, but the change must not rewrite past events. Imagine returning to a repair: the new collaborator needs the proposal, the actual change and the decision about it, not the impression that all of this happened in one uninterrupted conversation.
+
+After an interruption, the same event may arrive again. If its ID and bytes match an accepted record, rereading it should not change state a second time. If the same ID carries different content, that is a conflict to expose. This distinction lets work recover without inventing what happened between two visits.
+
 ![An exact retry returns its receipt. A different write against an old revision receives a conflict.](../../assets/diagrams/recovery-en.svg)
 
 *An exact retry returns its receipt. A different write against an old revision receives a conflict.*

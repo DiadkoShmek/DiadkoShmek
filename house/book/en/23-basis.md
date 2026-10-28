@@ -2,6 +2,8 @@
 
 Chapter codes name the kind of basis and its exact boundary. Detailed private coordinates are retained outside this publication.
 
+Codes B01–B16 identify the source groups for this edition. For private mechanisms they describe the basis of the account without promising access to internal files. The preceding chapter links public examples a reader can inspect independently.
+
 | Code / subject | Basis and boundary |
 | --- | --- |
 | B01 · Intent and whole-system form | My operational account, direct requirements and owner source maps. Operational duration is my account; the book is not a census of every PC process. |

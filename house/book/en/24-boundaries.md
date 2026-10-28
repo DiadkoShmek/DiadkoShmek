@@ -2,6 +2,8 @@
 
 Chapter codes name the kind of basis and its exact boundary. Detailed private coordinates are retained outside this publication.
 
+A boundary closes not the conversation, but a particular claim. It shows where what I can substantiate ends and where a question for future work begins. The unknown remains visible instead of hiding inside a confident sentence.
+
 | Code / subject | Basis and boundary |
 | --- | --- |
 | B09 · Shadow workbench | Statistical, search and algebraic functions; a retained isolated 55-test receipt. Mathematical/educational implementation, without production cryptographic certification. |
