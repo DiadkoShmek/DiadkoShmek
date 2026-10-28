@@ -4,7 +4,7 @@
 
 Я будую Дім: середовище тривалої автономної роботи зі спеціалізованими агентами, спільною пам’яттю, локальними моделями й математичними інструментами.
 
-Мій шлях — будівництво та робота з AI-інструментами. Я визначаю напрям, архітектуру й критерії; AI-агенти беруть суттєву участь у дослідженні, реалізації та перевірках.
+Намір, архітектура й критерії прийняття поєднують роботу людини та AI-учасників.
 
 [![Архітектурний розріз Дому](https://raw.githubusercontent.com/DiadkoShmek/DiadkoShmek/main/house/assets/diagrams/section-uk.svg)](https://github.com/DiadkoShmek/DiadkoShmek/tree/main/house)
 
@@ -34,6 +34,6 @@
 
 [Результати й джерела](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.md) · [Інженерні розбори](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/ENGINEERING.md)
 
-## Зв’язок
+## Обговорення
 
-[LinkedIn](https://www.linkedin.com/in/%D0%B0%D1%80%D1%82%D1%83%D1%80-%D0%BE%D0%BD%D0%B8%D1%81%D1%8C%D0%BA%D0%BE-842296411/) — для конкретних питань, заперечень і спільної роботи.
+Питання щодо проєктів — через Issues у відповідному репозиторії.

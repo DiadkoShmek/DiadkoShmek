@@ -4,7 +4,7 @@
 
 I build the House: an environment for sustained autonomous work with specialized agents, shared memory, local models and mathematical instruments.
 
-My background is construction and AI-assisted engineering. I hold direction, architecture and acceptance criteria; AI collaborators make substantial contributions to research, implementation and verification.
+Intent, architecture and acceptance criteria connect the work of a human author and AI collaborators.
 
 [![An architectural cross-section of the House](https://raw.githubusercontent.com/DiadkoShmek/DiadkoShmek/main/house/assets/diagrams/section-en.svg)](https://github.com/DiadkoShmek/DiadkoShmek/tree/main/house)
 
@@ -34,6 +34,6 @@ These public examples have stated scope and checks; they are not claims of clien
 
 [Results and sources](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.md) · [Engineering notes](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/ENGINEERING.md)
 
-## Conversation
+## Discussion
 
-[LinkedIn](https://www.linkedin.com/in/%D0%B0%D1%80%D1%82%D1%83%D1%80-%D0%BE%D0%BD%D0%B8%D1%81%D1%8C%D0%BA%D0%BE-842296411/) — concrete questions, criticism and shared work.
+Use the relevant repository’s Issues for project questions.
