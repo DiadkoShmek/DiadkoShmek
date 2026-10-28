@@ -2,6 +2,12 @@
 
 Pole has its own memory stack. I describe it as a sequence of concrete transformations rather than hiding it behind the word RAG.
 
+When I question memory, I want not only an answer but a way to check it. Retrieval gathers fragments that may be relevant; links help me reach neighboring context. This is the beginning of reading, not the end of reasoning.
+
+A query about an interrupted repair may find both a proposal and a later record of acceptance. Similar words help retrieve both texts, but do not establish that the second really concerns the first. That relation has to be read and checked.
+
+The formula below describes ranking: a more frequent term can strengthen a match, a rarer one can be more discriminating, and document length is accounted for separately. The score helps decide what to read first; it does not turn retrieved text into truth.
+
 ![Provenance → fragments → time and links → retrieval → citations → lexical checks.](../../assets/diagrams/pole-en.svg)
 
 *Provenance → fragments → time and links → retrieval → citations → lexical checks.*

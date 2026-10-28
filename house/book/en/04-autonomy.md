@@ -2,6 +2,12 @@
 
 Autonomy needs a memory of unfinished work. Otherwise every interruption turns into another request for the human to decide what happens next.
 
+Autonomy begins with trust in continuation, not endless motion. I can give direction and step away if the system distinguishes an authorized next step, an unknown result, and a decision that remains mine. An interruption must not erase those distinctions.
+
+When an action’s reply is lost, blindly repeating it is not necessarily continuation. First I need to learn whether it already had an effect. A saved note of intent is not an accepted change; likewise, a vanished process does not prove that it did nothing.
+
+Boundaries make independence possible here. A task has a purpose and a defined scope; the next collaborator can see what is permitted and what needs a separate decision. Work can continue without pretending that uncertainty has disappeared.
+
 ![Work passes through ownership, admission, execution and acceptance. An uncertain effect remains explicitly uncertain.](../../assets/diagrams/autonomy-en.svg)
 
 *Work passes through ownership, admission, execution and acceptance. An uncertain effect remains explicitly uncertain.*

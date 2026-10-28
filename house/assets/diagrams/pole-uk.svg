@@ -8,34 +8,34 @@
 	</clipPath>
 	<g id="group" transform="scale(1,-1) translate(0,-550)" style="clip-path: url(#clip)">
 		<g transform="">
-			<rect x="0" y="0" width="1000" height="550" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,11%,16%); fill-rule: evenodd;"/>
-			<rect x="30" y="284" width="160" height="110" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
-			<text x="72.48046875" y="331.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,662) scale(1,-1)">Корпус</text>
-			<path d="M 190,339 L 215,339 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
-			<polygon points="215 339, 204 344, 204 334" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
-			<rect x="225" y="284" width="160" height="110" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
-			<text x="246.103515625" y="343.8" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,687) scale(1,-1)">Фрагменти</text>
-			<text x="239.66796875" y="318.2" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,636) scale(1,-1)">час · зв’язки</text>
-			<path d="M 385,339 L 410,339 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
-			<polygon points="410 339, 399 344, 399 334" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
-			<rect x="420" y="284" width="160" height="110" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
-			<text x="471.787109375" y="331.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,662) scale(1,-1)">BM25</text>
-			<path d="M 580,339 L 605,339 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
-			<polygon points="605 339, 594 344, 594 334" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
-			<rect x="615" y="284" width="160" height="110" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
-			<text x="656.4599609375" y="331.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,662) scale(1,-1)">Цитати</text>
-			<path d="M 775,339 L 800,339 Z" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 2.2;"/>
-			<polygon points="800 339, 789 344, 789 334" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,76%,72%); fill-rule: evenodd;"/>
-			<rect x="810" y="284" width="160" height="110" rx="12" ry="12" style="stroke: rgb(40%,76%,72%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
-			<text x="832.8466796875" y="343.8" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,687) scale(1,-1)">Лексичний</text>
-			<text x="840.7275390625" y="318.2" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,636) scale(1,-1)">контроль</text>
-			<path d="M 305,284 L 305,184 Z" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 2;"/>
-			<path d="M 305,184 L 438,184 Z" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 2.2;"/>
-			<polygon points="438 184, 427 189, 427 179" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(82%,60%,45%); fill-rule: evenodd;"/>
-			<rect x="445" y="144" width="300" height="78" rx="12" ry="12" style="stroke: rgb(82%,60%,45%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(9%,17%,23%); fill-rule: evenodd;"/>
-			<text x="493.13720703125" y="174.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 22px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,348) scale(1,-1)">Окремий датасет</text>
-			<text x="447.96875" y="100.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,200) scale(1,-1)">Явний відбір + походження</text>
-			<text x="403.6953125" y="457.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-weight: 700; font-size: 24px;fill: rgb(95%,92%,87%); stroke:none;" transform="translate(0,914) scale(1,-1)">Шлях пошуку</text>
+			<rect x="0" y="0" width="1000" height="550" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,93%,90%); fill-rule: evenodd;"/>
+			<rect x="30" y="284" width="160" height="110" rx="12" ry="12" style="stroke: rgb(67%,43%,27%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(100%,99%,98%); fill-rule: evenodd;"/>
+			<text x="72.48046875" y="331.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,662) scale(1,-1)">Корпус</text>
+			<path d="M 190,339 L 215,339 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="215 339, 204 344, 204 334" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,40%,36%); fill-rule: evenodd;"/>
+			<rect x="225" y="284" width="160" height="110" rx="12" ry="12" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(100%,99%,98%); fill-rule: evenodd;"/>
+			<text x="246.103515625" y="343.8" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,687) scale(1,-1)">Фрагменти</text>
+			<text x="239.66796875" y="318.2" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,636) scale(1,-1)">час · зв’язки</text>
+			<path d="M 385,339 L 410,339 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="410 339, 399 344, 399 334" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,40%,36%); fill-rule: evenodd;"/>
+			<rect x="420" y="284" width="160" height="110" rx="12" ry="12" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(100%,99%,98%); fill-rule: evenodd;"/>
+			<text x="471.787109375" y="331.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,662) scale(1,-1)">BM25</text>
+			<path d="M 580,339 L 605,339 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="605 339, 594 344, 594 334" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,40%,36%); fill-rule: evenodd;"/>
+			<rect x="615" y="284" width="160" height="110" rx="12" ry="12" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(100%,99%,98%); fill-rule: evenodd;"/>
+			<text x="656.4599609375" y="331.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,662) scale(1,-1)">Цитати</text>
+			<path d="M 775,339 L 800,339 Z" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="800 339, 789 344, 789 334" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(27%,40%,36%); fill-rule: evenodd;"/>
+			<rect x="810" y="284" width="160" height="110" rx="12" ry="12" style="stroke: rgb(27%,40%,36%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(100%,99%,98%); fill-rule: evenodd;"/>
+			<text x="832.8466796875" y="343.8" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,687) scale(1,-1)">Лексичний</text>
+			<text x="840.7275390625" y="318.2" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,636) scale(1,-1)">контроль</text>
+			<path d="M 305,284 L 305,184 Z" style="stroke: rgb(67%,43%,27%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 305,184 L 438,184 Z" style="stroke: rgb(67%,43%,27%); stroke-linecap: butt; stroke-width: 2.2;"/>
+			<polygon points="438 184, 427 189, 427 179" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(67%,43%,27%); fill-rule: evenodd;"/>
+			<rect x="445" y="144" width="300" height="78" rx="12" ry="12" style="stroke: rgb(67%,43%,27%); stroke-linecap: butt; stroke-width: 1.35; fill: rgb(100%,99%,98%); fill-rule: evenodd;"/>
+			<text x="493.13720703125" y="174.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 22px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,348) scale(1,-1)">Окремий датасет</text>
+			<text x="447.96875" y="100.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 20px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,200) scale(1,-1)">Явний відбір + походження</text>
+			<text x="403.6953125" y="457.0" style="font-family: DejaVu Sans, Arial, sans-serif; font-weight: 700; font-size: 24px;fill: rgb(15%,23%,21%); stroke:none;" transform="translate(0,914) scale(1,-1)">Шлях пошуку</text>
 		</g>
 	</g>
 </svg>

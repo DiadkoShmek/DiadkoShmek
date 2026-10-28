@@ -1,6 +1,6 @@
 # Evidence basis / Джерельна основа
 
-Edition 1.0 · 2026-10-28.
+Edition 2.0 · 2026-10-29. Source inspection retained from 2026-10-28.
 
 I describe mechanisms from inspected code, execution from retained results, and operational duration from my own experience. The runtime, private correspondence, datasets and weights are outside this publication. Publication tools reproduce this book and its diagrams.
 

@@ -1,6 +1,12 @@
 # 18. Budova: exact revisions for physical work
 
-My domain experience gives the product a concrete reader: a foreman or crew lead needs to know exactly what was handed over and on what basis.
+A foreman or installation crew lead should be able to see on a phone which work package was handed over, which revision it belongs to and what remains unknown.
+
+I want shared work to leave the conversation and become something a person can act on. In a construction example, that means a package showing the revision actually handed over, its details and what remains unknown. Clarity has a practical consequence here.
+
+If a new measurement appears after handoff, the old package must not silently change. Otherwise two people may use the same name while holding different facts. A revision binding lets them ask: what exactly was handed over then, and what changed afterwards?
+
+A local run can show that a package is created and recovered under tested conditions. It does not yet show how a professional will use it in real work. I leave room for that trial, because that is where clarity meets practice.
 
 ![An issued package and a returned fact remain attached to their revision even after the current head advances.](../../assets/diagrams/budova-en.svg)
 

@@ -12,36 +12,37 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 
 from reportlab.lib import colors
-from reportlab.lib.pagesizes import A4
+from reportlab.lib.pagesizes import A5 as PAGE_SIZE
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.units import mm
 from reportlab.platypus import (
     Flowable, PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle,
 )
 from figures import get_drawing, configure_fonts
+from plates import house_plate, front_plate, register_book_fonts
 
 ROOT = Path(__file__).resolve().parents[1]
-W = A4[0]-40*mm
-INK = colors.HexColor('#172C42')
-TEAL = colors.HexColor('#176F75')
-MUTED = colors.HexColor('#526579')
-PALE = colors.HexColor('#F1F5F5')
-RULE = colors.HexColor('#D8E2E5')
-IVORY = colors.HexColor('#F6F2E9')
-GOLD = colors.HexColor('#C59A53')
+W = PAGE_SIZE[0]-28*mm
+INK = colors.HexColor('#283D38')
+TEAL = colors.HexColor('#45685D')
+MUTED = colors.HexColor('#6D756C')
+PALE = colors.HexColor('#ECEFE7')
+RULE = colors.HexColor('#D7D9CB')
+IVORY = colors.HexColor('#F5F2EA')
+GOLD = colors.HexColor('#AD7047')
 
 STYLES = {
     'kicker': ParagraphStyle('kicker',fontName='DejaVuSans-Bold',fontSize=8.0,leading=11,textColor=TEAL,spaceAfter=10),
-    'title': ParagraphStyle('title',fontName='DejaVuSans-Bold',fontSize=23,leading=28,textColor=INK,spaceAfter=14),
-    'lead': ParagraphStyle('lead',fontName='DejaVuSans',fontSize=11.0,leading=16.1,textColor=INK,spaceAfter=15),
-    'body': ParagraphStyle('body',fontName='DejaVuSans',fontSize=10.1,leading=14.7,textColor=INK,spaceAfter=11),
-    'heading': ParagraphStyle('heading',fontName='DejaVuSans-Bold',fontSize=11.2,leading=15.8,textColor=TEAL,spaceBefore=5,spaceAfter=7,keepWithNext=True),
-    'small': ParagraphStyle('small',fontName='DejaVuSans',fontSize=8.3,leading=11.7,textColor=MUTED,spaceAfter=10),
-    'formula': ParagraphStyle('formula',fontName='DejaVuSans',fontSize=9.3,leading=13.2,textColor=TEAL,backColor=PALE,borderPadding=7,spaceBefore=3,spaceAfter=13),
-    'cell': ParagraphStyle('cell',fontName='DejaVuSans',fontSize=9.15,leading=12.9,textColor=INK),
-    'cellbold': ParagraphStyle('cellbold',fontName='DejaVuSans-Bold',fontSize=9.15,leading=12.9,textColor=INK),
-    'th': ParagraphStyle('th',fontName='DejaVuSans-Bold',fontSize=8.6,leading=12,textColor=colors.white),
-    'link': ParagraphStyle('link',fontName='DejaVuSans',fontSize=9.3,leading=13.4,textColor=TEAL,spaceAfter=9),
+    'title': ParagraphStyle('title',fontName='Book',fontSize=21,leading=26,textColor=INK,spaceAfter=13),
+    'lead': ParagraphStyle('lead',fontName='Book',fontSize=10.4,leading=15.4,textColor=INK,spaceAfter=12),
+    'body': ParagraphStyle('body',fontName='Book',fontSize=9.5,leading=14.4,textColor=INK,spaceAfter=8),
+    'heading': ParagraphStyle('heading',fontName='Book',fontSize=12.0,leading=17.0,textColor=TEAL,spaceBefore=5,spaceAfter=7,keepWithNext=True),
+    'small': ParagraphStyle('small',fontName='DejaVuSans',fontSize=7.2,leading=10.8,textColor=MUTED,spaceAfter=10),
+    'formula': ParagraphStyle('formula',fontName='DejaVuSans',fontSize=8.6,leading=13.2,textColor=TEAL,backColor=PALE,borderPadding=7,spaceBefore=3,spaceAfter=13),
+    'cell': ParagraphStyle('cell',fontName='Book',fontSize=8.2,leading=12.0,textColor=INK),
+    'cellbold': ParagraphStyle('cellbold',fontName='DejaVuSans-Bold',fontSize=7.8,leading=11.5,textColor=INK),
+    'th': ParagraphStyle('th',fontName='DejaVuSans-Bold',fontSize=7.5,leading=11,textColor=INK),
+    'link': ParagraphStyle('link',fontName='DejaVuSans',fontSize=8.5,leading=12.8,textColor=TEAL,spaceAfter=9),
 }
 
 
@@ -52,7 +53,7 @@ def p(text,style='body'):
 class Figure(Flowable):
     def __init__(self,key,lang,width=W):
         super().__init__()
-        self.drawing=get_drawing(key,lang)
+        self.drawing=get_drawing(key,lang) if isinstance(key,str) else key
         self.width=width
         self.scale=width/self.drawing.width
         self.height=self.drawing.height*self.scale
@@ -75,26 +76,21 @@ class BookDoc(SimpleDocTemplate):
 
 def draw_cover(c,data,lang):
     c.saveState()
-    c.setFillColor(INK);c.rect(0,0,*A4,stroke=0,fill=1)
-    c.setFillColor(GOLD);c.setFont('DejaVuSans-Bold',9)
-    c.drawString(22*mm,A4[1]-32*mm,'АРХІТЕКТУРНА КНИГА' if lang=='uk' else 'AN ARCHITECTURE BOOK')
-    c.setFillColor(IVORY);c.setFont('DejaVuSans-Bold',58 if lang=='en' else 72)
-    c.drawString(21*mm,A4[1]-69*mm,data['title'][lang])
-    subtitle=Paragraph(escape(data['subtitle'][lang]),ParagraphStyle(
-        'cover-sub',parent=STYLES['title'],textColor=IVORY,fontSize=22,leading=29))
-    _,h=subtitle.wrap(W,100)
-    subtitle.drawOn(c,22*mm,A4[1]-86*mm-h)
-    figure=get_drawing('section',lang)
-    scale=(A4[0]-44*mm)/figure.width
-    c.translate(22*mm,69*mm);c.scale(scale,scale)
-    figure.drawOn(c,0,0)
-    c.restoreState();c.saveState()
-    c.setFillColor(IVORY);c.setFont('DejaVuSans',10.5)
-    c.drawString(22*mm,54*mm,data['strapline'][lang])
-    c.setStrokeColor(GOLD);c.line(22*mm,39*mm,A4[0]-22*mm,39*mm)
-    c.setFillColor(GOLD);c.setFont('DejaVuSans',8.5)
-    edition='РЕДАКЦІЯ' if lang=='uk' else 'EDITION'
-    c.drawString(22*mm,28*mm,f'{edition} {data["edition"]}   /   {data["date"]}')
+    c.setFillColor(IVORY);c.rect(0,0,*PAGE_SIZE,stroke=0,fill=1)
+    left=14*mm
+    c.setFillColor(GOLD);c.setFont('DejaVuSans',7.0)
+    c.drawString(left,PAGE_SIZE[1]-55,'КНИГА ПРО СПІЛЬНУ РОБОТУ' if lang=='uk' else 'A BOOK ABOUT WORK TOGETHER')
+    title='Онтологія<br/>Дому' if lang=='uk' else 'Ontology<br/>of the House'
+    q=Paragraph(title,ParagraphStyle('cover-title',fontName='Book',fontSize=35 if lang=='uk' else 32,leading=42,textColor=INK))
+    _,h=q.wrap(W,150);q.drawOn(c,left,PAGE_SIZE[1]-89-h)
+    q=p(data['subtitle'][lang],'lead');_,h=q.wrap(W,80);q.drawOn(c,left,PAGE_SIZE[1]-213-h)
+    d=house_plate();scale=W/d.width
+    c.saveState();c.translate(left,120);c.scale(scale,scale);d.drawOn(c,0,0);c.restoreState()
+    c.setStrokeColor(GOLD);c.setLineWidth(.7);c.line(left,83,PAGE_SIZE[0]-left,83)
+    c.setFillColor(INK);c.setFont('BookItalic',9)
+    c.drawString(left,66,data['strapline'][lang])
+    c.setFillColor(MUTED);c.setFont('DejaVuSans',6.8)
+    c.drawString(left,41,('ВИДАННЯ' if lang=='uk' else 'EDITION')+' 2.0 / 2026')
     c.restoreState()
 
 
@@ -104,6 +100,10 @@ def markdown(data,lang):
     toc=[];combined=[f'# {data["title"][lang]}\n\n## {data["subtitle"][lang]}\n\n{data["strapline"][lang]}\n\n']
     for i,ch in enumerate(data['chapters'],1):
         section_number=f'{i:02d}' if i<=22 else ('A' if i==23 else 'B')
+        part=next((a for a in data.get('parts',[]) if a['before']==ch['id']),None)
+        if part:
+            toc.append('\n### '+part['title'][lang]+'\n')
+            combined.append('\n## '+part['title'][lang]+'\n\n*'+part['question'][lang]+'*\n\n')
         lines=[f'# {section_number}. {ch["title"][lang]}\n\n',ch['lead'][lang]+'\n\n']
         for b in ch['blocks']:
             kind=b['type']
@@ -141,9 +141,14 @@ def build_pdf(data,lang,path):
     total=24
     for run in range(3):
         story=[Spacer(1,1),PageBreak()]
+        intro = ('Дім починається з наміру й набуває форми у відносинах, пам’яті та роботі. Книга веде від питання про спільність до механізмів, а потім повертається до наслідків, заради яких їх будують.' if lang=='uk' else 'The House begins with intent and takes form through relations, memory and work. This book moves from a question about working together to mechanisms, then returns to the consequences they serve.')
+        note = ('Це авторський виклад від першої особи, підготовлений у співпраці з AI. Особисту біографію до видання не включено. Поняттєва позиція, виконуваний механізм і дослід мають різну доказову вагу. Джерельні опори винесені в кінець розділів.' if lang=='uk' else 'This first-person account was developed in collaboration with AI. Personal biography is outside the edition. A conceptual position, an executable mechanism and an experiment carry different kinds of evidence. Source notes are placed at chapter ends.')
+        story += [p('ПРО ЦЮ КНИГУ' if lang=='uk' else 'ABOUT THIS BOOK','kicker'),p('Спосіб читати' if lang=='uk' else 'A way to read','title'),p(intro),p(note),PageBreak()]
         story += [p('ЗМІСТ' if lang=='uk' else 'CONTENTS','kicker'),p(data['subtitle'][lang],'title')]
         rows=[]
         for i,ch in enumerate(data['chapters'],1):
+            part=next((a for a in data.get('parts',[]) if a['before']==ch['id']),None)
+            if part: rows.append([p(part['title'][lang],'heading'),p('','small')])
             section_number=f'{i:02d}' if i<=22 else ('A' if i==23 else 'B')
             title=Paragraph(f'<link href="#{ch["id"]}">{section_number}   {escape(ch["title"][lang])}</link>',STYLES['cell'])
             rows.append([title,p(str(positions.get(ch['id'],i+2)),'cellbold')])
@@ -155,9 +160,13 @@ def build_pdf(data,lang,path):
         for i,ch in enumerate(data['chapters'],1):
             while story and isinstance(story[-1],Spacer):story.pop()
             story.append(PageBreak())
+            part=next((a for a in data.get('parts',[]) if a['before']==ch['id']),None)
+            if part:
+                n=data['parts'].index(part)+1
+                story += [Spacer(1,24),p(('РУХ ' if lang=='uk' else 'MOVEMENT ')+str(n),'kicker'),p(part['title'][lang],'title'),p(part['question'][lang],'lead'),Spacer(1,18),Figure(house_plate(part['plate']),lang),PageBreak()]
             title=p(ch['title'][lang],'title');title.chapter_key=ch['id']
             kicker=(('РОЗДІЛ' if lang=='uk' else 'CHAPTER')+f' {i:02d}') if i<=22 else (('ДОДАТОК' if lang=='uk' else 'APPENDIX')+(' A' if i==23 else ' B'))
-            story += [p(kicker,'kicker'),title,p(ch['lead'][lang],'lead')]
+            story += [p(kicker+' / '+', '.join(ch['refs']),'kicker'),title,p(ch['lead'][lang],'lead')]
             for b in ch['blocks']:
                 kind=b['type']
                 if kind in ('paragraph','heading'):story.append(p(b[lang],'body' if kind=='paragraph' else 'heading'))
@@ -172,26 +181,26 @@ def build_pdf(data,lang,path):
                     rows += [[p(r[lang][0],'cellbold'),p(r[lang][1],'cell')] for r in b['rows']]
                     t=Table(rows,colWidths=[W*.30,W*.70],repeatRows=1)
                     t.setStyle(TableStyle([
-                        ('BACKGROUND',(0,0),(-1,0),INK),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.white,PALE]),
+                        ('BACKGROUND',(0,0),(-1,0),PALE),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.white,PALE]),
                         ('VALIGN',(0,0),(-1,-1),'TOP'),('LINEBELOW',(0,0),(-1,-1),.4,RULE),
                         ('LEFTPADDING',(0,0),(-1,-1),8),('RIGHTPADDING',(0,0),(-1,-1),8),
                         ('TOPPADDING',(0,0),(-1,-1),6),('BOTTOMPADDING',(0,0),(-1,-1),6),
                     ]));story += [t,Spacer(1,12)]
-            story.append(p(('Опори: ' if lang=='uk' else 'Evidence basis: ')+', '.join(ch['refs'])+'.','small'))
+
 
         def page(c,doc):
             if doc.page==1:
                 draw_cover(c,data,lang);return
-            c.saveState();c.setFillColor(MUTED);c.setFont('DejaVuSans',7.2)
-            c.drawString(20*mm,A4[1]-12*mm,data['title'][lang]+' / '+data['subtitle'][lang])
-            c.setStrokeColor(RULE);c.line(20*mm,18*mm,A4[0]-20*mm,18*mm)
-            c.drawString(20*mm,12*mm,f'{data["date"]} · {data["edition"]}')
-            c.drawRightString(A4[0]-20*mm,12*mm,f'{doc.page:02d} / {total:02d}')
+            c.saveState();c.setFillColor(MUTED);c.setFont('DejaVuSans',6.2)
+            c.drawString(14*mm,PAGE_SIZE[1]-12*mm,data['title'][lang]+' / '+data['subtitle'][lang])
+            c.setStrokeColor(RULE);c.line(14*mm,18*mm,PAGE_SIZE[0]-14*mm,18*mm)
+            c.drawString(14*mm,12*mm,f'{data["date"]} · {data["edition"]}')
+            c.drawRightString(PAGE_SIZE[0]-14*mm,12*mm,str(doc.page))
             c.restoreState()
 
-        doc=BookDoc(str(path),pagesize=A4,leftMargin=20*mm,rightMargin=20*mm,
-            topMargin=22*mm,bottomMargin=24*mm,title=data['title'][lang]+' - '+data['subtitle'][lang],
-            author='',subject='First-person architectural publication',pageCompression=1)
+        doc=BookDoc(str(path),pagesize=PAGE_SIZE,leftMargin=14*mm,rightMargin=14*mm,
+            topMargin=16*mm,bottomMargin=17*mm,title=data['title'][lang]+' - '+data['subtitle'][lang],
+            author='DiadkoShmek',subject='Ontology of the House: intent, memory and shared work',pageCompression=1)
         doc.positions={};doc.build(story,onFirstPage=page,onLaterPages=page)
         if doc.positions==positions and doc.page==total:break
         positions=doc.positions.copy();total=doc.page
@@ -202,9 +211,13 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--font-dir',type=Path)
     parser.add_argument('--pdf-dir',type=Path,default=ROOT/'pdf')
-    args=parser.parse_args();configure_fonts(args.font_dir)
+    args=parser.parse_args();configure_fonts(args.font_dir);register_book_fonts(args.font_dir)
     data=json.loads((ROOT/'book/manuscript.json').read_text(encoding='utf-8'))
     args.pdf_dir.mkdir(parents=True,exist_ok=True);(ROOT/'pdf').mkdir(exist_ok=True)
+    from reportlab.graphics import renderSVG
+    renderSVG.drawToFile(house_plate(),str(ROOT/'assets/cover.svg'))
+    for lang in ('uk','en'):
+        renderSVG.drawToFile(front_plate(lang),str(ROOT/'assets'/f'front-{lang}.svg'))
     reports=[]
     for lang in ('en','uk'):
         markdown(data,lang)

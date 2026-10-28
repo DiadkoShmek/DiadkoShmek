@@ -2,6 +2,12 @@
 
 I do not collapse every agent into one universal worker. Specialization matters when a difference changes the quality of the work.
 
+Difference is not decorative to me. If everyone merely agrees, they can quickly produce an elegant and mistaken answer. Another perspective matters where it can change a decision: challenge an assumption or notice a case the first contributor missed.
+
+A distinct space gives work duration. It can hold materials, allow a return to earlier questions, and pass on not just a conclusion but its grounds. A shared language should not erase who found a mistake and who later repaired it.
+
+The table below is not a hierarchy of worth. It is a snapshot of different ways to contribute, which can change with the work. Mature collaboration means being able to disagree, check and change one’s part while keeping its connection to the whole intelligible.
+
 | Environment | What it carries |
 | --- | --- |
 | Codex Lab | Implementation, verification, integration and engineering continuity. |

@@ -2,6 +2,10 @@
 
 I want both the fact that training ran and the exact meaning of its metrics. They answer different questions.
 
+A number becomes knowledge only when I know which question it measures. A falling training loss describes behavior on the training stream; by itself it does not answer how the system will behave on new material.
+
+Even the training process deserves close reading: if a discrepancy is found in a derivative, I do not hide it behind a pleasing graph. It becomes part of the experiment’s account and limits what can be claimed about that version.
+
 | Question | What survives in this snapshot |
 | --- | --- |
 | Did training run? | A numeric 400-step log and saved weights with compatible tensor shapes. |

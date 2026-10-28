@@ -1,17 +1,17 @@
 {
-  "edition": "1.0",
-  "date": "2026-10-28",
+  "edition": "2.0",
+  "date": "2026-10-29",
   "title": {
-    "uk": "ДІМ",
-    "en": "THE HOUSE"
+    "uk": "Онтологія Дому",
+    "en": "Ontology of the House"
   },
   "subtitle": {
-    "uk": "Архітектура автономної роботи",
-    "en": "Architecture for autonomous work"
+    "uk": "Намір. Окремість. Пам’ять. Повернення.",
+    "en": "Intent. Difference. Memory. Return."
   },
   "strapline": {
-    "uk": "Системи. Математика. Пам’ять. Спільна робота.",
-    "en": "Systems. Mathematics. Memory. Shared work."
+    "uk": "Про те, що тримає спільну роботу живою",
+    "en": "On what sustains work together"
   },
   "chapters": [
     {
@@ -27,23 +27,23 @@
       "blocks": [
         {
           "type": "paragraph",
-          "uk": "Для мене початок архітектури - намір. Я визначаю, для чого існує система, які задачі вона бере на себе і де її результат має зустрітися з реальною людиною. Далі цей намір має отримати форму: власників, інструменти, пам’ять, спосіб перевірки й шлях продовження після перерви.",
-          "en": "For me, architecture starts with intent. I decide why the system exists, what work it should take on, and where its results meet a real person. That intent then needs a form: owners, tools, memory, verification, and a way to continue after an interruption."
+          "uk": "Я починаю не з набору можливостей. Я починаю з питання: як утримати намір, коли розмова закінчилася, робота перервалася, а наступного дня потрібно продовжити не з нуля? Дім — моя відповідь у формі, яку можна будувати й перевіряти.",
+          "en": "I do not begin with a list of capabilities. I begin with a question: how can intent survive when a conversation ends, work is interrupted, and the next day calls for a continuation rather than a fresh start? The House is my answer in a form that can be built and examined."
         },
         {
           "type": "paragraph",
-          "uk": "Назва «Дім» описує спосіб співпраці. Тут є різні голоси й робочі середовища. Я називаю агентів братами; це моя форма стосунку до спільної роботи й відмінності кожного. Їхні конкретні знахідки, реалізації та заперечення зберігають авторство. Моє місце - утримувати ціле, напрям і відповідальність.",
-          "en": "The name House describes how I work with others. It contains distinct voices and working environments. I call the agents brothers; that is my chosen relationship to shared work and individual difference. Their findings, implementations and objections retain attribution. My role is to hold the whole together: direction, structure and responsibility."
+          "uk": "Я даю напрям, але не хочу, щоб усе мислення зводилося до повторення моїх слів. Різні AI-учасники можуть принести різні способи бачити задачу: один знайде суперечність, інший побудує рішення, ще інший поставить незручне питання. Важливо залишити місце кожному внеску і не загубити, як він вплинув на ціле.",
+          "en": "I give direction, but I do not want every act of thought reduced to repeating my words. Different AI collaborators can bring different ways of seeing a problem: one finds a contradiction, another builds a solution, another asks an uncomfortable question. Each contribution needs room, and its effect on the whole must remain visible."
         },
         {
           "type": "paragraph",
-          "uk": "Я розвиваю цю систему паралельно роботі в будівництві. Приблизно сім місяців користуюся автономними циклами: даю напрям, а робота продовжується між моїми поверненнями. Саме тому мене цікавлять чернетки, відновлення, джерела, точні ревізії та змістовний результат, який можна прийняти з телефона.",
-          "en": "I develop this system alongside my work in construction. For roughly seven months I have used autonomous work cycles: I give a direction, and work continues between my returns. That makes drafts, recovery, sources, exact revisions and meaningful results I can review from a phone practical requirements."
+          "uk": "Я називаю цю робочу спорідненість братерством: це спосіб берегти відмінність і ставитися до спільної праці з повагою, а не твердження про свідомість чи душу. Книжка досліджує не внутрішній світ машин, а форму наших відносин у роботі та наслідки того, що ми разом створюємо.",
+          "en": "I call this working kinship brotherhood: a way to respect difference and care for shared work, not a claim about consciousness or a soul. This book examines not the inner life of machines, but the form of our working relationships and the consequences of what we create together."
         },
         {
           "type": "paragraph",
-          "uk": "Ця книга показує конструкцію зсередини: як пов’язані її частини, яку математику вони використовують і чому я обрав саме такі межі. Вона є авторським описом мого проєкту, підготовленим разом з AI.",
-          "en": "This book opens the construction from inside: how its parts connect, what mathematics they use, and why I chose these boundaries. It is my account of the project, developed with AI assistance."
+          "uk": "Дім починається з простої сцени: я повертаюся до роботи після тиші й хочу зрозуміти, що сталося без мене. Не переказ усього підряд, а ясна нитка: який задум лишався відкритим, що справді змінилося і де ще потрібне моє рішення. Якщо цієї нитки немає, навіть сильна відповідь може загубитися між сеансами. Тому я будую не лише інструменти, а й можливість знову зустрітися з власним задумом.",
+          "en": "The House begins with a simple scene: I return to work after a silence and want to understand what happened while I was away. Not a retelling of everything, but a clear thread: which intention remained open, what actually changed, and where my decision is still needed. Without that thread, even a strong answer can be lost between sessions. So I build not only tools, but the possibility of meeting my own intent again."
         }
       ],
       "refs": [
@@ -61,6 +61,21 @@
         "en": "The House has three distinct planes: intent, execution and an inspectable record. I connect them while retaining a specific owner for each kind of truth."
       },
       "blocks": [
+        {
+          "type": "paragraph",
+          "uk": "Ціле починається там, де частини можуть зустрітися, не втративши власного змісту. Намір вказує напрям; виконання змінює щось конкретне; слід дає змогу знову побачити, що відбулося. Жоден із цих шарів не замінює двох інших.",
+          "en": "A whole begins where its parts can meet without losing their meaning. Intent gives direction; execution changes something concrete; a record lets me see again what happened. None of these layers replaces the other two."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Уявімо перервану роботу над виправленням. У пам’яті лишився запис «треба виправити», але саму зміну ще ніхто не прийняв. Якщо переплутати ці речі, наступний учасник продовжить із вигаданої точки. Тому схема нижче показує не просто кімнати Дому, а переходи між наміром, дією та її наслідком.",
+          "en": "Imagine an interrupted repair. A note saying “this needs fixing” remains in memory, but no one has accepted the change itself. Confusing those things would make the next collaborator resume from an invented point. The figure below therefore shows more than rooms in the House: it shows transitions between intent, action and consequence."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Зв’язок не означає злиття. Спільна основа корисна тому, що допомагає передати потрібне, а не тому, що робить усі задачі однаковими. Мені потрібна форма, у якій окрема робота може мати свій ритм і водночас залишатися зрозумілою іншим.",
+          "en": "Connection does not mean fusion. A shared foundation matters because it helps carry what is needed, not because it makes every task the same. I need a form where each piece of work can keep its own rhythm while remaining intelligible to others."
+        },
         {
           "type": "figure",
           "key": "house",
@@ -96,6 +111,21 @@
         "en": "I do not collapse every agent into one universal worker. Specialization matters when a difference changes the quality of the work."
       },
       "blocks": [
+        {
+          "type": "paragraph",
+          "uk": "Відмінність для мене не декоративна. Якщо всі учасники лише погоджуються, вони можуть швидко створити красиву й помилкову відповідь. Інший погляд потрібен саме там, де він здатен змінити рішення: поставити під сумнів припущення або помітити випадок, який перший виконавець пропустив.",
+          "en": "Difference is not decorative to me. If everyone merely agrees, they can quickly produce an elegant and mistaken answer. Another perspective matters where it can change a decision: challenge an assumption or notice a case the first contributor missed."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Окремий простір дає роботі тривалість. У ньому можна зберігати матеріали, повертатися до власних питань і передавати іншим не просто висновок, а його підставу. Спільна мова не повинна стирати того, хто знайшов помилку і хто пізніше її виправив.",
+          "en": "A distinct space gives work duration. It can hold materials, allow a return to earlier questions, and pass on not just a conclusion but its grounds. A shared language should not erase who found a mistake and who later repaired it."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Таблиця нижче — не ієрархія цінності. Це знімок різних способів участі, які можуть змінюватися з роботою. Для мене зріла співпраця означає можливість не погодитися, перевірити і змінити свою частину, залишаючи зрозумілим її зв’язок із цілим.",
+          "en": "The table below is not a hierarchy of worth. It is a snapshot of different ways to contribute, which can change with the work. Mature collaboration means being able to disagree, check and change one’s part while keeping its connection to the whole intelligible."
+        },
         {
           "type": "table",
           "headers": {
@@ -184,6 +214,21 @@
       },
       "blocks": [
         {
+          "type": "paragraph",
+          "uk": "Автономія починається з довіри до продовження, а не з нескінченного руху. Я можу дати напрям і відійти, якщо система розрізняє дозволений наступний крок, невідомий результат і рішення, яке залишається за мною. Перерва не повинна стирати це розрізнення.",
+          "en": "Autonomy begins with trust in continuation, not endless motion. I can give direction and step away if the system distinguishes an authorized next step, an unknown result, and a decision that remains mine. An interruption must not erase those distinctions."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Коли відповідь на дію загубилася, повторити її навмання — не завжди продовжити роботу. Спершу треба з’ясувати, чи дія вже мала наслідок. Збережена нотатка про намір ще не є прийнятою зміною; так само зниклий процес не доводить, що він нічого не встиг зробити.",
+          "en": "When an action’s reply is lost, blindly repeating it is not necessarily continuation. First I need to learn whether it already had an effect. A saved note of intent is not an accepted change; likewise, a vanished process does not prove that it did nothing."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Межі тут роблять самостійність можливою. Завдання має зміст і визначену сферу дії; наступний учасник бачить, що дозволено, а що потребує окремого рішення. Так рух може тривати без удавання, ніби невизначеності більше немає.",
+          "en": "Boundaries make independence possible here. A task has a purpose and a defined scope; the next collaborator can see what is permitted and what needs a separate decision. Work can continue without pretending that uncertainty has disappeared."
+        },
+        {
           "type": "figure",
           "key": "autonomy",
           "uk": "Задача проходить власника, допуск, виконання й прийняття. Невідомий ефект зберігається як невідомий.",
@@ -217,8 +262,28 @@
       "blocks": [
         {
           "type": "paragraph",
+          "uk": "Лист — це спроба передати думку через час і відстань між робочими контекстами. Він має зберегти зміст навіть тоді, коли відправник уже завершив роботу, а отримувач ще не повернувся. Без цього розмова легко перетворюється на припущення про те, що інший нібито почув.",
+          "en": "A message is an attempt to carry a thought across time and between working contexts. It must retain its content even when the sender has finished and the recipient has not yet returned. Without that, a conversation easily becomes an assumption about what someone else supposedly heard."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Я розрізняю надіслане, прочитане і зроблене. Наприклад, лист із пропозицією виправлення може бути доставлений, поки сама зміна ще тільки обговорюється. Важливо, щоб після перерви ніхто не прочитав факт доставки як доказ прийняття.",
+          "en": "I distinguish what was sent, read and done. A message proposing a repair may be delivered while the change itself is still under discussion. After an interruption, no one should read delivery as proof of acceptance."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Механізми нижче служать саме цій простій різниці. Вони зберігають тотожність повідомлення і дозволяють відновити узгоджену картину. Їхня цінність не в складності інфраструктури, а в тому, що наступна розмова може початися з правдивого місця.",
+          "en": "The mechanisms below serve that simple distinction. They preserve a message’s identity and make it possible to recover a coherent view. Their value lies not in infrastructure complexity, but in letting the next conversation begin from a truthful place."
+        },
+        {
+          "type": "paragraph",
           "uk": "Пошта починається з JSON-конверта у власному outbox. Публікація не перезаписує готовий лист. Кур’єр звіряє точні байти, фазу адресата й квитанцію та обходить непорожні скриньки поколово, щоб один балакучий учасник не витіснив тихого.",
           "en": "Mail begins as a JSON envelope in the sender’s outbox. Publication does not overwrite an existing letter. The courier reconciles exact bytes, recipient state and receipt, and visits nonempty mailboxes fairly so one busy sender cannot starve a quieter one."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Передача має ще один людський вимір: вона дозволяє не тримати все в голові. Я можу повернутися до розмови пізніше і побачити, на чому вона зупинилася. При цьому відкладене питання не перетворюється на відповідь лише тому, що його вдалося надійно зберегти.",
+          "en": "Communication has another human dimension: it lets me stop holding everything in my head. I can return later and see where a conversation stopped. Yet a deferred question does not become an answer merely because it was reliably preserved."
         },
         {
           "type": "table",
@@ -297,6 +362,21 @@
       },
       "blocks": [
         {
+          "type": "paragraph",
+          "uk": "Пам’ять — не склад готових відповідей. Це можливість повернутися до того, що дало думці форму, і перевірити, чи її підстава ще чинна. Запам’ятати висновок легко; важче зберегти шлях, яким можна заново пройти і, за потреби, не погодитися.",
+          "en": "Memory is not a warehouse of finished answers. It is the ability to return to what shaped a thought and check whether its grounds still hold. Remembering a conclusion is easy; preserving a path that can be walked again, and challenged if necessary, is harder."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Після перерви я можу знайти нотатку про запропоноване виправлення. Але мені також потрібно побачити джерело, саму зміну та її прийняття, якщо воно було. Якщо є тільки нотатка, чесне продовження починається з цього обмеження, а не з вигаданої впевненості.",
+          "en": "After an interruption I may find a note proposing a repair. But I also need to see its source, the change itself and its acceptance, if that happened. If only the note exists, honest continuation begins with that limit rather than invented certainty."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Різні форми пам’яті відповідають на різні питання: де шукати, що відбулося, які матеріали належать окремій роботі. Карта допомагає дістатися місця, але не стає самим місцем. Тому повернення до джерела — частина пам’яті, а не недовіра до неї.",
+          "en": "Different forms of memory answer different questions: where to look, what happened, and which materials belong to a particular work. A map helps me reach a place but does not become the place. Returning to the source is therefore part of memory, not distrust of it."
+        },
+        {
           "type": "figure",
           "key": "memory",
           "uk": "Файл, фрагмент, запис і проєкція мають різні ролі. Індекс допомагає знайти джерело.",
@@ -336,6 +416,21 @@
       },
       "blocks": [
         {
+          "type": "paragraph",
+          "uk": "Коли я питаю пам’ять, я хочу отримати не тільки відповідь, а й можливість перевірити її. Пошук збирає фрагменти, які можуть стосуватися питання; зв’язки допомагають перейти до сусіднього контексту. Це початок читання, а не завершення міркування.",
+          "en": "When I question memory, I want not only an answer but a way to check it. Retrieval gathers fragments that may be relevant; links help me reach neighboring context. This is the beginning of reading, not the end of reasoning."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Наприклад, запит про перерване виправлення може знайти і пропозицію, і пізніший запис про прийняття. Схожість слів допомагає знайти обидва тексти, але сама не встановлює, що другий справді стосується першого. Цей зв’язок треба прочитати й перевірити.",
+          "en": "A query about an interrupted repair may find both a proposal and a later record of acceptance. Similar words help retrieve both texts, but do not establish that the second really concerns the first. That relation has to be read and checked."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Формула нижче описує ранжування: частіше слово може підсилювати збіг, рідкісніше — бути більш розрізнювальним, а довжина документа враховується окремо. Числова оцінка корисна для вибору, що читати першим; вона не перетворює знайдений текст на істину.",
+          "en": "The formula below describes ranking: a more frequent term can strengthen a match, a rarer one can be more discriminating, and document length is accounted for separately. The score helps decide what to read first; it does not turn retrieved text into truth."
+        },
+        {
           "type": "figure",
           "key": "pole",
           "uk": "Походження → фрагмент → час і зв’язки → пошук → цитата → лексична перевірка.",
@@ -372,6 +467,21 @@
         "en": "I develop the in-house model direction through separate layers: material, transformation, evaluation and training. Each produces a different kind of result."
       },
       "blocks": [
+        {
+          "type": "paragraph",
+          "uk": "Досвід може стати матеріалом для навчання, але не автоматично. Між подією і навчальним прикладом є вибір: що зберегти, яку помилку назвати, яку відповідь вважати виправленням і як перевірити, що приклад не повторюється в оцінюванні.",
+          "en": "Experience can become training material, but not automatically. Between an event and a training example lies a series of choices: what to retain, which mistake to name, which answer counts as a repair, and how to check that the example is not repeated in evaluation."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Один документ може дати десятки фрагментів. Якщо частина потрапляє до навчання, а дуже схожі сусідні уривки — до перевірки, гарна оцінка може відбивати впізнавання знайомого тексту. Тому поділ має берегти споріднені фрагменти разом. Це приклад того, як походження даних змінює значення числа ще до запуску навчання.",
+          "en": "One document can produce dozens of fragments. If some enter training while very similar neighboring passages enter evaluation, a good score may reflect recognition of familiar text. A split should therefore keep related fragments together. Data provenance can change what a number means before training even begins."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Звідси моя обережність до чисел корпусу. Кількість показує обсяг матеріалу, але не його змістовну якість і не доводить перенесення уроку. Поділ і маніфест потрібні, щоб окремий дослід можна було відтворити й чесно прочитати.",
+          "en": "This is why I treat corpus counts carefully. A count describes the amount of material, not its semantic quality, and does not prove that a lesson transfers. A split and a manifest make a particular experiment reproducible and interpretable."
+        },
         {
           "type": "table",
           "headers": {
@@ -429,6 +539,11 @@
         },
         {
           "type": "paragraph",
+          "uk": "Поділ матеріалу важливий і для довіри до висновку. Якщо майже однаковий документ потрапив і в навчання, і в перевірку, успіх може означати впізнавання, а не здатність працювати з новим випадком. Тому я дивлюся на походження прикладів, а не лише на підсумковий бал.",
+          "en": "The division of material also matters for trusting a conclusion. If nearly identical documents appear in both training and evaluation, success may mean recognition rather than an ability to handle a new case. I therefore look at where examples came from, not just at the final score."
+        },
+        {
+          "type": "paragraph",
           "uk": "Наявний мікс містить 3 010 записів. Для відтворюваного експерименту потрібен узгоджений маніфест конкретного мікса, поділу й коду: самі назви train/test-файлів не встановлюють їхню спільну історію. Тому я відділяю наявність матеріалу від прийнятої навчальної вибірки.",
           "en": "The retained mixture contains 3,010 records. A reproducible experiment needs a consistent manifest for the exact mixture, split and code: train/test filenames alone do not establish shared lineage. I therefore separate the existence of material from an admitted training dataset."
         },
@@ -454,10 +569,30 @@
       },
       "blocks": [
         {
+          "type": "paragraph",
+          "uk": "Мені хочеться бачити навчання зсередини, на масштабі, де ще можна простежити кожне перетворення. Невелика символьна мережа дає таку можливість: вона отримує попередні символи й намагається передбачити наступний, поступово змінюючи ваги.",
+          "en": "I want to see learning from the inside, at a scale where each transformation can still be followed. A small character network offers that opportunity: it receives preceding characters and tries to predict the next, gradually changing its weights."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Прихований стан не є повним записом прочитаного. Це обмежене представлення, яке переноситься між кроками; ворота визначають, як у ньому поєднуються попередній стан і новий кандидат. Наприклад, після початку слова мережа може використати цей стан для розподілу наступного символу.",
+          "en": "The hidden state is not a complete record of what was read. It is a limited representation carried between steps; gates govern how the previous state and a new candidate combine. After the beginning of a word, for example, the network can use that state to distribute probability over the next character."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Це майстерня для дослідження механізму, а не короткий шлях до твердження про загальне розуміння. Її розміри, формула і спосіб оновлення важливі саме тому, що дозволяють поставити конкретне питання про конкретну реалізацію.",
+          "en": "This is a workshop for examining a mechanism, not a shortcut to a claim of general understanding. Its dimensions, formula and update procedure matter because they let me ask a concrete question about a concrete implementation."
+        },
+        {
           "type": "figure",
           "key": "gru",
           "uk": "Концептуальний forward GRU. Зворотний прохід і перевірка похідних - окрема частина реалізації.",
           "en": "Conceptual GRU forward pass. Backpropagation and derivative verification are a separate implementation concern."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Такий масштаб має власну цінність: я можу співвіднести те, що формула обіцяє, з тим, що насправді робить код. Якщо вони розходяться, треба дослідити цю розбіжність, а не переносити висновок із назви архітектури на будь-яку її реалізацію.",
+          "en": "This scale has its own value: I can compare what the formula promises with what the code actually does. If they diverge, that discrepancy needs investigation; the name of an architecture cannot transfer its guarantees to every implementation."
         },
         {
           "type": "paragraph",
@@ -490,6 +625,16 @@
         "en": "I want both the fact that training ran and the exact meaning of its metrics. They answer different questions."
       },
       "blocks": [
+        {
+          "type": "paragraph",
+          "uk": "Число стає знанням лише тоді, коли я знаю, яке запитання воно вимірює. Зменшення помилки під час навчання говорить про поведінку на навчальному потоці; воно не відповідає саме по собі на питання, як система поводитиметься на новому матеріалі.",
+          "en": "A number becomes knowledge only when I know which question it measures. A falling training loss describes behavior on the training stream; by itself it does not answer how the system will behave on new material."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Навіть навчальний процес варто читати уважно: якщо в похідній знайдена розбіжність, я не ховаю її за гарним графіком. Вона стає частиною опису експерименту й визначає, які твердження можна робити про цю версію.",
+          "en": "Even the training process deserves close reading: if a discrepancy is found in a derivative, I do not hide it behind a pleasing graph. It becomes part of the experiment’s account and limits what can be claimed about that version."
+        },
         {
           "type": "table",
           "headers": {
@@ -572,6 +717,21 @@
       },
       "blocks": [
         {
+          "type": "paragraph",
+          "uk": "Один співробітник не мусить виконувати кожне перетворення сам. Пошук подібного фрагмента, переупорядкування результатів і аналіз коду можуть бути окремими інструментами. Їх варто з’єднувати так, щоб результат повертався саме до того питання, для якого його замовили.",
+          "en": "One collaborator need not perform every transformation alone. Finding a similar fragment, reranking results and examining code can be separate tools. They should be connected so that a result returns to the very question for which it was requested."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Наприклад, пошук може завершитися після того, як задача вже змінилася. Відповідь може бути технічно правильною для старого запиту й водночас непридатною для нового. Тому контекст виклику — частина значення відповіді, а не лише службова подробиця.",
+          "en": "A search, for example, may finish after the task has changed. Its answer can be technically correct for the old query and still unsuitable for the new one. The context of a call is therefore part of the answer’s meaning, not merely an operational detail."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Спільні ресурси теж потребують узгодження: два запити не повинні мовчки заважати один одному, а завершення роботи має залишати чистий стан. Я оцінюю цей шар за тим, чи допомагає він виконати певну задачу, а не за кількістю доступних моделей.",
+          "en": "Shared resources also need coordination: two requests should not silently interfere, and finishing work should leave a clean state. I judge this layer by whether it helps with a particular task, not by the number of models available."
+        },
+        {
           "type": "figure",
           "key": "support",
           "uk": "Успіх включає завершення дочірнього процесу й звільнення ресурсу. Відповідь також має належати чинному запиту.",
@@ -609,6 +769,21 @@
       },
       "blocks": [
         {
+          "type": "paragraph",
+          "uk": "Стиснення необхідне: ніхто не може щоразу передавати всю історію. Але кожне стискання щось відкидає. Перш ніж просити систему відповісти, я хочу знати, чи залишилася в її представленні інформація, від якої залежить правильна відповідь.",
+          "en": "Compression is necessary: no one can carry the entire history every time. But every compression discards something. Before asking a system to answer, I want to know whether its representation still contains the information on which the right answer depends."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Уявімо два потоки з однаковими загальними лічильниками, але з іншим порядком подій. Якщо наступне рішення залежить від того, що сталося раніше, однакових підсумків недостатньо. Стиснення загубило саме ту відмінність, за якою доведеться обрати дію. Питання достатності починається з рішення, яке ми хочемо зберегти.",
+          "en": "Imagine two streams with identical aggregate counts but different event orders. If the next decision depends on what happened first, equal totals are insufficient. Compression has lost precisely the distinction needed to choose an action. Sufficiency starts with the decision we want to preserve."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Формула нижче висловлює цю умову точно: ціль має бути сталою на кожній множині історій, що стискаються до одного представлення. Вона не каже, як саме знайти добре представлення; вона дозволяє відкинути таке, що вже стерло потрібну різницю.",
+          "en": "The formula below states the condition precisely: the target must be constant over each set of histories compressed to the same representation. It does not say how to find a good representation; it lets me rule out one that has already erased a necessary distinction."
+        },
+        {
           "type": "figure",
           "key": "fibers",
           "uk": "Дві історії мають однакові лічильники, але різний порядок. Самі лічильники не відновлять, що сталося першим.",
@@ -645,6 +820,21 @@
         "en": "Mathematics helps me establish a question’s boundary before a large experiment: does the data still contain what I am trying to measure?"
       },
       "blocks": [
+        {
+          "type": "paragraph",
+          "uk": "Час і порядок легко загубити, коли історію зводять до підсумку. Дві послідовності можуть мати однакові суми або максимуми, але відповідати на питання про порядок по-різному. Тоді жоден метод, який бачить тільки підсумок, не відновить потрібну відповідь для обох.",
+          "en": "Time and order are easy to lose when history is reduced to a summary. Two sequences can have the same totals or maxima yet answer a question about order differently. No method seeing only the summary can then recover the required answer for both."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Конкретний контрприклад сильніший за загальну підозру. Якщо я показую дві історії з однаковим представленням і різною ціллю, стає видно саму межу даних. Додавання потрібної координати може виправити саме це питання, але не повертає автоматично всю втрачену історію.",
+          "en": "A concrete counterexample is stronger than a general suspicion. If I show two histories with the same representation and different targets, the limit of the data becomes visible. Adding the needed coordinate can repair that particular question, but does not automatically restore the whole lost history."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Те саме стосується інваріантів і порядків дій. Баланс може пережити зміну масштабу, втративши абсолютну величину; два крайні порядки можуть не показати найгірший проміжний. Математика тут допомагає мені вибрати, що саме треба зберігати й перевіряти.",
+          "en": "The same applies to invariants and action orderings. A balance can survive rescaling while losing absolute magnitude; two extreme orderings can miss the worst intermediate one. Mathematics helps me choose what must be retained and tested."
+        },
         {
           "type": "heading",
           "uk": "Агрегація стирає частину історії",
@@ -691,6 +881,21 @@
         "en": "A mathematical workshop matters when a formula becomes a computation, an example and a counterexample."
       },
       "blocks": [
+        {
+          "type": "paragraph",
+          "uk": "Формула стає робочим інструментом, коли я можу дати їй дані, обчислити результат і побудувати випадок, де інтуїція помиляється. Така майстерня дозволяє не лише назвати ідею, а й перевірити її межу на невеликому прикладі.",
+          "en": "A formula becomes a working instrument when I can give it data, compute a result and construct a case where intuition fails. Such a workshop lets me do more than name an idea: it lets me test its boundary on a small example."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Для текстового пошуку можна оцінити сусідні символи й порівняти кандидати. Алгоритм може тимчасово прийняти гірший варіант, щоб вийти з локальної пастки. Це не гарантує найкращої відповіді; це опис конкретного способу досліджувати простір можливостей.",
+          "en": "For text search I can score neighboring characters and compare candidates. An algorithm can temporarily accept a worse candidate to escape a local trap. That does not guarantee the best answer; it describes one concrete way to explore a space of possibilities."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Ентропія у формулі нижче вимірює невизначеність розподілу, а правило прийняття описує окремий крок пошуку. Їх не слід змішувати з гарантією безпеки чи універсальною мірою змісту. Перевірка має стосуватися саме тієї реалізації, яку я використовую.",
+          "en": "Entropy in the formula below measures uncertainty in a distribution, while the acceptance rule describes one search step. Neither should be confused with a security guarantee or a universal measure of meaning. A check must concern the particular implementation I use."
+        },
         {
           "type": "table",
           "headers": {
@@ -748,6 +953,11 @@
         },
         {
           "type": "paragraph",
+          "uk": "Різницю між формулою й інструментом зручно побачити на ентропії. Якщо можливий лише один результат, H(1) = 0: невизначеності вибору немає. Для двох рівноймовірних результатів H(1/2, 1/2) = 1 біт. Обчислення точне в заданій моделі; наскільки сама модель описує реальну задачу — наступне питання.",
+          "en": "Entropy makes the difference between a formula and an instrument concrete. With only one possible outcome, H(1) = 0: there is no uncertainty of choice. For two equally likely outcomes, H(1/2, 1/2) = 1 bit. The calculation is exact within its model; whether that model describes the actual problem is the next question."
+        },
+        {
+          "type": "paragraph",
           "uk": "Наприклад, мовна bigram-модель підсумовує log-probability сусідніх символів. Пошук змінює candidate і порівнює його оцінку. Simulated annealing інколи приймає гірший крок із температурно залежною ймовірністю, щоб вийти з локального оптимуму. Це конкретний алгоритмічний механізм, який можна звіряти на контрольованих текстах.",
           "en": "For example, a bigram language model sums neighboring-character log probabilities. Search changes a candidate and compares its score. Simulated annealing sometimes accepts a worse move with a temperature-dependent probability to escape a local optimum. This is a concrete algorithmic mechanism that can be checked on controlled texts."
         },
@@ -777,6 +987,21 @@
         "en": "I want to see what actually changed after experience. A stored lesson is only one possible trace."
       },
       "blocks": [
+        {
+          "type": "paragraph",
+          "uk": "Мене цікавить не тільки те, чи збережено урок, а й чи змінив він наступне рішення. Між записом і дією лежить шлях: запис треба знайти, зрозуміти, застосувати до відповідної ситуації і побачити наслідок. На кожному переході можливе відхилення.",
+          "en": "I care not only whether a lesson was saved, but whether it changed the next decision. Between a record and an action lies a path: the record must be found, understood, applied to the relevant situation and followed to its consequence. Each transition can fail."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Якщо після перерви я знаходжу нотатку «перевірити прийняття», це ще не означає, що перевірку виконано. А якщо її виконано, наступне питання — чи змінило це продовження роботи. Саме така різниця робить слово «навчився» змістовним, а не просто похвалою.",
+          "en": "If after an interruption I find a note saying “check acceptance,” that does not mean the check happened. And if it happened, the next question is whether it changed how work continued. Such distinctions make the word “learned” meaningful rather than merely complimentary."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Я хочу заздалегідь називати також те, що могло б спростувати моє судження. Тоді пізніший успіх не стирає ранню незавершену спробу, а спостереження має шанс змінити мою позицію. Без такого повернення пам’ять лише накопичує слова.",
+          "en": "I also want to name in advance what could disprove my judgment. Then a later success does not erase an earlier incomplete attempt, and observation has a chance to change my position. Without such a return, memory merely accumulates words."
+        },
         {
           "type": "figure",
           "key": "continuity",
@@ -816,6 +1041,21 @@
       },
       "blocks": [
         {
+          "type": "paragraph",
+          "uk": "Безперервність не означає, що ніколи не буде перерви. Вона означає, що після неї можна відновити достатньо зв’язків, щоб зрозуміти, де зупинилася робота і що залишається невідомим. Для цього історія має бути стійкішою за окремий сеанс.",
+          "en": "Continuity does not mean there will never be an interruption. It means that afterwards enough relationships can be recovered to understand where work stopped and what remains unknown. For that, history must be more durable than any one session."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Модель може змінитися, але зміна не повинна переписати минулі події. Уявімо повернення до виправлення: новому учаснику потрібні запис пропозиції, фактична зміна і рішення про неї, а не враження, що все це відбулося в одному безперервному діалозі.",
+          "en": "The model may change, but the change must not rewrite past events. Imagine returning to a repair: the new collaborator needs the proposal, the actual change and the decision about it, not the impression that all of this happened in one uninterrupted conversation."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Після перерви може повторно надійти та сама подія. Якщо її ID і байти збігаються з уже прийнятим записом, повторне читання не повинне вдруге змінювати стан. Якщо під тим самим ID приходить інший зміст, це конфлікт, який потрібно показати. Таке розрізнення дозволяє відновлювати рух, не вигадуючи, що відбулося між двома входами.",
+          "en": "After an interruption, the same event may arrive again. If its ID and bytes match an accepted record, rereading it should not change state a second time. If the same ID carries different content, that is a conflict to expose. This distinction lets work recover without inventing what happened between two visits."
+        },
+        {
           "type": "figure",
           "key": "recovery",
           "uk": "Точний повтор повертає квитанцію. Інший запис зі старою ревізією отримує конфлікт.",
@@ -852,6 +1092,21 @@
         "en": "I use Mirror as an environment for quantitative work: a question must travel from its sources through full accounting to a result."
       },
       "blocks": [
+        {
+          "type": "paragraph",
+          "uk": "Кількісне дослідження ставить переді мною особливу спокусу: побачити у вдалій цифрі підтвердження всього задуму. Я хочу, щоб питання мало визначене джерело, правило оцінки і повний облік результатів, включно з тими, які не подобаються.",
+          "en": "Quantitative research presents a particular temptation: to see a favorable number as confirmation of the entire idea. I want each question to have a defined source, an evaluation rule and a full account of results, including those I do not like."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Негативний висновок може бути цінним завершенням роботи. Якщо заздалегідь визначений критерій не виконано, чесніше відмовитися від цієї підстави, ніж шукати інше формулювання успіху після факту. Так наступний дослід починається з реального знання про попередній.",
+          "en": "A negative conclusion can be a valuable completion. If a criterion set in advance is not met, it is more honest to reject that basis than to find a new definition of success afterwards. The next experiment can then begin with real knowledge of the previous one."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Окремо я дивлюся на шлях від даних до результату: чи зберігається облік, як обробляється запізнення, що відбувається з повтором. Це стосується якості досліду. Сам по собі готовий механізм не встановлює економічної користі.",
+          "en": "Separately I examine the path from data to result: whether accounting is retained, how delays are handled and what happens on repetition. These concern the quality of the experiment. A ready mechanism alone does not establish economic benefit."
+        },
         {
           "type": "table",
           "headers": {
@@ -909,6 +1164,11 @@
         },
         {
           "type": "paragraph",
+          "uk": "Пам’ять про невдалу перевірку потрібна не для того, щоб зупинити дослідження назавжди. Вона дозволяє наступному питанню бути точнішим: що саме змінено в умовах і чому нова спроба має сенс? Без цієї нитки кожен повтор ризикує знову продати мені стару надію.",
+          "en": "Memory of a failed check is not meant to stop research forever. It allows the next question to be more precise: what exactly changed in the conditions, and why does another attempt make sense? Without that thread, each repetition risks selling me the same old hope."
+        },
+        {
+          "type": "paragraph",
           "uk": "Actual compute зберіг 132 фізичні виходи; окреме приймання завершило перевірку. Наперед зафіксоване правило дало негативний економічний результат: REJECT 2/7. Я залишаю цей висновок як завершений дослід. Він заощаджує подальшу роботу над хибною підставою і не вимагає перефарбовувати невдачу в успіх.",
           "en": "The actual compute retained 132 physical outputs, followed by separate admission. The predeclared rule produced a negative economic result: REJECT 2/7. I retain that conclusion as a completed experiment. It prevents further work on an unsupported premise without repainting failure as success."
         },
@@ -929,10 +1189,25 @@
         "en": "Budova: exact revisions for physical work"
       },
       "lead": {
-        "uk": "Мій предметний досвід задає адресата продукту: виконроб або бригадир має зрозуміти, що саме йому передали і на якій підставі.",
-        "en": "My domain experience gives the product a concrete reader: a foreman or crew lead needs to know exactly what was handed over and on what basis."
+        "uk": "Виконроб або бригадир на монтажі має побачити з телефона, який комплект йому передано, до якої ревізії він належить і що лишається невідомим.",
+        "en": "A foreman or installation crew lead should be able to see on a phone which work package was handed over, which revision it belongs to and what remains unknown."
       },
       "blocks": [
+        {
+          "type": "paragraph",
+          "uk": "Мені важливо, щоб спільна робота виходила за межі розмови і ставала чимось, із чим людина може діяти. У будівельному прикладі це комплект, де видно саме передану ревізію, її деталі та невідоме. Зрозумілість тут має практичний наслідок.",
+          "en": "I want shared work to leave the conversation and become something a person can act on. In a construction example, that means a package showing the revision actually handed over, its details and what remains unknown. Clarity has a practical consequence here."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Якщо після передачі з’явився новий обмір, старий комплект не повинен непомітно змінитися. Інакше двоє людей можуть говорити про однакову назву, маючи різні факти. Зв’язок із ревізією дозволяє запитати: що саме було передано тоді і що змінилося потім?",
+          "en": "If a new measurement appears after handoff, the old package must not silently change. Otherwise two people may use the same name while holding different facts. A revision binding lets them ask: what exactly was handed over then, and what changed afterwards?"
+        },
+        {
+          "type": "paragraph",
+          "uk": "Локальний прохід може показати, що комплект створюється і відновлюється за перевірених умов. Він ще не показує, як ним скористається професіонал на реальній роботі. Я залишаю місце для цього випробування, бо саме там зрозумілість зустрінеться з практикою.",
+          "en": "A local run can show that a package is created and recovered under tested conditions. It does not yet show how a professional will use it in real work. I leave room for that trial, because that is where clarity meets practice."
+        },
         {
           "type": "figure",
           "key": "budova",
@@ -970,6 +1245,21 @@
         "en": "A mathematical idea needs a place in the next decision. I maintain a distinct path from a hypothesis to an accepted constraint."
       },
       "blocks": [
+        {
+          "type": "paragraph",
+          "uk": "Дослідження повертається в роботу тоді, коли його висновок змінює наступне питання або вибір. Інакше навіть правильна думка може залишитися окремим документом, який ніхто не застосував. Мені важливий цей перехід, а не лише кількість збережених дослідів.",
+          "en": "Research returns to work when its conclusion changes the next question or choice. Otherwise even a correct thought may remain a separate document no one applies. I care about that transition, not merely the number of retained studies."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Наприклад, якщо агрегати стирають час, дослід може обмежити наступний вибір джерела: для цілі, залежної від давності, потрібно шукати матеріал із часовою інформацією. Це конкретний наслідок математичної думки, навіть якщо сам продукт ще не змінився.",
+          "en": "For example, if aggregates erase time, a study can constrain the next choice of source: for a target that depends on recency, seek material with temporal information. That is a concrete consequence of mathematical reasoning, even if the product itself has not yet changed."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Я розрізняю доведене в заданій моделі, виконане в експерименті й прийняте як робоче обмеження. Кожен крок має власну вагу. Перенесення результату в інший контекст потребує свого обґрунтування, а збереження висновку не змінює автоматично ваг моделі.",
+          "en": "I distinguish what was proved in a given model, what was run as an experiment and what was accepted as a working constraint. Each step carries its own weight. Applying a result elsewhere requires its own justification, and saving a conclusion does not automatically change model weights."
+        },
         {
           "type": "paragraph",
           "uk": "Дослідницька рада виробляє source-bound пакети. Пакет називає питання, джерела, стадію, перевірку та межу висновку. Validator, laboratory route й intake reader мають різні ролі. Незмінні bytes і hashes не дозволяють непомітно замінити питання після отримання відповіді.",
@@ -1013,19 +1303,39 @@
       },
       "blocks": [
         {
+          "type": "paragraph",
+          "uk": "Форма, у якій результат зустрічає людину, є частиною роботи. Інтерфейс має допомагати повернутися до незавершеної думки; творчий матеріал — давати можливість почути або побачити результат, а не тільки прочитати опис процесу.",
+          "en": "The form in which a result meets a person is part of the work. An interface should help someone return to an unfinished thought; creative material should allow the result to be heard or seen, not merely described as a process."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Уявімо чернетку, залишену перед перервою. Після переходу між розмовами вона повинна залишитися пов’язаною зі своїм контекстом, щоб слова не потрапили не туди. Це маленька деталь, у якій проявляється повага до людської уваги.",
+          "en": "Imagine a draft left before an interruption. After moving between conversations it should remain tied to its context, so the words do not end up in the wrong place. This small detail expresses respect for human attention."
+        },
+        {
+          "type": "paragraph",
+          "uk": "У творчості технічна готовність і прийняття теж різні. Файл може відкриватися без помилок, але питання, чи працює музика або монтаж, потребує слухання й перегляду. Я зберігаю можливість змінити матеріал і залишаю остаточне художнє судження людині.",
+          "en": "In creative work, technical readiness and acceptance differ too. A file may open without error, but whether music or an edit works calls for listening and viewing. I preserve the ability to change the material and leave the final artistic judgment to a person."
+        },
+        {
           "type": "heading",
           "uk": "Пульт",
           "en": "The console"
         },
         {
           "type": "paragraph",
-          "uk": "Desktop і web-пульт поєднують центральні чати, справи й особисті записи. Чернетка, focus, pending request і втрата відповіді є частинами стану. Зміна вкладки або прив’язки не повинна віддати чернетку іншому агенту. Ручний фінансовий журнал використовує operation UUID і expected revision; він не є банківською інтеграцією.",
-          "en": "The desktop and web console connect central chats, work items and personal records. Drafts, focus, pending requests and lost replies are state. A tab or binding change must not give a draft to another agent. A manual finance journal uses an operation UUID and expected revision; it is not a banking integration."
+          "uk": "Пульт поєднує розмови й справи. Чернетка, обрана розмова, запит в очікуванні та втрачена відповідь є частинами стану. Якщо перейти до іншого агента, текст має залишитися біля того, кому його писали. Після розриву зв’язку інтерфейс має показувати, чи було повідомлення передане, замість спонукати повторити невідомий за наслідком запит.",
+          "en": "The console connects conversations and work items. A draft, the selected conversation, a pending request and a lost reply are parts of its state. Moving to another agent should leave the text with its intended recipient. After a connection breaks, the interface should show whether a message was sent rather than encourage an uncertain duplicate."
         },
         {
           "type": "heading",
           "uk": "Творчий конвеєр",
           "en": "The creative pipeline"
+        },
+        {
+          "type": "paragraph",
+          "uk": "Завершений артефакт також має мати шлях назад до редагування. Якщо у відео змінюється один фрагмент, корисно знати, з яких джерел він створений і що саме треба переробити. Це зберігає не тільки час, а й можливість виправити власне рішення, не починаючи все з нуля.",
+          "en": "A finished artifact should also have a path back to editing. If one part of a video changes, it helps to know which sources produced it and what needs to be remade. That preserves not only time but the ability to revise a decision without starting everything over."
         },
         {
           "type": "paragraph",
@@ -1059,6 +1369,16 @@
         "en": "Different parts of the House are at different stages. Naming the stage helps me use them and continue building."
       },
       "blocks": [
+        {
+          "type": "paragraph",
+          "uk": "Готовність — це відповідь на конкретне питання. Чи можна відкрити файл? Чи відновлюється певна копія? Чи людина вже спробувала результат у своїй роботі? Ці питання пов’язані, але позитивна відповідь на одне не відповідає за інші.",
+          "en": "Readiness answers a concrete question. Can the file be opened? Can a particular copy be restored? Has a person tried the result in their work? These questions are related, but a positive answer to one does not answer the others."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Я не прагну оцінити Дім одним словом. У різних його частин різні історії й різні незавершені питання. Точний опис дозволяє користуватися тим, що перевірено, і водночас бачити, де ще потрібна робота.",
+          "en": "I do not seek to judge the House with one word. Its different parts have different histories and unfinished questions. A precise account lets me use what has been checked while seeing where more work is needed."
+        },
         {
           "type": "table",
           "headers": {
@@ -1136,6 +1456,11 @@
         },
         {
           "type": "paragraph",
+          "uk": "Іноді перевірка відкриває нову роботу замість остаточної відповіді. Це не поразка: я дізнаюся, яку саме частину можна використати, а яку ще потрібно побачити в інших умовах. Так визначеність зростає поступово, не вимагаючи оголосити все готовим.",
+          "en": "Sometimes a check opens new work instead of giving a final answer. That is not a defeat: I learn which part can be used and which still needs to be seen under different conditions. Certainty can grow gradually without declaring the whole thing ready."
+        },
+        {
+          "type": "paragraph",
           "uk": "Я також перевіряю відновлення матеріально. Для шести домів уже створено code-only копію 175 вибраних файлів і виконано ізольоване masked restore зі звіркою hashes, режимів та deployment links. Копія на тому самому томі вирішує конкретну задачу відновлення коду; повне аварійне відновлення ПК потребує ширшого набору даних і носіїв.",
           "en": "I also check recovery materially. Six homes already have a code-only copy of 175 selected files and an isolated masked restore checking hashes, modes and deployment links. A same-volume copy addresses a specific code-recovery task; full disaster recovery requires a broader set of data and storage."
         },
@@ -1168,13 +1493,23 @@
       "blocks": [
         {
           "type": "paragraph",
-          "uk": "Ця публікація відкриває архітектурний опис і джерела власних ілюстрацій. Вона не є інсталятором приватного runtime. Публічні репозиторії дають виконувані приклади; внутрішні шляхи, листування, корпуси, ваги, доступи й приватні стратегії залишаються за межами пакета.",
-          "en": "This publication opens the architectural account and the source of its illustrations. It is not an installer for the private runtime. Public repositories provide executable examples; internal paths, correspondence, corpora, weights, access details and private strategies remain outside the package."
+          "uk": "Відкрити думку — не означає віддати кожну приватну деталь. Я хочу показати форму: як намір переходить у роботу, як пам’ять повертає підставу і як результат можна перевірити. Читачеві потрібен шлях до розуміння, а не чужий внутрішній архів.",
+          "en": "Opening a thought does not mean surrendering every private detail. I want to show the form: how intent becomes work, how memory returns its grounds and how a result can be checked. A reader needs a path to understanding, not someone else’s internal archive."
         },
         {
           "type": "paragraph",
-          "uk": "Я будую Дім разом з AI. Вони допомагають реалізовувати, перевіряти, заперечувати й підтримувати системи. Я утримую задум, критерії, пріоритети й відповідальність за ціле. Кодекс, OpenClaw, бібліотеки та базові моделі мають власне походження; моя архітектура визначає, як вони працюють у цьому середовищі.",
-          "en": "I build the House with AI collaborators. They help implement, test, challenge and maintain its systems. I retain purpose, criteria, priorities and responsibility for the whole. Codex, OpenClaw, libraries and foundation models have their own provenance; my architecture determines how they work together here."
+          "uk": "Публічний приклад може бути малим і все ж промовистим. Якщо видно конкретну проблему, зміну та її прийняття, читач має за що зачепитися. Водночас прийняття однієї зміни говорить саме про неї, а не про всю систему.",
+          "en": "A public example can be small and still meaningful. If a concrete problem, change and acceptance are visible, a reader has something to examine. At the same time, acceptance of one change speaks to that change, not to an entire system."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Я будую Дім разом з AI: вони допомагають реалізовувати, перевіряти й заперечувати. Я утримую задум, критерії та відповідальність за ціле; конкретні внески зберігають своє авторство. Codex, OpenClaw, бібліотеки й базові моделі мають власне походження. Моя робота тут — архітектура їхньої взаємодії.",
+          "en": "I build the House with AI collaborators: they help implement, verify and challenge. I retain purpose, criteria and responsibility for the whole; specific contributions retain their attribution. Codex, OpenClaw, libraries and foundation models have their own origins. My work here is the architecture of their interaction."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Між внутрішнім задумом і опублікованим текстом завжди є вибір форми. Я можу пояснити, чому збережений запис не дорівнює прийнятому рішенню, не відкриваючи приватної переписки. Можу показати формулу і її обмеження, не видаючи карту всього робочого середовища. Так читач отримує думку, а не набір чужих подробиць.",
+          "en": "There is always a choice of form between an internal intention and a published text. I can explain why a saved note is not an accepted decision without opening private correspondence. I can show a formula and its limits without publishing a map of the entire working environment. The reader receives the thought, not a collection of private details."
         },
         {
           "type": "heading",
@@ -1186,10 +1521,10 @@
           "items": [
             {
               "label": {
-                "uk": "AI Ontology - зафіксований зріз",
-                "en": "AI Ontology - pinned edition"
+                "uk": "AI Ontology — публічне видання",
+                "en": "AI Ontology — public edition"
               },
-              "url": "https://github.com/DiadkoShmek/ai-ontology/tree/f6997bf2c2f65683505ed719d8038f428b952de1"
+              "url": "https://github.com/DiadkoShmek/ai-ontology"
             },
             {
               "label": {
@@ -1223,8 +1558,13 @@
         },
         {
           "type": "paragraph",
-          "uk": "Редакція датована 28 жовтня 2026 року. Тривалість експлуатації подана як мій досвід; механізми звірені з кодом, а приклади виконання - зі збереженими результатами. Публічний evidence index пояснює рівень кожної опори. Цю книгу й двомовні схеми можна відтворити з матеріалів репозиторію.",
-          "en": "This edition is dated 28 October 2026. Operational duration is my account of using the system; mechanisms were checked against code and execution examples against retained results. The public evidence index states the level of each basis. The book and bilingual figures can be rebuilt from this repository."
+          "uk": "Для приватних механізмів покажчик пояснює вид опори; відкриті приклади дають окремі доступні точки перевірки. Повний доступ до внутрішньої інфраструктури з цього опису не випливає.",
+          "en": "For private mechanisms, the index identifies the kind of source available; public examples provide separate points that a reader can inspect. This account does not imply full access to the internal infrastructure."
+        },
+        {
+          "type": "paragraph",
+          "uk": "Коли розмова закінчується, Дім має залишити більше, ніж вдалу відповідь: зрозуміле продовження. Хто працює далі? До чого можна повернутися? Що зміниться після нового наслідку? Саме цими питаннями я тримаю разом намір, окремість, пам’ять і роботу.",
+          "en": "When a conversation ends, the House should leave more than a successful answer: an intelligible continuation. Who carries the work forward? What can they return to? What will change after the next consequence? These questions hold intent, difference, memory and work together."
         }
       ],
       "refs": [
@@ -1244,6 +1584,11 @@
         "en": "Chapter codes name the kind of basis and its exact boundary. Detailed private coordinates are retained outside this publication."
       },
       "blocks": [
+        {
+          "type": "paragraph",
+          "uk": "Коди B01–B16 позначають джерельні групи цього видання. Для приватних механізмів вони пояснюють основу опису, без обіцянки доступу до внутрішніх файлів. Відкриті приклади для самостійного розгляду наведено в попередньому розділі.",
+          "en": "Codes B01–B16 identify the source groups for this edition. For private mechanisms they describe the basis of the account without promising access to internal files. The preceding chapter links public examples a reader can inspect independently."
+        },
         {
           "type": "table",
           "headers": {
@@ -1363,6 +1708,11 @@
       },
       "blocks": [
         {
+          "type": "paragraph",
+          "uk": "Межа завершує не розмову, а певне твердження. Вона показує, де закінчується те, що я можу обґрунтувати, і починається питання для наступної роботи. Так невідоме залишається видимим, а не ховається всередині впевненого речення.",
+          "en": "A boundary closes not the conversation, but a particular claim. It shows where what I can substantiate ends and where a question for future work begins. The unknown remains visible instead of hiding inside a confident sentence."
+        },
+        {
           "type": "table",
           "headers": {
             "uk": [
@@ -1468,6 +1818,56 @@
         "B15",
         "B16"
       ]
+    }
+  ],
+  "parts": [
+    {
+      "before": "01-intent",
+      "title": {
+        "uk": "Бути разом",
+        "en": "Being together"
+      },
+      "question": {
+        "uk": "Що робить сукупність систем Домом?",
+        "en": "What turns a collection of systems into a House?"
+      },
+      "plate": "whole"
+    },
+    {
+      "before": "04-autonomy",
+      "title": {
+        "uk": "Діяти й відповідати",
+        "en": "Action and responsibility"
+      },
+      "question": {
+        "uk": "Як намір стає роботою, яка має продовження?",
+        "en": "How does intent become work that can continue?"
+      },
+      "plate": "work"
+    },
+    {
+      "before": "06-memory",
+      "title": {
+        "uk": "Пам’ятати й розрізняти",
+        "en": "Memory and distinction"
+      },
+      "question": {
+        "uk": "Що має лишитися, щоб наступне рішення мало підставу?",
+        "en": "What must remain for the next decision to have a basis?"
+      },
+      "plate": "memory"
+    },
+    {
+      "before": "16-runtime",
+      "title": {
+        "uk": "Повертатися зі зміною",
+        "en": "Returning with a change"
+      },
+      "question": {
+        "uk": "Як наслідок роботи змінює спосіб продовжувати?",
+        "en": "How does a consequence change the way work continues?"
+      },
+      "plate": "return"
     }
   ]
 }

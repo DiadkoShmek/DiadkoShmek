@@ -19,14 +19,14 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
 WIDTH, HEIGHT = 1000, 550
-NAVY = HexColor('#101e2b')
-PANEL = HexColor('#192d3d')
-PANEL2 = HexColor('#203948')
-IVORY = HexColor('#f3eddf')
-MUTED = HexColor('#b2c5c9')
-TEAL = HexColor('#68c2ba')
-COPPER = HexColor('#d39b74')
-LINE = HexColor('#48616b')
+NAVY = HexColor('#F2EFE6')
+PANEL = HexColor('#FFFEFA')
+PANEL2 = HexColor('#E4E9E1')
+IVORY = HexColor('#283D38')
+MUTED = HexColor('#5F7169')
+TEAL = HexColor('#45685D')
+COPPER = HexColor('#AD7047')
+LINE = HexColor('#B1BAA8')
 FONT, BOLD = 'DejaVuSans', 'DejaVuSans-Bold'
 KEYS = ('house', 'autonomy', 'memory', 'pole', 'gru', 'support', 'fibers',
         'continuity', 'recovery', 'budova', 'section')

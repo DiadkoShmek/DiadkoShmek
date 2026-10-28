@@ -1,39 +1,26 @@
-# Дім · автономна AI-інженерія
+# Дім
 
-[English](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/README.en.md) · [Книга українською](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/uk/README.md) · [Book in English](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/en/README.md)
+**Людський намір · окремі AI-учасники · пам’ять · спільна робота**
 
-Я будую Дім: середовище тривалої автономної роботи зі спеціалізованими агентами, спільною пам’яттю, локальними моделями й математичними інструментами.
+[![Онтологія Дому](https://raw.githubusercontent.com/DiadkoShmek/DiadkoShmek/main/house/assets/front-uk.svg)](https://github.com/DiadkoShmek/DiadkoShmek/tree/main/house)
 
-Намір, архітектура й критерії прийняття поєднують роботу людини та AI-учасників.
+**[Читати «Онтологію Дому»](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/uk/README.md)** · [PDF українською](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/pdf/the-house-uk.pdf) · [English](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/README.en.md)
 
-[![Архітектурний розріз Дому](https://raw.githubusercontent.com/DiadkoShmek/DiadkoShmek/main/house/assets/diagrams/section-uk.svg)](https://github.com/DiadkoShmek/DiadkoShmek/tree/main/house)
+Я будую середовище тривалої роботи разом з AI-інструментами. Книга пояснює форму Дому: від наміру й відмінності учасників до пам’яті, математики, автономного кроку та повернення до наслідків.
 
-## Усередині Дому
+## Відкриті роботи
 
-**[Архітектура автономної роботи](https://github.com/DiadkoShmek/DiadkoShmek/tree/main/house)** — авторська двомовна книга: співпраця агентів, пам’ять Поля, власна GRU з навчанням, достатність стану, контрприклади, локальні спеціалісти, відновлення, Дзеркало й Будова.
+- **[AI Ontology](https://github.com/DiadkoShmek/ai-ontology)** — організація себе, continuity, пам’ять і перегляд суджень.
+- **[Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)** — виконувані приклади перевірки підстав. `python3 run_proof.py`.
+- **[Signal Desk](https://diadkoshmek.github.io/talent-research-workflow-prototype/?lang=uk&showcase=1)** — джерельне дослідження та людський розгляд.
+- **[STROIKA](https://diadkoshmek.github.io/mae7-viewer/)** — архітектурний 3D-переглядач. [Код](https://github.com/DiadkoShmek/mae7-viewer).
 
-[PDF · українська](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/pdf/the-house-uk.pdf) · [PDF · English](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/pdf/the-house-en.pdf)
+Ці приклади й прототипи мають власні межі; це не історії про впровадження в клієнтів.
 
-## Відкриті проєкти
+## Перевірювані внески
 
-- **[AI Ontology](https://github.com/DiadkoShmek/ai-ontology)** — книга, виконувана модель і досліди про агентну continuity, пам’ять та перегляд суджень.
-- **[Signal Desk](https://diadkoshmek.github.io/talent-research-workflow-prototype/?lang=uk&showcase=1)** — відкриті джерела й людський розгляд. [Код](https://github.com/DiadkoShmek/talent-research-workflow-prototype).
-- **[Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)** — перевірювані автоматизації. `python3 run_proof.py`.
-- **[STROIKA · 3D-переглядач](https://diadkoshmek.github.io/mae7-viewer/)** — будівля й фасадні шари. [Код](https://github.com/DiadkoShmek/mae7-viewer).
+**[FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged** — cleanup і DNS timeout. **[verifiers #2925](https://github.com/PrimeIntellect-ai/verifiers/pull/2925)** — відтворення для [#2973](https://github.com/PrimeIntellect-ai/verifiers/pull/2973); superseded, не злитий.
 
-Ці відкриті приклади й прототипи мають власні межі; це не історії про впровадження в клієнтів.
+[Інженерні розбори](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/ENGINEERING.md) · [Результати змагань](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.md)
 
-## Внески
-
-- **[FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged** — повтори cleanup і timeout під час DNS.
-- **[verifiers #2925](https://github.com/PrimeIntellect-ai/verifiers/pull/2925)** — відтворення проблеми, яке [допомогло супроводжувачам](https://github.com/PrimeIntellect-ai/verifiers/pull/2925#issuecomment-6385135636) підготувати [#2973](https://github.com/PrimeIntellect-ai/verifiers/pull/2973). Мій PR закритий як superseded, не злитий.
-
-## Змагання та розбори
-
-**Zoria 2026 · UA SKILLS — призер.** CodinGame · Mad Pod Racing — C++-бот; **86/1657 у Legend League**, зріз 21.10.2026.
-
-[Результати й джерела](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.md) · [Інженерні розбори](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/ENGINEERING.md)
-
-## Обговорення
-
-Питання щодо проєктів — через Issues у відповідному репозиторії.
+Питання щодо конкретної роботи — через Issues відповідного репозиторію.

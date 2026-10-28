@@ -2,6 +2,10 @@
 
 Different parts of the House are at different stages. Naming the stage helps me use them and continue building.
 
+Readiness answers a concrete question. Can the file be opened? Can a particular copy be restored? Has a person tried the result in their work? These questions are related, but a positive answer to one does not answer the others.
+
+I do not seek to judge the House with one word. Its different parts have different histories and unfinished questions. A precise account lets me use what has been checked while seeing where more work is needed.
+
 | Part | State in this edition |
 | --- | --- |
 | Agent environments and orchestration | Operating infrastructure with autonomous episodes and integrated cooperative repairs. |
@@ -10,6 +14,8 @@ Different parts of the House are at different stages. Naming the stage helps me 
 | Omnigen portable runtime | Implemented target with replay/contracts; current organs migrate individually after acceptance. |
 | Mirror | Completed paper experiments and a distinct engine/kernel direction; each pilot has its own state. |
 | Budova | Implemented local revisions, CAD/ZIP and fact returns; a professional user trial is still ahead. |
+
+Sometimes a check opens new work instead of giving a final answer. That is not a defeat: I learn which part can be used and which still needs to be seen under different conditions. Certainty can grow gradually without declaring the whole thing ready.
 
 I also check recovery materially. Six homes already have a code-only copy of 175 selected files and an isolated masked restore checking hashes, modes and deployment links. A same-volume copy addresses a specific code-recovery task; full disaster recovery requires a broader set of data and storage.
 

@@ -1,16 +1,25 @@
-# THE HOUSE
+# Ontology of the House
 
-Architecture for autonomous work
+Intent. Difference. Memory. Return.
 
 English · [PDF](../../pdf/the-house-en.pdf) · [Single-page edition](BOOK.md)
 
 ## Contents
 
+
+### Being together
+
 - 01. [What I am building](01-intent.md)
 - 02. [The shape of the whole](02-whole.md)
 - 03. [Distinct homes, shared foundations](03-homes.md)
+
+### Action and responsibility
+
 - 04. [From intent to autonomous work](04-autonomy.md)
 - 05. [Events, messages and receipts](05-events.md)
+
+### Memory and distinction
+
 - 06. [Memory with coordinates](06-memory.md)
 - 07. [Pole: retrieval with a source](07-pole-memory.md)
 - 08. [From experience to training data](08-data.md)
@@ -21,6 +30,9 @@ English · [PDF](../../pdf/the-house-en.pdf) · [Single-page edition](BOOK.md)
 - 13. [Order, invariants and counterexamples](13-order.md)
 - 14. [Shadow: mathematics as an instrument](14-shadow.md)
 - 15. [Revising a judgment and continuity](15-continuity.md)
+
+### Returning with a change
+
 - 16. [Runtime across interruption](16-runtime.md)
 - 17. [Mirror: an end-to-end experiment](17-mirror.md)
 - 18. [Budova: exact revisions for physical work](18-budova.md)

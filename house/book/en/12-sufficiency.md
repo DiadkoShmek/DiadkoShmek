@@ -2,6 +2,12 @@
 
 One central question in the House is how much history must survive for the next decision to be possible at all.
 
+Compression is necessary: no one can carry the entire history every time. But every compression discards something. Before asking a system to answer, I want to know whether its representation still contains the information on which the right answer depends.
+
+Imagine two streams with identical aggregate counts but different event orders. If the next decision depends on what happened first, equal totals are insufficient. Compression has lost precisely the distinction needed to choose an action. Sufficiency starts with the decision we want to preserve.
+
+The formula below states the condition precisely: the target must be constant over each set of histories compressed to the same representation. It does not say how to find a good representation; it lets me rule out one that has already erased a necessary distinction.
+
 ![Two histories have the same counts but different order. Counts alone cannot recover which event happened first.](../../assets/diagrams/fibers-en.svg)
 
 *Two histories have the same counts but different order. Counts alone cannot recover which event happened first.*

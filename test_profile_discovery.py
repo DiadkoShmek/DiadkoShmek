@@ -8,7 +8,6 @@ README = ROOT / "README.md"
 WORKFLOW = ROOT / ".github" / "workflows" / "profile-proof.yml"
 PROOF = "https://github.com/DiadkoShmek/evidence-gated-agent-workflows"
 SIGNAL_DESK = "https://diadkoshmek.github.io/talent-research-workflow-prototype/?lang=uk&showcase=1"
-CONTACT = "https://github.com/DiadkoShmek"
 
 
 class ProfileDiscoveryContractTest(unittest.TestCase):
@@ -16,9 +15,11 @@ class ProfileDiscoveryContractTest(unittest.TestCase):
         self.readme = README.read_text(encoding="utf-8")
         self.workflow = WORKFLOW.read_text(encoding="utf-8")
 
-    def test_profile_leads_to_real_work_and_human_contact(self):
-        for route in (PROOF, SIGNAL_DESK, CONTACT):
+    def test_profile_leads_to_real_work_without_personal_contact(self):
+        for route in (PROOF, SIGNAL_DESK):
             self.assertIn(route, self.readme)
+        self.assertNotIn("linkedin.com/in/", self.readme)
+        self.assertNotIn("mailto:", self.readme)
         self.assertIn("python3 run_proof.py", self.readme)
         self.assertIn("прототипи", self.readme)
         self.assertIn("не історії про впровадження в клієнтів", self.readme)

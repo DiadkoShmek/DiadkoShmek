@@ -2,6 +2,12 @@
 
 Mathematics helps me establish a question’s boundary before a large experiment: does the data still contain what I am trying to measure?
 
+Time and order are easy to lose when history is reduced to a summary. Two sequences can have the same totals or maxima yet answer a question about order differently. No method seeing only the summary can then recover the required answer for both.
+
+A concrete counterexample is stronger than a general suspicion. If I show two histories with the same representation and different targets, the limit of the data becomes visible. Adding the needed coordinate can repair that particular question, but does not automatically restore the whole lost history.
+
+The same applies to invariants and action orderings. A balance can survive rescaling while losing absolute magnitude; two extreme orderings can miss the worst intermediate one. Mathematics helps me choose what must be retained and tested.
+
 ## Aggregation removes part of the history
 
 In a finite check, different event streams produced the same time aggregates but differed in the order in which each stream first attained its own maximum. That is an explicit non-identifiability witness, not merely a weak classifier score. Adding the two first-attainment timestamps recovered that specific target. It did not automatically reconstruct the full history or every other target.
