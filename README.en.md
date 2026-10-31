@@ -17,10 +17,14 @@ I build an environment for sustained work with AI collaborators. The book explai
 
 These examples and prototypes have defined limits; they are not claims of client deployments.
 
-## Inspectable contributions
+## External results
 
-**[FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged** — cleanup and DNS timeout. **[verifiers #2925](https://github.com/PrimeIntellect-ai/verifiers/pull/2925)** — reproduction for [#2973](https://github.com/PrimeIntellect-ai/verifiers/pull/2973); superseded, not merged.
+- **[FilesDrop #32 · accepted fixes](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged** — retryable file cleanup and a deadline covering pending DNS.
+- **[Prime Intellect · contribution to a fix](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/reports/prime-intellect-2026-10.md#english-summary)** — maintainer-acknowledged investigation and reproduction informing [verifiers #2973](https://github.com/PrimeIntellect-ai/verifiers/pull/2973) and prime-rl. Our [verifiers #2925](https://github.com/PrimeIntellect-ai/verifiers/pull/2925) was superseded, not merged.
+- **[M7 · audit → maintenance release](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/reports/m7-2026-10.md#english-summary)** — public review/triage credit in v3.18.1; fixes implemented by the maintainers.
 
-[Engineering notes](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/ENGINEERING.md) · [Competition results](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.md)
+**Competitions:** Zoria / UA SKILLS season prize winner; CodinGame Legend, 86/1657 in the 21 October 2026 snapshot.
+
+**[External results and evidence →](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.en.md)** · [Engineering cases](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/ENGINEERING.md)
 
 Use the relevant repository’s Issues for project questions.
