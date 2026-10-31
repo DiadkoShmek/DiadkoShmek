@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+<title id="title">STROIKA — Architectural review.</title>
+<desc id="desc">3D / PROJECT REFERENCES. Static editorial illustration of linked records.</desc>
+<rect x="1" y="1" width="1278" height="358" rx="22" fill="#0d1117" stroke="#303b48" stroke-width="2"/>
+<text x="58" y="66" font-family="monospace" font-size="20" font-weight="400" fill="#9da7b3" letter-spacing="1.7">3D / PROJECT REFERENCES</text>
+<text x="55" y="162" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#f0f6fc">STROIKA</text>
+<text x="58" y="237" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#e5ad88">Architectural review.</text>
+<path d="M58 293H126" stroke="#e5ad88" stroke-width="4" stroke-linecap="round"/>
+<text x="148" y="300" font-family="monospace" font-size="20" font-weight="400" fill="#9da7b3" letter-spacing="1.8">DIADKOSHMEK</text>
+<g fill="none" stroke="#303b48" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M821 143L1004 75L1172 147L991 218Z"/>
+          <path d="M821 143V258L991 324L1172 252V147M991 218V324"/>
+          <path d="M846 153V248L969 295V212M1013 222V295L1149 242V168"/>
+          <path d="M855 189L961 230M855 223L961 264M1020 247L1142 199M1020 278L1142 230"/>
+          <path d="M884 169V268M923 188V282M1056 207V285M1101 189V264"/>
+        <path d="M821 143L991 218L1172 147" stroke="#e5ad88" stroke-width="3.5"/></g>
+</svg>

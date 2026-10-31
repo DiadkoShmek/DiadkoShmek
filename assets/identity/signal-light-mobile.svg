@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" role="img" aria-labelledby="title desc">
+<title id="title">Signal Desk — Sources. Review. Handoff.</title>
+<desc id="desc">PUBLIC-SOURCE RESEARCH. Static editorial illustration of linked records.</desc>
+<rect x="1" y="1" width="758" height="318" rx="22" fill="#f6f8fa" stroke="#c7d0d9" stroke-width="2"/>
+<path d="M40 43H100" stroke="#285f98" stroke-width="5" stroke-linecap="round"/>
+<text x="40" y="126" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" fill="#17212d">Signal Desk</text>
+<text x="40" y="201" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700" fill="#285f98">Sources. Review. Handoff.</text>
+<text x="40" y="272" font-family="monospace" font-size="21" font-weight="400" fill="#57606a" letter-spacing="1.1">PUBLIC-SOURCE RESEARCH</text>
+<path d="M663 250H711V298H663Z" fill="none" stroke="#c7d0d9" stroke-width="2"/>
+<circle cx="711" cy="250" r="6" fill="#285f98"/>
+</svg>

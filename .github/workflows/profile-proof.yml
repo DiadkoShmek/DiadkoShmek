@@ -19,6 +19,8 @@ jobs:
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.12"
+      - name: Verify generated visual identity
+        run: python3 design/render.py --check
       - name: Prove public discovery contract
         run: python3 -m unittest -v test_profile_discovery.py
 
