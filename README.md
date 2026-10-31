@@ -13,12 +13,10 @@
 
 ## Проєкти
 
-| Репозиторій | Предмет роботи |
-|---|---|
-| [Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows) | Виконувані прототипи перевірки підстав, життєвого циклу задач і передачі артефактів. |
-| [AI Ontology](https://github.com/DiadkoShmek/ai-ontology) | Continuity, пам’ять, перегляд суджень; книга, протокол і reference implementation. |
-| [Signal Desk](https://diadkoshmek.github.io/talent-research-workflow-prototype/?lang=uk&showcase=1) | Дослідження відкритих джерел, рішення людини й передача контексту. |
-| [STROIKA](https://diadkoshmek.github.io/mae7-viewer/) | Архітектурний 3D-переглядач. [Репозиторій](https://github.com/DiadkoShmek/mae7-viewer). |
+- **[Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)** — перевірки підстав, життєвий цикл задач і передача артефактів.
+- **[AI Ontology](https://github.com/DiadkoShmek/ai-ontology)** — книга, запропонований профіль аудиту й виконувані приклади тяглості та перегляду.
+- **[Signal Desk](https://diadkoshmek.github.io/talent-research-workflow-prototype/?lang=uk&showcase=1)** — відкриті джерела, рішення людини й передача контексту. [Код](https://github.com/DiadkoShmek/talent-research-workflow-prototype).
+- **[STROIKA](https://diadkoshmek.github.io/mae7-viewer/)** — архітектурний 3D-переглядач із проєктними посиланнями. [Код](https://github.com/DiadkoShmek/mae7-viewer).
 
 ## Зовнішні результати
 

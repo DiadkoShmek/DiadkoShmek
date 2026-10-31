@@ -13,12 +13,10 @@
 
 ## Projects
 
-| Repository | Focus |
-|---|---|
-| [Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows) | Runnable references for evidence checks, task lifecycle and artifact handoff. |
-| [AI Ontology](https://github.com/DiadkoShmek/ai-ontology) | Continuity, memory and revision: a research book, proposed protocol and reference implementation. |
-| [Signal Desk](https://diadkoshmek.github.io/talent-research-workflow-prototype/?lang=en&showcase=1) | Public-source research, human decisions and context handoff. |
-| [STROIKA](https://diadkoshmek.github.io/mae7-viewer/) | Architectural 3D review viewer. [Repository](https://github.com/DiadkoShmek/mae7-viewer). |
+- **[Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)** — evidence checks, task lifecycle and artifact handoff.
+- **[AI Ontology](https://github.com/DiadkoShmek/ai-ontology)** — a research book, proposed audit profile and executable continuity/revision references.
+- **[Signal Desk](https://diadkoshmek.github.io/talent-research-workflow-prototype/?lang=en&showcase=1)** — public sources, human review and context handoff. [Code](https://github.com/DiadkoShmek/talent-research-workflow-prototype).
+- **[STROIKA](https://diadkoshmek.github.io/mae7-viewer/)** — architectural 3D review with project references. [Code](https://github.com/DiadkoShmek/mae7-viewer).
 
 ## External results
 
