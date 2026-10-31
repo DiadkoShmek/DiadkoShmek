@@ -1,5 +1,12 @@
 # DiadkoShmek
 
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/DiadkoShmek/DiadkoShmek/main/assets/identity/profile-dark-mobile.svg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/DiadkoShmek/DiadkoShmek/main/assets/identity/profile-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DiadkoShmek/DiadkoShmek/main/assets/identity/profile-dark.svg">
+  <img src="https://raw.githubusercontent.com/DiadkoShmek/DiadkoShmek/main/assets/identity/profile-light.svg" alt="Engineering with evidence — AI systems, runtime reliability and verifiable results" width="1280">
+</picture>
+
 **AI systems · runtime reliability · verifiable results**
 
 [Українська](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/README.md) · [Results](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.en.md) · [Engineering cases](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/ENGINEERING.md)

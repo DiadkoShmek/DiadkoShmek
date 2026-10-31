@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+<title id="title">Evidence-gated — Agent Workflows</title>
+<desc id="desc">EXECUTABLE REFERENCES. Static editorial illustration of linked records.</desc>
+<rect x="1" y="1" width="1278" height="358" rx="22" fill="#f6f8fa" stroke="#c7d0d9" stroke-width="2"/>
+<text x="58" y="66" font-family="monospace" font-size="20" font-weight="400" fill="#57606a" letter-spacing="1.7">EXECUTABLE REFERENCES</text>
+<text x="55" y="162" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" fill="#17212d">Evidence-gated</text>
+<text x="58" y="237" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" fill="#176b55">Agent Workflows</text>
+<path d="M58 293H126" stroke="#176b55" stroke-width="4" stroke-linecap="round"/>
+<text x="148" y="300" font-family="monospace" font-size="20" font-weight="400" fill="#57606a" letter-spacing="1.8">DIADKOSHMEK</text>
+<g fill="none" stroke="#c7d0d9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M826 102H909V178H1037V254H1130"/>
+          <path d="M1130 254V298H826V102" stroke-dasharray="5 9"/>
+          <rect x="800" y="76" width="108" height="54" rx="13"/>
+          <rect x="957" y="151" width="108" height="54" rx="13"/>
+          <rect x="1090" y="227" width="108" height="54" rx="13"/>
+        <path d="M917 178H941M930 167L941 178L930 189" stroke="#176b55"/><rect x="834" y="93" width="37" height="19" rx="4" stroke="#176b55"/><circle cx="1011" cy="178" r="10" stroke="#176b55"/><path d="M1121 254H1166" stroke="#176b55"/></g>
+</svg>

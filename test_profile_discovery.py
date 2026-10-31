@@ -32,11 +32,14 @@ class ProfileDiscoveryContractTest(unittest.TestCase):
         self.assertNotRegex(self.readme, r"/home/[^/]+")
         self.assertNotIn("file://", self.readme)
 
-    def test_profile_is_a_project_index_without_a_personal_hero(self):
+    def test_profile_keeps_project_index_and_static_technical_identity(self):
         for name in ("README.md", "README.en.md"):
             text = (ROOT / name).read_text(encoding="utf-8")
             self.assertTrue(text.startswith("# DiadkoShmek\n"))
             self.assertNotIn("![", text)
+            self.assertEqual(text.count("<picture>"), 1)
+            self.assertIn("assets/identity/profile-light.svg", text)
+            self.assertIn("profile-dark-mobile.svg", text)
             self.assertNotRegex(text, r"I build|Я будую|mailto:|linkedin\.com/in/")
             self.assertIn("/house/book/", text)
             self.assertIn("/RESULTS", text)
