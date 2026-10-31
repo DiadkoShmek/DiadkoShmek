@@ -8,7 +8,7 @@ Intent. Difference. Memory. Return.
 
 > What remains of work together when a conversation ends?
 
-I build the House as an environment where human intent, distinct AI collaborators, memory and tools sustain work over time. This book explains why these parts belong to one whole, how difference is preserved, and how a consequence returns to the next decision.
+The House is an environment where human intent, distinct AI collaborators, memory and tools sustain work over time. This book explains why these parts belong to one whole, how difference is preserved, and how a consequence returns to the next decision.
 
 ## Four movements
 

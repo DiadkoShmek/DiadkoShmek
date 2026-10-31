@@ -21,7 +21,7 @@ class ProfileDiscoveryContractTest(unittest.TestCase):
         self.assertNotIn("linkedin.com/in/", self.readme)
         self.assertNotIn("mailto:", self.readme)
         self.assertIn("python3 run_proof.py", self.readme)
-        self.assertIn("прототипи", self.readme)
+        self.assertIn("прототипи", self.readme.lower())
         self.assertIn("не історії про впровадження в клієнтів", self.readme)
         self.assertIn("https://diadkoshmek.github.io/mae7-viewer/", self.readme)
         self.assertIn("https://github.com/DiadkoShmek/mae7-viewer", self.readme)
@@ -31,6 +31,15 @@ class ProfileDiscoveryContractTest(unittest.TestCase):
             self.assertNotIn(sales_fragment, self.readme)
         self.assertNotRegex(self.readme, r"/home/[^/]+")
         self.assertNotIn("file://", self.readme)
+
+    def test_profile_is_a_project_index_without_a_personal_hero(self):
+        for name in ("README.md", "README.en.md"):
+            text = (ROOT / name).read_text(encoding="utf-8")
+            self.assertTrue(text.startswith("# DiadkoShmek\n"))
+            self.assertNotIn("![", text)
+            self.assertNotRegex(text, r"I build|Я будую|mailto:|linkedin\.com/in/")
+            self.assertIn("/house/book/", text)
+            self.assertIn("/RESULTS", text)
 
     def test_open_source_work_links_upstream_and_states_current_disposition(self):
         self.assertIn("https://github.com/PrimeIntellect-ai/verifiers/pull/2925", self.readme)

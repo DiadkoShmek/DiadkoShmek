@@ -1,6 +1,6 @@
 # External results
 
-Open-source contributions, technical audits and competition results. Each entry names the date, contribution, external evidence and disposition. Engineering was carried out with AI tools under my direction.
+Open-source contributions, technical audits and competition results. Each entry names the date, contribution, external evidence and disposition. Engineering and investigation used AI tools.
 
 [Українська](RESULTS.md) · [Case reports](reports/README.md) · [Machine-readable records](results.json)
 
