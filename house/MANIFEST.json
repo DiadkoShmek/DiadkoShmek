@@ -18,18 +18,18 @@
     },
     {
       "path": "README.en.md",
-      "sha256": "d8c629ddeb53cf749857ef5b2241a642bc750be88e5b01bbb4dbbc12798ff2cb",
-      "bytes": 2235
+      "sha256": "b6afb596d431a8a8fc060cf1a7c318ef3f861c73f27216b5c8b1aa94cbec8b61",
+      "bytes": 2227
     },
     {
       "path": "README.md",
-      "sha256": "412d202d0063acb5f4a71b12fa5f290dfa482ded86e513f3ddd7934eef8e86c7",
-      "bytes": 3400
+      "sha256": "52c2e55151aa3fae1b2001400ec4d88b72bbc80d1c964b6df1b67cd755cee64b",
+      "bytes": 3385
     },
     {
       "path": "README.uk.md",
-      "sha256": "412d202d0063acb5f4a71b12fa5f290dfa482ded86e513f3ddd7934eef8e86c7",
-      "bytes": 3400
+      "sha256": "52c2e55151aa3fae1b2001400ec4d88b72bbc80d1c964b6df1b67cd755cee64b",
+      "bytes": 3385
     },
     {
       "path": "assets/cover.svg",

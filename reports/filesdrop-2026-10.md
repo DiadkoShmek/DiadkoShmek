@@ -1,6 +1,6 @@
 # FilesDrop · два прийняті виправлення API
 
-**Результат:** [PR #32](https://github.com/AndreyBegma/FilesDrop/pull/32) злитий 21.10.2026. Мій внесок із Codex — реалізація двох виправлень надійності та регресійні перевірки.
+**Результат:** [PR #32](https://github.com/AndreyBegma/FilesDrop/pull/32) злитий 21.10.2026. Внесок DiadkoShmek із Codex — реалізація двох виправлень надійності та регресійні перевірки.
 
 [English summary](#english-summary) · [Журнал результатів](../RESULTS.md)
 
