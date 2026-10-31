@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "records": [
     {
       "id": "codingame-mad-pod-racing-2026-10-21",
@@ -20,7 +20,8 @@
         "path": "evidence/codingame-2026-10-21.jpg",
         "sha256": "98ef2618d3be4dfe2caa78419479f90d61e49bfbcec72e1b399881f527f569ef"
       },
-      "boundary": "Dated league ranking snapshot, not a final tournament result or an all-time best."
+      "boundary": "Dated league ranking snapshot, not a final tournament result or an all-time best.",
+      "category": "competition"
     },
     {
       "id": "zoria-2026-preliminary-2026-10-19",
@@ -36,7 +37,8 @@
       "display_timezone": "Europe/Helsinki",
       "source_url": "https://zoria.net/news/#19102026-попередній-підсумок-другого-етапу",
       "expected_final_at": "2026-10-21T18:00:00Z",
-      "boundary": "Public table excludes episode R3; no final placement, award or payment claimed."
+      "boundary": "Public table excludes episode R3; no final placement, award or payment claimed.",
+      "category": "competition"
     },
     {
       "id": "zoria-2026-prize-winner-observed-2026-10-27",
@@ -50,7 +52,78 @@
       "date_basis": "date organizer announcement was checked; not the announcement publication date",
       "display_timezone": "Europe/Helsinki",
       "source_url": "https://ua.linkedin.com/company/ua-skills",
-      "boundary": "Organizer names this account among five prize winners. This record does not establish an exact final rank, a ranked participant count or payment."
+      "boundary": "Organizer names this account among five prize winners. This record does not establish an exact final rank, a ranked participant count or payment.",
+      "category": "competition"
+    },
+    {
+      "id": "filesdrop-api-fixes-2026-10-21",
+      "category": "upstream_contribution",
+      "project": "FilesDrop",
+      "format": "open_source",
+      "status": "merged",
+      "as_of": "2026-10-21",
+      "source_url": "https://github.com/AndreyBegma/FilesDrop/pull/32",
+      "contribution_merged": true,
+      "merge_commit_sha": "10c96acb9d05abac183a28d0da98ae18c03080fd",
+      "implementation_by": "DiadkoShmek with Codex assistance",
+      "report_path": "reports/filesdrop-2026-10.md",
+      "boundary": "Merged API fixes with local regression coverage; no production deployment, live service test or payment claimed."
+    },
+    {
+      "id": "prime-intellect-verifiers-2026-10-24",
+      "category": "upstream_contribution",
+      "project": "Prime Intellect · Verifiers / prime-rl",
+      "format": "open_source",
+      "status": "incorporated_in_maintainer_fix",
+      "as_of": "2026-10-24",
+      "source_url": "https://github.com/PrimeIntellect-ai/verifiers/pull/2925#issuecomment-6385135636",
+      "contribution_url": "https://github.com/PrimeIntellect-ai/verifiers/pull/2925",
+      "contribution_merged": false,
+      "original_issue_author": "rasdani",
+      "implementation_by": "maintainers",
+      "upstream_fixes": [
+        {
+          "url": "https://github.com/PrimeIntellect-ai/verifiers/pull/2973",
+          "merged": true,
+          "merged_at": "2026-10-24T14:12:59Z",
+          "merge_commit_sha": "9f0f03ae4733e949e371ec80d3c95d945dfecff6"
+        },
+        {
+          "url": "https://github.com/PrimeIntellect-ai/prime-rl/pull/4243",
+          "merged": true,
+          "merged_at": "2026-10-24T14:20:30Z",
+          "merge_commit_sha": "e2841b7a893cf78676c4abc64822781426155ce0"
+        }
+      ],
+      "report_path": "reports/prime-intellect-2026-10.md",
+      "boundary": "Maintainer credits our reproduction and investigation. Our proposed patch was superseded, not merged; the original issue was filed by another contributor. No employment or payment claimed."
+    },
+    {
+      "id": "m7-audit-release-2026-10-29",
+      "category": "external_audit",
+      "project": "M7 MCP",
+      "format": "technical_audit",
+      "status": "credited_in_release",
+      "as_of": "2026-10-29",
+      "source_url": "https://github.com/DukeDeSouth/m7-mcp-oss/releases/tag/v3.18.1",
+      "release": "v3.18.1",
+      "release_commit": "6625fce7e07b4e5ba99fe0572b05a3d6c7b96ca0",
+      "audit_source_commit": "72a7640700dbd7cebc0d57eabe8253989af084ba",
+      "implementation_by": "maintainers",
+      "report_path": "reports/m7-2026-10.md",
+      "evidence": {
+        "path": "reports/m7/deep-scan-m7.pdf",
+        "sha256": "96da7269305ad886e22a2847e2614adacb6d9239b3b7e7ca6755385ba4a4b9b4",
+        "pages": 36,
+        "language": "ru"
+      },
+      "follow_up": {
+        "as_of": "2026-10-29",
+        "focused_tests_passed": 168,
+        "full_reaudit": false,
+        "all_issues_closed": false
+      },
+      "boundary": "Public review/triage attribution and maintainer maintenance release. Audit groups and maintainer registry entries are not interchangeable. Focused follow-up retained unresolved error paths; no live model or IDE evaluation."
     }
   ]
 }

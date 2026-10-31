@@ -1,11 +1,18 @@
-# Інженерні кейси
+# Інженерні кейси / Engineering cases
 
-Короткий висновок — на початку кожного кейсу. Методика, дані та обмеження — в окремому розділі.
+Короткий результат, роль і зовнішній доказ — на початку. Методика й межі — далі. Кожен кейс має English summary.
 
-## [CodinGame · Mad Pod Racing](codingame-2026-10.md)
+| Кейс | Зовнішній наслідок | Звіт |
+|---|---|---|
+| Prime Intellect | Дослідження використане у виправленні; реалізація мейнтейнера злита | [Українською](prime-intellect-2026-10.md) · [English](prime-intellect-2026-10.md#english-summary) |
+| M7 MCP | Публічний review/triage credit у maintenance release | [Українською](m7-2026-10.md) · [English](m7-2026-10.md#english-summary) |
+| FilesDrop | Власний PR із двома API-виправленнями merged | [Українською](filesdrop-2026-10.md) · [English](filesdrop-2026-10.md#english-summary) |
+| CodinGame · Mad Pod Racing | Датований результат арени поряд із локальними експериментами | [Українською](codingame-2026-10.md) · [English](codingame-2026-10.md#english-summary) |
+
+## CodinGame · Mad Pod Racing
 
 Контрольовані локальні експерименти з C++-ботом: відхилений прогноз суперника, умовний виграш від ширшого пошуку та окремий результат зовнішньої арени.
 
 **21.10.2026 · AI-assisted engineering · C++ · оцінка ігрової політики**
 
-[Про процес і ролі](../ENGINEERING.md) · [Журнал результатів](../RESULTS.md) · [Профіль](https://github.com/DiadkoShmek)
+[Про процес і ролі](../ENGINEERING.md) · [Журнал результатів](../RESULTS.md) · [English results](../RESULTS.en.md) · [Профіль](https://github.com/DiadkoShmek)

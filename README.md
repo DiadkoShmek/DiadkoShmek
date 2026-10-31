@@ -17,10 +17,14 @@
 
 Ці приклади й прототипи мають власні межі; це не історії про впровадження в клієнтів.
 
-## Перевірювані внески
+## Зовнішні результати
 
-**[FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged** — cleanup і DNS timeout. **[verifiers #2925](https://github.com/PrimeIntellect-ai/verifiers/pull/2925)** — відтворення для [#2973](https://github.com/PrimeIntellect-ai/verifiers/pull/2973); superseded, не злитий.
+- **[FilesDrop #32 · виправлення прийняті](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged** — повторне очищення файлів і timeout під час DNS.
+- **[Prime Intellect · внесок у виправлення](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/reports/prime-intellect-2026-10.md)** — мейнтейнер підтвердив використання дослідження й відтворення у [verifiers #2973](https://github.com/PrimeIntellect-ai/verifiers/pull/2973) та prime-rl. Наш [verifiers #2925](https://github.com/PrimeIntellect-ai/verifiers/pull/2925) — superseded, не злитий.
+- **[M7 · аудит → реліз виправлень](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/reports/m7-2026-10.md)** — публічне посилання на review/triage у v3.18.1; реалізація виправлень — maintainers.
 
-[Інженерні розбори](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/ENGINEERING.md) · [Результати змагань](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.md)
+**Змагання:** Zoria / UA SKILLS — призер сезону; CodinGame — Legend, 86/1657 у зрізі 21.10.2026.
+
+**[Журнал зовнішніх результатів і доказів →](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.md)** · [Інженерні кейси](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/ENGINEERING.md)
 
 Питання щодо конкретної роботи — через Issues відповідного репозиторію.

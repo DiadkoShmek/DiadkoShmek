@@ -90,10 +90,15 @@ class ResultsJournalContractTest(unittest.TestCase):
                 if "rank" in row:
                     self.assertGreaterEqual(row["rank"], 1)
                     self.assertLessEqual(row["rank"], row["participants"])
-                else:
+                elif row.get("category", "competition") == "competition":
                     self.assertEqual(row["result"], "prize_winner")
                     self.assertNotIn("participants", row)
-                self.assertIn(row["status"], ("snapshot", "preliminary", "final"))
+                statuses = {
+                    "competition": ("snapshot", "preliminary", "final"),
+                    "upstream_contribution": ("merged", "incorporated_in_maintainer_fix"),
+                    "external_audit": ("credited_in_release",),
+                }
+                self.assertIn(row["status"], statuses[row.get("category", "competition")])
                 self.assertTrue(row["boundary"])
                 self.assertTrue(row["source_url"].startswith("https://"))
                 self.assertIn(row["source_url"], self.journal)
@@ -179,6 +184,59 @@ class EngineeringReportContractTest(unittest.TestCase):
                 resolved = (path.parent / target.split("#")[0]).resolve()
                 self.assertTrue(resolved.is_relative_to(ROOT.resolve()), (path.name, target))
                 self.assertTrue(resolved.is_file(), (path.name, target))
+
+
+class ExternalContributionContractTest(unittest.TestCase):
+    def setUp(self):
+        import json
+        self.data = json.loads((ROOT / "results.json").read_text(encoding="utf-8"))
+        self.records = {row["id"]: row for row in self.data["records"]}
+
+    def test_prime_keeps_our_proposal_separate_from_merged_implementation(self):
+        row = self.records["prime-intellect-verifiers-2026-10-24"]
+        self.assertEqual(row["category"], "upstream_contribution")
+        self.assertEqual(row["status"], "incorporated_in_maintainer_fix")
+        self.assertFalse(row["contribution_merged"])
+        self.assertEqual(row["implementation_by"], "maintainers")
+        self.assertEqual(row["original_issue_author"], "rasdani")
+        self.assertEqual(len(row["upstream_fixes"]), 2)
+        for fix in row["upstream_fixes"]:
+            self.assertTrue(fix["merged"])
+            self.assertRegex(fix["merge_commit_sha"], r"^[a-f0-9]{40}$")
+
+    def test_m7_audit_credit_is_not_an_implementation_or_current_health_claim(self):
+        row = self.records["m7-audit-release-2026-10-29"]
+        self.assertEqual(row["category"], "external_audit")
+        self.assertEqual(row["status"], "credited_in_release")
+        self.assertEqual(row["implementation_by"], "maintainers")
+        self.assertEqual(row["release"], "v3.18.1")
+        self.assertRegex(row["release_commit"], r"^[a-f0-9]{40}$")
+        self.assertNotIn("contribution_merged", row)
+        self.assertFalse(row["follow_up"]["full_reaudit"])
+        self.assertFalse(row["follow_up"]["all_issues_closed"])
+        self.assertEqual(row["follow_up"]["focused_tests_passed"], 168)
+        import hashlib
+        evidence = row["evidence"]
+        self.assertEqual(hashlib.sha256((ROOT / evidence["path"]).read_bytes()).hexdigest(), evidence["sha256"])
+
+    def test_filesdrop_is_the_merged_code_contribution(self):
+        row = self.records["filesdrop-api-fixes-2026-10-21"]
+        self.assertTrue(row["contribution_merged"])
+        self.assertEqual(row["status"], "merged")
+        self.assertEqual(row["implementation_by"], "DiadkoShmek with Codex assistance")
+        self.assertRegex(row["merge_commit_sha"], r"^[a-f0-9]{40}$")
+
+    def test_results_have_bilingual_entry_and_source_bound_case_reports(self):
+        self.assertEqual(self.data["schema_version"], 2)
+        english = (ROOT / "RESULTS.en.md").read_text(encoding="utf-8")
+        for row in self.data["records"]:
+            self.assertIn(row["source_url"], english)
+            if row.get("category") != "competition":
+                report = (ROOT / row["report_path"]).read_text(encoding="utf-8")
+                self.assertIn(row["source_url"], report)
+                self.assertIn("## English summary", report)
+                self.assertNotRegex(report, r"/home/|/tmp/|mailto:|linkedin\.com/in/")
+        self.assertIn("RESULTS.en.md", (ROOT / "README.en.md").read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":
