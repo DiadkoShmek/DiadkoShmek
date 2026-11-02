@@ -14,10 +14,15 @@
 | 01.11.2026 | [TensorDict](reports/tensordict-2026-11.md) | Відтворення, запропонований fix і thorough tests | [Maintainer #3427 злитий із credit](https://github.com/pytorch/tensordict/pull/3427); наш #3426 superseded |
 | 02.11.2026 | [Braintrust SDK JavaScript](reports/braintrust-2026-11.md) | Streaming UTF-8 decoder і регресії | [Наш PR #2701 злитий](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) |
 | 02.11.2026 | [Kraft](reports/kraft-2026-11.md) | Refresh skills при вже зареєстрованому MCP server | [Наш PR #1227 злитий](https://github.com/itsOmidKarami/kraft/pull/1227) |
+| 02.11.2026 | [BlackJAX](reports/blackjax-2026-11.md) | Стабільні proposal probabilities і acceptance ratio Barker MCMC | [Наш PR #1068 злитий](https://github.com/blackjax-devs/blackjax/pull/1068) |
 
 ### Зріз 02.11.2026
 
-**Три власні merged PR:** FilesDrop #32, Braintrust #2701 і Kraft #1227. **Два окремі credited contributions:** Prime Intellect і TensorDict — наші пропозиції superseded, реалізації мейнтейнерів злиті. M7 залишається окремим результатом аудиту.
+**Чотири власні merged PR:** FilesDrop #32, Braintrust #2701, Kraft #1227 і BlackJAX #1068. **Два окремі credited contributions:** Prime Intellect і TensorDict — наші пропозиції superseded, реалізації мейнтейнерів злиті. M7 залишається окремим результатом аудиту.
+
+### BlackJAX · числова стабільність MCMC
+
+Наш [PR #1068](https://github.com/blackjax-devs/blackjax/pull/1068) злитий 02.11.2026 через `junpenglao`. Стабільний `softplus` прибирає проміжне переповнення у ймовірностях пропозиції Barker sampler. NumPy density oracle: 142 розбіжності на базі → 0 після виправлення у 768 CPU-кроках; 384 звичайні контролі проходили й до зміни. [Кейс і межі перевірки](reports/blackjax-2026-11.md).
 
 ### Braintrust · Unicode збережено між chunks
 
