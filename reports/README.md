@@ -4,6 +4,10 @@
 
 | Кейс | Зовнішній наслідок | Звіт |
 |---|---|---|
+| BlackJAX | Власний Barker MCMC numerical-stability fix merged | [Українською](blackjax-2026-11.md) · [English](blackjax-2026-11.md#english-summary) |
+| Braintrust | Власний streaming UTF-8 fix merged | [Українською](braintrust-2026-11.md) · [English](braintrust-2026-11.md#english-summary) |
+| Kraft | Власний повторний skill-refresh fix merged | [Українською](kraft-2026-11.md) · [English](kraft-2026-11.md#english-summary) |
+| TensorDict | Proposed fix і тести відзначені у злитому maintainer fix | [Українською](tensordict-2026-11.md) · [English](tensordict-2026-11.md#english-summary) |
 | Prime Intellect | Дослідження використане у виправленні; реалізація мейнтейнера злита | [Українською](prime-intellect-2026-10.md) · [English](prime-intellect-2026-10.md#english-summary) |
 | M7 MCP | Публічний review/triage credit у maintenance release | [Українською](m7-2026-10.md) · [English](m7-2026-10.md#english-summary) |
 | FilesDrop | Власний PR із двома API-виправленнями merged | [Українською](filesdrop-2026-10.md) · [English](filesdrop-2026-10.md#english-summary) |

@@ -4,6 +4,8 @@ AI-assisted engineering: проблема, рішення, перевірка т
 
 ## Прийняті виправлення
 
+- **[BlackJAX](reports/blackjax-2026-11.md):** стабільні proposal probabilities у Barker MCMC; NumPy density oracle й CPU JIT-перевірки. Наш #1068 merged.
+
 - **[Braintrust](reports/braintrust-2026-11.md):** streaming UTF-8 decoder; регресії всіх byte boundaries. Наш #2701 merged.
 - **[Kraft](reports/kraft-2026-11.md):** повторний init оновлює skills при наявній MCP-реєстрації. Наш #1227 merged.
 - **[FilesDrop](reports/filesdrop-2026-10.md):** повтор cleanup після відмови та deadline під час DNS. Наш #32 merged.

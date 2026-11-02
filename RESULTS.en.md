@@ -14,10 +14,15 @@ Open-source contributions, technical audits and competition results. Each entry 
 | 1 Nov 2026 | [TensorDict](reports/tensordict-2026-11.md#english-summary) | Reproduction, proposed fix and thorough tests | [Maintainer #3427 merged with credit](https://github.com/pytorch/tensordict/pull/3427); our #3426 superseded |
 | 2 Nov 2026 | [Braintrust SDK JavaScript](reports/braintrust-2026-11.md#english-summary) | Streaming UTF-8 decoding and regressions | [Our PR #2701 merged](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) |
 | 2 Nov 2026 | [Kraft](reports/kraft-2026-11.md#english-summary) | Skill refresh with an existing MCP registration | [Our PR #1227 merged](https://github.com/itsOmidKarami/kraft/pull/1227) |
+| 2 Nov 2026 | [BlackJAX](reports/blackjax-2026-11.md#english-summary) | Stable Barker MCMC proposal probabilities and acceptance ratio | [Our PR #1068 merged](https://github.com/blackjax-devs/blackjax/pull/1068) |
 
 ### Snapshot · 2 November 2026
 
-**Three directly merged PRs:** FilesDrop #32, Braintrust #2701 and Kraft #1227. **Two separate credited contributions:** Prime Intellect and TensorDict — our proposals were superseded and the maintainers' implementations merged. M7 remains a separate audit outcome.
+**Four directly merged PRs:** FilesDrop #32, Braintrust #2701, Kraft #1227 and BlackJAX #1068. **Two separate credited contributions:** Prime Intellect and TensorDict — our proposals were superseded and the maintainers' implementations merged. M7 remains a separate audit outcome.
+
+### BlackJAX
+
+Our [PR #1068](https://github.com/blackjax-devs/blackjax/pull/1068) merged on 2 November through `junpenglao`. Stable `softplus` prevents intermediate overflow in Barker proposal probabilities and the acceptance ratio. A NumPy density oracle found 142 base mismatches and zero after the fix across 768 CPU steps; all 384 ordinary controls already passed on the base. [Case and validation scope](reports/blackjax-2026-11.md#english-summary).
 
 ### Braintrust
 

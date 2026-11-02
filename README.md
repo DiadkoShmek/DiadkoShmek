@@ -20,7 +20,7 @@
 
 ## Зовнішні результати
 
-- **Код прийнято:** [Braintrust #2701](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) — UTF-8 у потоках; [Kraft #1227](https://github.com/itsOmidKarami/kraft/pull/1227) — повторна ініціалізація skills; [FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged — два API-виправлення.
+- **Код прийнято:** [BlackJAX #1068](https://github.com/blackjax-devs/blackjax/pull/1068) — стабільність MCMC; [Braintrust #2701](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) — UTF-8 у потоках; [Kraft #1227](https://github.com/itsOmidKarami/kraft/pull/1227) — повторна ініціалізація skills; [FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged — два API-виправлення.
 - **[Prime Intellect](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/reports/prime-intellect-2026-10.md)** — підтверджений внесок дослідження у [verifiers #2973](https://github.com/PrimeIntellect-ai/verifiers/pull/2973) та prime-rl. [verifiers #2925](https://github.com/PrimeIntellect-ai/verifiers/pull/2925) — superseded, не злитий.
 - **[TensorDict](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/reports/tensordict-2026-11.md)** — відтворення й тести, відзначені у злитому maintainer fix #3427; наш #3426 superseded.
 - **[M7 MCP](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/reports/m7-2026-10.md)** — технічний аудит із публічним review/triage credit у релізі v3.18.1.
