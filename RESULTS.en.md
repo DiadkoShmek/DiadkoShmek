@@ -11,6 +11,25 @@ Open-source contributions, technical audits and competition results. Each entry 
 | 21 Oct 2026 | [FilesDrop](reports/filesdrop-2026-10.md#english-summary) | Two API reliability fixes and regression coverage | [PR #32 merged](https://github.com/AndreyBegma/FilesDrop/pull/32) |
 | 24 Oct 2026 | [Prime Intellect · Verifiers / prime-rl](reports/prime-intellect-2026-10.md#english-summary) | Investigation, reproduction and a proposed patch | [Maintainer acknowledgement](https://github.com/PrimeIntellect-ai/verifiers/pull/2925#issuecomment-6385135636); maintainer implementation merged in both projects |
 | 29 Oct 2026 | [M7 MCP](reports/m7-2026-10.md#english-summary) | Independent technical audit and focused follow-up | [Public review/triage credit in v3.18.1](https://github.com/DukeDeSouth/m7-mcp-oss/releases/tag/v3.18.1); fixes implemented by maintainers |
+| 1 Nov 2026 | [TensorDict](reports/tensordict-2026-11.md#english-summary) | Reproduction, proposed fix and thorough tests | [Maintainer #3427 merged with credit](https://github.com/pytorch/tensordict/pull/3427); our #3426 superseded |
+| 2 Nov 2026 | [Braintrust SDK JavaScript](reports/braintrust-2026-11.md#english-summary) | Streaming UTF-8 decoding and regressions | [Our PR #2701 merged](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) |
+| 2 Nov 2026 | [Kraft](reports/kraft-2026-11.md#english-summary) | Skill refresh with an existing MCP registration | [Our PR #1227 merged](https://github.com/itsOmidKarami/kraft/pull/1227) |
+
+### Snapshot · 2 November 2026
+
+**Three directly merged PRs:** FilesDrop #32, Braintrust #2701 and Kraft #1227. **Two separate credited contributions:** Prime Intellect and TensorDict — our proposals were superseded and the maintainers' implementations merged. M7 remains a separate audit outcome.
+
+### Braintrust
+
+Our [PR #2701](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) merged on 2 November through `lforst`. A stateful `TextDecoder` preserves UTF-8 characters split across logging byte-stream chunks. The original focused run had 6 failures / 13 passing controls; related suites passed 178 tests on both tested Node versions. [Case and test scope](reports/braintrust-2026-11.md#english-summary).
+
+### Kraft
+
+Our [PR #1227](https://github.com/itsOmidKarami/kraft/pull/1227) merged on 2 November through `itsOmidKarami`. Repeated user-scope `kraft admin init` refreshes skills when its MCP server already exists; genuine errors still stop before writes. The focused suite passed 16 tests; `just ci-checks` and mutation checks passed. [Case and subprocess boundary](reports/kraft-2026-11.md#english-summary).
+
+### TensorDict
+
+Merged maintainer [PR #3427](https://github.com/pytorch/tensordict/pull/3427) explicitly credits our earlier fix. The [closing acknowledgement](https://github.com/pytorch/tensordict/pull/3426#issuecomment-6563347852) thanks the report and thorough tests, and explains the smaller solution: delegate to PyTorch's loader rather than copy it. Our [#3426](https://github.com/pytorch/tensordict/pull/3426) was superseded, **not merged**. [Contribution, validation and implementation authorship](reports/tensordict-2026-11.md#english-summary).
 
 ### FilesDrop
 

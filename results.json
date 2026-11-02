@@ -124,6 +124,62 @@
         "all_issues_closed": false
       },
       "boundary": "Public review/triage attribution and maintainer maintenance release. Audit groups and maintainer registry entries are not interchangeable. Focused follow-up retained unresolved error paths; no live model or IDE evaluation."
+    },
+    {
+      "id": "braintrust-streaming-utf8-2026-11-02",
+      "category": "upstream_contribution",
+      "project": "Braintrust SDK JavaScript",
+      "format": "open_source",
+      "status": "merged",
+      "as_of": "2026-11-02",
+      "source_url": "https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701",
+      "contribution_merged": true,
+      "merged_at": "2026-11-02T11:37:30Z",
+      "merge_commit_sha": "27181871510a46d294b7fc96d1d76496443a8a20",
+      "merged_by": "lforst",
+      "implementation_by": "DiadkoShmek with Codex assistance",
+      "report_path": "reports/braintrust-2026-11.md",
+      "boundary": "Merged streaming UTF-8 logging fix with local regression coverage; no full monorepo, browser or real-provider end-to-end claim."
+    },
+    {
+      "id": "kraft-skill-refresh-2026-11-02",
+      "category": "upstream_contribution",
+      "project": "Kraft",
+      "format": "open_source",
+      "status": "merged",
+      "as_of": "2026-11-02",
+      "source_url": "https://github.com/itsOmidKarami/kraft/pull/1227",
+      "contribution_merged": true,
+      "merged_at": "2026-11-02T12:08:30Z",
+      "merge_commit_sha": "ae8813d02015bfeddeea92d26bfc7ca1f85ef53d",
+      "merged_by": "itsOmidKarami",
+      "implementation_by": "DiadkoShmek with Codex assistance",
+      "report_path": "reports/kraft-2026-11.md",
+      "boundary": "Merged repeatable user-scope initialization fix. Tests used a Claude subprocess double, without live agent calls or user-configuration changes."
+    },
+    {
+      "id": "tensordict-partial-checkpoint-2026-11-01",
+      "category": "upstream_contribution",
+      "project": "PyTorch TensorDict",
+      "format": "open_source",
+      "status": "incorporated_in_maintainer_fix",
+      "as_of": "2026-11-01",
+      "source_url": "https://github.com/pytorch/tensordict/pull/3427",
+      "contribution_url": "https://github.com/pytorch/tensordict/pull/3426",
+      "contribution_merged": false,
+      "implementation_by": "maintainers",
+      "upstream_fixes": [
+        {
+          "url": "https://github.com/pytorch/tensordict/pull/3427",
+          "merged": true,
+          "merged_at": "2026-11-01T20:58:16Z",
+          "merge_commit_sha": "cd3eeaa6d48bf7674082cbaff64aa2074f2017d5",
+          "merged_by": "peterdsharpe"
+        }
+      ],
+      "acknowledgement_url": "https://github.com/pytorch/tensordict/pull/3426#issuecomment-6563347852",
+      "report_path": "reports/tensordict-2026-11.md",
+      "boundary": "Maintainer credits the earlier proposed fix, report and thorough tests. Our PR #3426 was superseded, not merged; the smaller accepted implementation is the maintainer's."
     }
   ]
 }

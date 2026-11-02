@@ -2,38 +2,34 @@
 
 AI-assisted engineering: проблема, рішення, перевірка та зовнішній наслідок.
 
-## Prime Intellect · ізоляція агентів
+## Прийняті виправлення
 
-Дослідження й відтворення, які мейнтейнер використав для виправлень у Verifiers та prime-rl. Наш patch superseded; обидві реалізації мейнтейнера злиті.
+- **[Braintrust](reports/braintrust-2026-11.md):** streaming UTF-8 decoder; регресії всіх byte boundaries. Наш #2701 merged.
+- **[Kraft](reports/kraft-2026-11.md):** повторний init оновлює skills при наявній MCP-реєстрації. Наш #1227 merged.
+- **[FilesDrop](reports/filesdrop-2026-10.md):** повтор cleanup після відмови та deadline під час DNS. Наш #32 merged.
 
-[Кейс і першоджерела →](reports/prime-intellect-2026-10.md)
+## Дослідження у виправленнях мейнтейнерів
 
-## M7 MCP · аудит і maintenance release
+- **[Prime Intellect](reports/prime-intellect-2026-10.md):** відтворення сформувало виправлення ізоляції агентів у Verifiers і prime-rl. Наш patch superseded.
+- **[TensorDict](reports/tensordict-2026-11.md):** partial checkpoints, differential controls і тести; мейнтейнер обрав менший fix через власний loader PyTorch. Наш #3426 superseded; #3427 merged із credit.
 
-Незалежний аудит, публічне відзначення review/triage у v3.18.1, перевірка першого пакета виправлень із збереженими незакритими сценаріями.
+## M7 MCP · аудит
 
-[Кейс і оригінальний PDF →](reports/m7-2026-10.md)
+[Review/triage credit у v3.18.1, оригінальний PDF і focused follow-up](reports/m7-2026-10.md). Незакриті сценарії збережені.
 
-## FilesDrop · прийняті виправлення
+## Змагання
 
-Cleanup із повтором невдалих видалень і deadline під час DNS. PR #32 merged; локальні регресійні перевірки.
+- **[CodinGame · Mad Pod Racing](reports/codingame-2026-10.md):** відхилена гіпотеза після 2/8; умовний результат 221/400; зовнішня арена окремо.
+- **Zoria / UA SKILLS:** призер сезону. [Оголошення та історія](RESULTS.md#zoria-2026--підсумок-ua-skills); інженерний розбір ще не опублікований.
 
-[Читати кейс →](reports/filesdrop-2026-10.md)
+## Review-stage · 02.11.2026
 
-## CodinGame · Mad Pod Racing
+[Semantic Kernel #14701](https://github.com/microsoft/semantic-kernel/pull/14701): cleanup native generators; `eavanvalkenburg` APPROVED. PR OPEN, не merged; до завершених результатів не зарахований.
 
-Перевірка поліпшень C++-бота: відхилена гіпотеза після 2/8, умовний результат 221/400, окремий зріз зовнішньої арени.
-
-[Читати кейс →](reports/codingame-2026-10.md)
-
-## Zoria 2026
-
-Турнір системної розробки від **UA SKILLS**: бот, штаб і стратегія. **Призер першого сезону** — [оголошення та історія](RESULTS.md#zoria-2026--підсумок-ua-skills). Інженерний розбір ще не опублікований.
-
-## Як читати ці звіти
+## Як читати
 
 Ігровий бот приймає рішення в матчі. AI-агент розробки досліджує, пише код і тестує. Людина визначає напрям і погоджує зовнішні дії.
 
-Це розбори конкретних систем, не контрольований порівняльний бенчмарк AI-моделей. Повний час, вартість і людські втручання не виміряні зіставним способом. Власний merged patch, використане дослідження та зовнішній аудит мають різні статуси.
+Це не контрольований порівняльний бенчмарк AI-моделей. Час, вартість і людські втручання не виміряні зіставно. Власний merged patch, credited investigation та аудит — різні результати.
 
-[Журнал зовнішніх результатів](RESULTS.md) · [English results](RESULTS.en.md) · [Профіль](https://github.com/DiadkoShmek)
+[Журнал](RESULTS.md) · [English results](RESULTS.en.md) · [Профіль](https://github.com/DiadkoShmek)
