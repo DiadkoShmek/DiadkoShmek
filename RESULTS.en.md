@@ -1,5 +1,7 @@
 # External results
 
+> Current journal and standalone book: [engineering-results](https://github.com/DiadkoShmek/engineering-results). This page preserves the 2 November 2026 snapshot; new entries belong to the separate repository.
+
 Open-source contributions, technical audits and competition results. Each entry names the date, contribution, external evidence and disposition. Engineering and investigation used AI tools.
 
 [Українська](RESULTS.md) · [Case reports](reports/README.md) · [Machine-readable records](results.json)
@@ -15,10 +17,15 @@ Open-source contributions, technical audits and competition results. Each entry 
 | 2 Nov 2026 | [Braintrust SDK JavaScript](reports/braintrust-2026-11.md#english-summary) | Streaming UTF-8 decoding and regressions | [Our PR #2701 merged](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) |
 | 2 Nov 2026 | [Kraft](reports/kraft-2026-11.md#english-summary) | Skill refresh with an existing MCP registration | [Our PR #1227 merged](https://github.com/itsOmidKarami/kraft/pull/1227) |
 | 2 Nov 2026 | [BlackJAX](reports/blackjax-2026-11.md#english-summary) | Stable Barker MCMC proposal probabilities and acceptance ratio | [Our PR #1068 merged](https://github.com/blackjax-devs/blackjax/pull/1068) |
+| 2 Nov 2026 | [Apache TVM-FFI](reports/tvm-ffi-2026-11.md#english-summary) | Structural-hash finding, proposed fix and regressions | [Maintainer superseded #897 with #898](https://github.com/apache/tvm-ffi/pull/897#issuecomment-6588300834); successor still OPEN |
 
 ### Snapshot · 2 November 2026
 
 **Four directly merged PRs:** FilesDrop #32, Braintrust #2701, Kraft #1227 and BlackJAX #1068. **Two separate credited contributions:** Prime Intellect and TensorDict — our proposals were superseded and the maintainers' implementations merged. M7 remains a separate audit outcome.
+
+### Apache TVM-FFI · a finding continued at another layer
+
+Our structural-hash finding and proposed repair in [#897](https://github.com/apache/tvm-ffi/pull/897) were explicitly linked to the maintainer’s [#898](https://github.com/apache/tvm-ffi/pull/898). The successor changes short moved-string construction rather than our hashing layer. It was OPEN at the recorded observation; our PR was superseded, not merged. [Timeline, source paths and limits](reports/tvm-ffi-2026-11.md#english-summary).
 
 ### BlackJAX
 

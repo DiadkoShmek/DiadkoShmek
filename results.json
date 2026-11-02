@@ -196,6 +196,33 @@
       "implementation_by": "DiadkoShmek with Codex assistance",
       "report_path": "reports/blackjax-2026-11.md",
       "boundary": "Merged Barker MCMC numerical-stability fix with CPU differential checks. Full suite not run; unchanged GIST CI failure reproduced on exact base and head. No GPU/TPU or performance claim."
+    },
+    {
+      "id": "tvm-ffi-structural-bytes-2026-11-02",
+      "category": "upstream_contribution",
+      "project": "Apache TVM-FFI",
+      "format": "open_source",
+      "status": "superseded_by_open_maintainer_fix",
+      "as_of": "2026-11-02",
+      "source_url": "https://github.com/apache/tvm-ffi/pull/897#issuecomment-6588300834",
+      "contribution_url": "https://github.com/apache/tvm-ffi/pull/897",
+      "contribution_merged": false,
+      "implementation_by": "maintainer tqchen",
+      "our_contribution": "Original finding, proposed structural-hash fix and consumer regressions",
+      "upstream_fixes": [
+        {
+          "url": "https://github.com/apache/tvm-ffi/pull/898",
+          "state": "OPEN",
+          "merged": false,
+          "observed_head": "333005e8aa024965bd328b1a1be1b1c3366c9995"
+        }
+      ],
+      "attribution": "Maintainer explicitly linked the replacement when closing our PR as superseded. The successor body and commit trailers did not name our account at this observation.",
+      "report_path": "reports/tvm-ffi-2026-11.md",
+      "boundary": "Maintainer changed the short std::string rvalue construction path rather than transplanting our hashing patch. Our PR was not merged; the successor was open. Its full behavior and all external-heap cases were not runtime-retested for this record."
     }
-  ]
+  ],
+  "canonical_repository": "https://github.com/DiadkoShmek/engineering-results",
+  "snapshot_role": "historical_profile_snapshot",
+  "snapshot_as_of": "2026-11-02"
 }
