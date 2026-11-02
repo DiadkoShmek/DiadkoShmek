@@ -15,6 +15,8 @@ AI-assisted engineering: проблема, рішення, перевірка т
 - **[Prime Intellect](reports/prime-intellect-2026-10.md):** відтворення сформувало виправлення ізоляції агентів у Verifiers і prime-rl. Наш patch superseded.
 - **[TensorDict](reports/tensordict-2026-11.md):** partial checkpoints, differential controls і тести; мейнтейнер обрав менший fix через власний loader PyTorch. Наш #3426 superseded; #3427 merged із credit.
 
+- **[Apache TVM-FFI](reports/tvm-ffi-2026-11.md):** structural-hash finding; мейнтейнер замінив #897 constructor-level #898, який ще OPEN.
+
 ## M7 MCP · аудит
 
 [Review/triage credit у v3.18.1, оригінальний PDF і focused follow-up](reports/m7-2026-10.md). Незакриті сценарії збережені.
@@ -34,4 +36,4 @@ AI-assisted engineering: проблема, рішення, перевірка т
 
 Це не контрольований порівняльний бенчмарк AI-моделей. Час, вартість і людські втручання не виміряні зіставно. Власний merged patch, credited investigation та аудит — різні результати.
 
-[Журнал](RESULTS.md) · [English results](RESULTS.en.md) · [Профіль](https://github.com/DiadkoShmek)
+[Книга результатів](https://github.com/DiadkoShmek/engineering-results) · [Журнал](RESULTS.md) · [English results](RESULTS.en.md) · [Профіль](https://github.com/DiadkoShmek)

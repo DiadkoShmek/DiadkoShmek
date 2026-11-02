@@ -1,5 +1,7 @@
 # Зовнішні результати
 
+> Чинний журнал і окрема книга: [engineering-results](https://github.com/DiadkoShmek/engineering-results). Нижче збережений зріз 02.11.2026; нові записи ведуться в окремій репі.
+
 Внески у відкриті проєкти, технічні аудити й результати змагань. Кожен запис містить дату, внесок, зовнішнє джерело та фактичний статус. Реалізація й дослідження виконувалися з AI-інструментами.
 
 [English](RESULTS.en.md) · [Інженерні кейси](ENGINEERING.md) · [Машиночитані записи](results.json)
@@ -15,10 +17,15 @@
 | 02.11.2026 | [Braintrust SDK JavaScript](reports/braintrust-2026-11.md) | Streaming UTF-8 decoder і регресії | [Наш PR #2701 злитий](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) |
 | 02.11.2026 | [Kraft](reports/kraft-2026-11.md) | Refresh skills при вже зареєстрованому MCP server | [Наш PR #1227 злитий](https://github.com/itsOmidKarami/kraft/pull/1227) |
 | 02.11.2026 | [BlackJAX](reports/blackjax-2026-11.md) | Стабільні proposal probabilities і acceptance ratio Barker MCMC | [Наш PR #1068 злитий](https://github.com/blackjax-devs/blackjax/pull/1068) |
+| 02.11.2026 | [Apache TVM-FFI](reports/tvm-ffi-2026-11.md) | Виявлений дефект structural hashing, запропонований fix і регресії | [Мейнтейнер замінив #897 на #898](https://github.com/apache/tvm-ffi/pull/897#issuecomment-6588300834); наступний PR ще OPEN |
 
 ### Зріз 02.11.2026
 
-**Чотири власні merged PR:** FilesDrop #32, Braintrust #2701, Kraft #1227 і BlackJAX #1068. **Два окремі credited contributions:** Prime Intellect і TensorDict — наші пропозиції superseded, реалізації мейнтейнерів злиті. M7 залишається окремим результатом аудиту.
+**Чотири власні merged PR:** FilesDrop #32, Braintrust #2701, Kraft #1227 і BlackJAX #1068. **Два окремі credited contributions:** Prime Intellect і TensorDict — наші пропозиції superseded, реалізації мейнтейнерів злиті. Окремо: Apache TVM-FFI #897 superseded мейнтейнерським #898, який ще OPEN. M7 залишається окремим результатом аудиту.
+
+### Apache TVM-FFI · finding продовжився в іншому шарі
+
+Наш structural-hash finding і запропоноване виправлення у [#897](https://github.com/apache/tvm-ffi/pull/897) мейнтейнер пов’язав із власним [#898](https://github.com/apache/tvm-ffi/pull/898). Він змінив конструктор коротких moved strings замість нашого шару хешування. На зафіксованому зрізі наступний PR OPEN; наш superseded, не merged. [Хронологія, source paths і межі](reports/tvm-ffi-2026-11.md).
 
 ### BlackJAX · числова стабільність MCMC
 

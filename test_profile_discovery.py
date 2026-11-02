@@ -107,10 +107,19 @@ class ResultsJournalContractTest(unittest.TestCase):
                     self.assertNotIn("participants", row)
                 statuses = {
                     "competition": ("snapshot", "preliminary", "final"),
-                    "upstream_contribution": ("merged", "incorporated_in_maintainer_fix"),
+                    "upstream_contribution": (
+                        "merged", "incorporated_in_maintainer_fix",
+                        "superseded_by_open_maintainer_fix",
+                    ),
                     "external_audit": ("credited_in_release",),
                 }
                 self.assertIn(row["status"], statuses[row.get("category", "competition")])
+                if row["status"] == "superseded_by_open_maintainer_fix":
+                    self.assertFalse(row["contribution_merged"])
+                    self.assertTrue(row["upstream_fixes"])
+                    for successor in row["upstream_fixes"]:
+                        self.assertEqual(successor["state"], "OPEN")
+                        self.assertFalse(successor["merged"])
                 self.assertTrue(row["boundary"])
                 self.assertTrue(row["source_url"].startswith("https://"))
                 self.assertIn(row["source_url"], self.journal)
