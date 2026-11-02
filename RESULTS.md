@@ -11,6 +11,25 @@
 | 21.10.2026 | [FilesDrop](reports/filesdrop-2026-10.md) | Два виправлення API та регресійні перевірки | [PR #32 злитий](https://github.com/AndreyBegma/FilesDrop/pull/32) |
 | 24.10.2026 | [Prime Intellect · Verifiers / prime-rl](reports/prime-intellect-2026-10.md) | Дослідження, відтворення помилки, запропонований patch | [Мейнтейнер підтвердив вплив на виправлення](https://github.com/PrimeIntellect-ai/verifiers/pull/2925#issuecomment-6385135636); його реалізація злита у двох репозиторіях |
 | 29.10.2026 | [M7 MCP](reports/m7-2026-10.md) | Незалежний технічний аудит і перевірка першого пакета виправлень | [Реліз v3.18.1 публічно відзначає review/triage](https://github.com/DukeDeSouth/m7-mcp-oss/releases/tag/v3.18.1); реалізація — maintainers |
+| 01.11.2026 | [TensorDict](reports/tensordict-2026-11.md) | Відтворення, запропонований fix і thorough tests | [Maintainer #3427 злитий із credit](https://github.com/pytorch/tensordict/pull/3427); наш #3426 superseded |
+| 02.11.2026 | [Braintrust SDK JavaScript](reports/braintrust-2026-11.md) | Streaming UTF-8 decoder і регресії | [Наш PR #2701 злитий](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) |
+| 02.11.2026 | [Kraft](reports/kraft-2026-11.md) | Refresh skills при вже зареєстрованому MCP server | [Наш PR #1227 злитий](https://github.com/itsOmidKarami/kraft/pull/1227) |
+
+### Зріз 02.11.2026
+
+**Три власні merged PR:** FilesDrop #32, Braintrust #2701 і Kraft #1227. **Два окремі credited contributions:** Prime Intellect і TensorDict — наші пропозиції superseded, реалізації мейнтейнерів злиті. M7 залишається окремим результатом аудиту.
+
+### Braintrust · Unicode збережено між chunks
+
+Наш [PR #2701](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) злитий 02.11.2026 через `lforst`. Stateful `TextDecoder` зберігає UTF-8 символи, розділені між chunks потокового логування. Початкові focused tests: 6 failed / 13 passed; пов'язані suites після виправлення: 178 passed на двох Node versions. [Кейс і межі перевірки](reports/braintrust-2026-11.md).
+
+### Kraft · повторна ініціалізація без втрати refresh
+
+Наш [PR #1227](https://github.com/itsOmidKarami/kraft/pull/1227) злитий 02.11.2026 через `itsOmidKarami`. Повторний user-scope `kraft admin init` оновлює skills при вже наявній MCP-реєстрації; справжні помилки й далі зупиняють запис. Focused suite: 16 passed; `just ci-checks` і mutation checks пройшли. [Кейс і subprocess boundary](reports/kraft-2026-11.md).
+
+### TensorDict · внесок відзначено у меншому maintainer fix
+
+[PR #3427](https://github.com/pytorch/tensordict/pull/3427) злитий 01.11.2026 й прямо посилається на наш попередній fix. Мейнтейнер [подякував за report і thorough tests](https://github.com/pytorch/tensordict/pull/3426#issuecomment-6563347852) та обрав виклик власного loader PyTorch замість його копії. Наш [#3426](https://github.com/pytorch/tensordict/pull/3426) superseded, **не злитий**. [Внесок, перевірки та авторство реалізації](reports/tensordict-2026-11.md).
 
 ### FilesDrop · код прийнято
 
