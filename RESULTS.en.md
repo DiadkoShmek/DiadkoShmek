@@ -1,6 +1,6 @@
 # External results
 
-> Current journal and standalone book: [engineering-results](https://github.com/DiadkoShmek/engineering-results). This page preserves the 2 November 2026 snapshot; new entries belong to the separate repository.
+> Current results and book: [engineering-results](https://github.com/DiadkoShmek/engineering-results). [Complete dated PR inventory](https://github.com/DiadkoShmek/engineering-results/blob/main/PR_STATUS.en.md). The historical 2 November 2026 snapshot is retained below; newer outcomes live in the separate repository.
 
 Open-source contributions, technical audits and competition results. Each entry names the date, contribution, external evidence and disposition. Engineering and investigation used AI tools.
 
