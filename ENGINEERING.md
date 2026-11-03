@@ -1,5 +1,7 @@
 # Інженерні кейси
 
+[Актуальні кейси та статистика](https://github.com/DiadkoShmek/engineering-results/blob/main/ENGINEERING.md)
+
 AI-assisted engineering: проблема, рішення, перевірка та зовнішній наслідок.
 
 ## Прийняті виправлення
