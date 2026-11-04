@@ -13,9 +13,9 @@
 
 ## Проєкти
 
-- **[Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)** — перевірки підстав, життєвий цикл задач і передача артефактів.
-- **[AI Ontology](https://github.com/DiadkoShmek/ai-ontology)** — книга, запропонований профіль аудиту й виконувані приклади тяглості та перегляду.
-- **[Signal Desk](https://diadkoshmek.github.io/talent-research-workflow-prototype/?lang=uk&showcase=1)** — відкриті джерела, рішення людини й передача контексту. [Код](https://github.com/DiadkoShmek/talent-research-workflow-prototype).
+- **[Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)** — підстави, стани задач, передача артефактів.
+- **[AI Ontology](https://github.com/DiadkoShmek/ai-ontology)** — книга, профіль аудиту, приклади тяглості й перегляду.
+- **[Signal Desk](https://diadkoshmek.github.io/talent-research-workflow-prototype/?lang=uk&showcase=1)** — джерела, рішення, передача контексту. [Код](https://github.com/DiadkoShmek/talent-research-workflow-prototype).
 - **[STROIKA](https://diadkoshmek.github.io/mae7-viewer/)** — архітектурний 3D-переглядач із проєктними посиланнями. [Код](https://github.com/DiadkoShmek/mae7-viewer).
 
 ## Зовнішні результати
@@ -24,7 +24,7 @@
 
 **9 власних merged · 3 внески у злиті рішення мейнтейнерів.** [104 PR: 88 відкритих, 7 закритих без merge](https://github.com/DiadkoShmek/engineering-results/blob/main/PR_STATUS.md). Зріз 04.11.2026, 16:20 UTC.
 
-- **[Лезо: 20 нових подань](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/lezo-2026-11.md)** — датовані локальні перевірки та стани рев’ю.
+- **[Лезо: 20 нових подань](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/lezo-2026-11.md)** — кейси й перевірки.
 - **Надійність ресурсів:** [Microsoft Semantic Kernel #14701](https://github.com/microsoft/semantic-kernel/pull/14701) · [Redis #4550](https://github.com/redis/redis-py/pull/4550) — merged.
 - **Код прийнято:** [ONNX #8734](https://github.com/onnx/onnx/pull/8734) · [ONNX IR #521](https://github.com/onnx/ir-py/pull/521) · [TensorLy #695](https://github.com/tensorly/tensorly/pull/695) · [BlackJAX #1068](https://github.com/blackjax-devs/blackjax/pull/1068).
 - **SDK та інтеграції:** [Braintrust #2701](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) · [Kraft #1227](https://github.com/itsOmidKarami/kraft/pull/1227) · [FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged.
@@ -41,6 +41,6 @@
 
 ## Статус і перевірки
 
-Я визначаю напрям і відповідаю за супровід внесків; розробка та перевірки — з AI-допомогою. Прототипи мають окремі контракти й межі; це не історії про впровадження в клієнтів. Для workflow-прикладів: `python3 run_proof.py`.
+Напрям і відповідальність — мої. Розробка й перевірки — з AI-інструментами. Прототипи — не історії про впровадження в клієнтів. `python3 run_proof.py`.
 
-Технічні питання — через Issues відповідного репозиторію.
+Технічні питання — в Issues.

@@ -41,6 +41,6 @@
 
 ## Status and verification
 
-I direct the work and take responsibility for contribution follow-up; development and validation use AI assistance. Each prototype has a defined contract and scope; these are not claims of client deployments. Run the workflow references with `python3 run_proof.py`.
+I direct the work and own follow-up. Development and validation use AI tools. These are prototypes with stated limits, without client-deployment claims. `python3 run_proof.py`.
 
-Use the relevant repository’s Issues for technical questions.
+Technical questions: repository Issues.
