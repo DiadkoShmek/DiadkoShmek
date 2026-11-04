@@ -31,3 +31,7 @@
 Це не контрольований порівняльний бенчмарк AI-моделей: час, вартість і втручання не виміряні зіставно. Власний merged patch, відзначене дослідження й аудит обліковані окремо.
 
 [Книга результатів](https://github.com/DiadkoShmek/engineering-results) · [Історичний журнал](RESULTS.md) · [English results](RESULTS.en.md)
+
+## Подана серія · 04.11.2026 UTC
+
+[Лезо: 20 нових PR у 18 репозиторіях](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/lezo-2026-11.md). Локальні перевірки, source commits і зовнішні стани зібрано в окремому звіті; pending подання не додаються до прийнятих мерджів.
