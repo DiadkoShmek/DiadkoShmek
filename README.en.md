@@ -22,9 +22,10 @@
 
 **[Results book →](https://github.com/DiadkoShmek/engineering-results)**
 
-**6 directly merged PRs · 3 contributions incorporated into merged maintainer fixes.** [79 external PRs: 68 open, 5 closed without merge](https://github.com/DiadkoShmek/engineering-results/blob/main/PR_STATUS.en.md). Snapshot: 3 November 2026 UTC.
+**7 directly merged PRs · 3 contributions incorporated into merged maintainer fixes.** [99 external PRs: 86 open, 6 closed without merge](https://github.com/DiadkoShmek/engineering-results/blob/main/PR_STATUS.en.md). Snapshot: 4 November 2026, 12:05 UTC.
 
-- **Merged code:** [ONNX IR #521](https://github.com/onnx/ir-py/pull/521) · [TensorLy #695](https://github.com/tensorly/tensorly/pull/695) · [BlackJAX #1068](https://github.com/blackjax-devs/blackjax/pull/1068).
+- **[Lezo: 20 new submissions](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/lezo-2026-11.md#english-summary)** — dated local checks and review states.
+- **Merged code:** [ONNX #8734](https://github.com/onnx/onnx/pull/8734) · [ONNX IR #521](https://github.com/onnx/ir-py/pull/521) · [TensorLy #695](https://github.com/tensorly/tensorly/pull/695) · [BlackJAX #1068](https://github.com/blackjax-devs/blackjax/pull/1068).
 - **SDKs and integrations:** [Braintrust #2701](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) · [Kraft #1227](https://github.com/itsOmidKarami/kraft/pull/1227) · [FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged.
 - **[Prime Intellect](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/prime-intellect-2026-10.md#english-summary):** investigation informing [verifiers #2973](https://github.com/PrimeIntellect-ai/verifiers/pull/2973) and prime-rl; our [#2925](https://github.com/PrimeIntellect-ai/verifiers/pull/2925) was superseded, not merged.
 - **[TensorDict](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/tensordict-2026-11.md#english-summary)** and **[TVM-FFI](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/tvm-ffi-2026-11.md#english-summary):** credited contributions to merged maintainer implementations.
