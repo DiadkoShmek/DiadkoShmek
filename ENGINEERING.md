@@ -6,6 +6,9 @@
 
 ## Прийнятий код
 
+- **[Microsoft Semantic Kernel](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/semantic-kernel-2026-11.md):** завершення native generators у streaming invocation; #14701 merged.
+- **[Redis Python client](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/redis-monitor-2026-11.md):** cleanup невдалого MONITOR context entry; #4550 merged.
+
 - **[ONNX](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/onnx-range-2026-11.md):** точна довжина integer Range без переповнення; #8734 merged.
 - **[ONNX IR](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/onnx-ir-2026-11.md):** публічні output names під час усунення Identity; #521 merged.
 - **[TensorLy](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/tensorly-2026-11.md):** weights і mask у single-factor Khatri-Rao; #695 merged.
@@ -26,7 +29,7 @@
 
 ## Як читати
 
-Ігровий бот діє в матчі. AI-агент розробки досліджує, пише й тестує. Людина визначає напрям і погоджує зовнішні дії.
+Ігровий бот діє в матчі. AI-агент розробки досліджує, пише й тестує. Людина визначає напрям, володіє поданням, погоджує зовнішні дії й відповідає за супровід.
 
 Це не контрольований порівняльний бенчмарк AI-моделей: час, вартість і втручання не виміряні зіставно. Власний merged patch, відзначене дослідження й аудит обліковані окремо.
 
