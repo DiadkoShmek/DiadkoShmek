@@ -2,12 +2,12 @@
 
 [Книга, першоджерела й поточні статуси](https://github.com/DiadkoShmek/engineering-results/blob/main/ENGINEERING.md)
 
-**10 власних merged · 4 внески у merged fixes мейнтейнерів.** Зріз 05.11.2026, 19:07 UTC.
+**13 власних merged · 4 внески у merged fixes мейнтейнерів.** Зріз 05.11.2026, 21:47 UTC.
 
 ## Прийнятий код
 
 - **Надійність ресурсів:** [Semantic Kernel](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/semantic-kernel-2026-11.md), [Redis](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/redis-monitor-2026-11.md).
-- **Числові й тензорні контракти:** [PyLops](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/pylops-2026-11.md), [ONNX](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/onnx-range-2026-11.md), [ONNX IR](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/onnx-ir-2026-11.md), [TensorLy](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/tensorly-2026-11.md), [BlackJAX](reports/blackjax-2026-11.md).
+- **Числові й тензорні контракти:** [OTT-JAX #716](https://github.com/ott-jax/ott/pull/716), [ONNX IR #529](https://github.com/onnx/ir-py/pull/529), [#533](https://github.com/onnx/ir-py/pull/533), [PyLops](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/pylops-2026-11.md), [ONNX](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/onnx-range-2026-11.md), [ONNX IR](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/onnx-ir-2026-11.md), [TensorLy](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/tensorly-2026-11.md), [BlackJAX](reports/blackjax-2026-11.md).
 - **SDK та інтеграції:** [Braintrust](reports/braintrust-2026-11.md), [Kraft](reports/kraft-2026-11.md), [FilesDrop](reports/filesdrop-2026-10.md).
 
 ## Внески у рішення мейнтейнерів
