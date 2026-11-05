@@ -1,6 +1,7 @@
 # Зовнішні результати
 
-> Поточні результати й книга: [engineering-results](https://github.com/DiadkoShmek/engineering-results). [Повний датований стан PR](https://github.com/DiadkoShmek/engineering-results/blob/main/PR_STATUS.md). Нижче збережений історичний зріз 02.11.2026; нові результати ведуться в окремій репі.
+> **Поточний зріз 05.11.2026, 19:07 UTC: 10 власних merged, 4 внески у злиті fixes мейнтейнерів; 134 PR, 116 OPEN, 8 CLOSED без merge.** [Книга й чинний журнал](https://github.com/DiadkoShmek/engineering-results) · [Усі PR](https://github.com/DiadkoShmek/engineering-results/blob/main/PR_STATUS.md).
+> **Нове:** [Instructor #2866 → merged #2899](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/instructor-2026-11.md). Нижче - історичний зріз 02.11.2026; його стани не є поточними.
 
 Внески у відкриті проєкти, технічні аудити й результати змагань. Кожен запис містить дату, внесок, зовнішнє джерело та фактичний статус. Реалізація й дослідження виконувалися з AI-інструментами.
 

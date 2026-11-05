@@ -1,6 +1,7 @@
 # External results
 
-> Current results and book: [engineering-results](https://github.com/DiadkoShmek/engineering-results). [Complete dated PR inventory](https://github.com/DiadkoShmek/engineering-results/blob/main/PR_STATUS.en.md). The historical 2 November 2026 snapshot is retained below; newer outcomes live in the separate repository.
+> **Current snapshot 05.11.2026, 19:07 UTC: 10 direct merges, 4 contributions incorporated into merged maintainer fixes; 134 PRs, 116 OPEN, 8 CLOSED without merge.** [Casebook and current ledger](https://github.com/DiadkoShmek/engineering-results) · [All PRs](https://github.com/DiadkoShmek/engineering-results/blob/main/PR_STATUS.en.md).
+> **New:** [Instructor #2866 → merged #2899](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/instructor-2026-11.md). The material below is the historical 2 November 2026 snapshot; its states are not current.
 
 Open-source contributions, technical audits and competition results. Each entry names the date, contribution, external evidence and disposition. Engineering and investigation used AI tools.
 

@@ -224,5 +224,7 @@
   ],
   "canonical_repository": "https://github.com/DiadkoShmek/engineering-results",
   "snapshot_role": "historical_profile_snapshot",
-  "snapshot_as_of": "2026-11-02"
+  "snapshot_as_of": "2026-11-02",
+  "scope": "Historical profile ledger. Current accepted outcomes and PR inventory live in the separate engineering-results repository.",
+  "current_ledger_url": "https://github.com/DiadkoShmek/engineering-results/blob/main/results.json"
 }

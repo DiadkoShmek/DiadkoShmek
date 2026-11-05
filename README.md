@@ -20,20 +20,19 @@
 
 ## Зовнішні результати
 
-**[Книга й журнал →](https://github.com/DiadkoShmek/engineering-results)**
+**[Книга →](https://github.com/DiadkoShmek/engineering-results)**
 
-**10 власних merged · 3 внески у злиті рішення мейнтейнерів.** [134 PR: 117 відкритих, 7 закритих без merge](https://github.com/DiadkoShmek/engineering-results/blob/main/PR_STATUS.md). Зріз 05.11.2026, 07:35 UTC.
+**10 власних merged · 4 внески у злиті рішення мейнтейнерів.** [134 PR: 116 відкритих, 8 закритих без merge](https://github.com/DiadkoShmek/engineering-results/blob/main/PR_STATUS.md). Зріз 05.11.2026, 19:07 UTC.
 
-- **Лезо:** [попередні 20](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/lezo-2026-11.md) · [35 подань: завершено](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/lezo50-2026-11.md).
-- **Надійність ресурсів:** [Microsoft Semantic Kernel #14701](https://github.com/microsoft/semantic-kernel/pull/14701) · [Redis #4550](https://github.com/redis/redis-py/pull/4550) — merged.
-- **Код прийнято:** [PyLops #837](https://github.com/PyLops/pylops/pull/837) · [ONNX #8734](https://github.com/onnx/onnx/pull/8734) · [ONNX IR #521](https://github.com/onnx/ir-py/pull/521) · [TensorLy #695](https://github.com/tensorly/tensorly/pull/695) · [BlackJAX #1068](https://github.com/blackjax-devs/blackjax/pull/1068).
-- **SDK та інтеграції:** [Braintrust #2701](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) · [Kraft #1227](https://github.com/itsOmidKarami/kraft/pull/1227) · [FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged.
-- **[Prime Intellect](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/prime-intellect-2026-10.md):** дослідження у [verifiers #2973](https://github.com/PrimeIntellect-ai/verifiers/pull/2973) та prime-rl; наш [#2925](https://github.com/PrimeIntellect-ai/verifiers/pull/2925) superseded, не злитий.
-- **[TensorDict](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/tensordict-2026-11.md)** та **[TVM-FFI](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/tvm-ffi-2026-11.md):** відзначені внески у злиті рішення мейнтейнерів.
-- **[M7 MCP](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/m7-2026-10.md):** аудит із release credit.
-- **Змагання:** Zoria / UA SKILLS - призер сезону; CodinGame Legend, 86/1657 у зрізі 21.10.2026.
-
-**[Дати й першоджерела →](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.md)**
+- **Лезо:** [20 подань](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/lezo-2026-11.md) · [завершений прохід: 35 подань](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/lezo50-2026-11.md).
+- **Надійність:** [Semantic Kernel #14701](https://github.com/microsoft/semantic-kernel/pull/14701) · [Redis #4550](https://github.com/redis/redis-py/pull/4550) — merged.
+- **Обчислення:** [PyLops #837](https://github.com/PyLops/pylops/pull/837) · [ONNX #8734](https://github.com/onnx/onnx/pull/8734) · [ONNX IR #521](https://github.com/onnx/ir-py/pull/521) · [TensorLy #695](https://github.com/tensorly/tensorly/pull/695) · [BlackJAX #1068](https://github.com/blackjax-devs/blackjax/pull/1068) — merged.
+- **SDK:** [Braintrust #2701](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) · [Kraft #1227](https://github.com/itsOmidKarami/kraft/pull/1227) · [FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged.
+- **[Instructor](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/instructor-2026-11.md):** наш #2866 включено в merged #2899 із reference.
+- **Prime Intellect:** [verifiers #2973](https://github.com/PrimeIntellect-ai/verifiers/pull/2973) та prime-rl; наш [#2925](https://github.com/PrimeIntellect-ai/verifiers/pull/2925) superseded, не злитий.
+- **[TensorDict](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/tensordict-2026-11.md) · [TVM-FFI](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/tvm-ffi-2026-11.md):** внески у злиті рішення мейнтейнерів.
+- **[M7 MCP](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/m7-2026-10.md):** review/triage credit у v3.18.1.
+- **Змагання:** Zoria / UA SKILLS — призер сезону; CodinGame — Legend, 86/1657 у зрізі 21.10.2026.
 
 ## Документація
 
