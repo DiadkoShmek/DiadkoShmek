@@ -1,6 +1,6 @@
 # Інженерні кейси / Engineering cases
 
-> Чинна книга й нові кейси: [engineering-results](https://github.com/DiadkoShmek/engineering-results). Цей каталог зберігає посилання та звіти зі зрізу 02.11.2026.
+> **Поточна книга: 10 власних merged та 4 внески у злиті рішення мейнтейнерів; зріз 05.11.2026, 19:07 UTC.** [Instructor](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/instructor-2026-11.md) · [TVM-FFI: #898 merged](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/tvm-ffi-2026-11.md) · [Усі актуальні кейси](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/README.md). Нижче збережено історичний каталог 02.11.2026.
 
 Короткий результат, роль і зовнішній доказ — на початку. Методика й межі — далі. Кожен кейс має English summary.
 
