@@ -22,9 +22,9 @@
 
 **[Results book →](https://github.com/DiadkoShmek/engineering-results)**
 
-**10 directly merged PRs · 3 contributions incorporated into merged maintainer fixes.** [129 external PRs: 112 open, 7 closed without merge](https://github.com/DiadkoShmek/engineering-results/blob/main/PR_STATUS.en.md). Snapshot: 5 November 2026, 04:48 UTC.
+**10 directly merged PRs · 3 contributions incorporated into merged maintainer fixes.** [134 external PRs: 117 open, 7 closed without merge](https://github.com/DiadkoShmek/engineering-results/blob/main/PR_STATUS.en.md). Snapshot: 5 November 2026, 07:35 UTC.
 
-- **Lezo:** [previous 20](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/lezo-2026-11.md) · [new 30](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/lezo50-2026-11.md#english-summary).
+- **Lezo:** [previous 20](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/lezo-2026-11.md) · [35 submissions: closed](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/lezo50-2026-11.md#english-summary).
 - **Resource reliability:** [Microsoft Semantic Kernel #14701](https://github.com/microsoft/semantic-kernel/pull/14701) · [Redis #4550](https://github.com/redis/redis-py/pull/4550) — merged.
 - **Merged code:** [PyLops #837](https://github.com/PyLops/pylops/pull/837) · [ONNX #8734](https://github.com/onnx/onnx/pull/8734) · [ONNX IR #521](https://github.com/onnx/ir-py/pull/521) · [TensorLy #695](https://github.com/tensorly/tensorly/pull/695) · [BlackJAX #1068](https://github.com/blackjax-devs/blackjax/pull/1068).
 - **SDKs and integrations:** [Braintrust #2701](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) · [Kraft #1227](https://github.com/itsOmidKarami/kraft/pull/1227) · [FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged.
