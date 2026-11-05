@@ -22,11 +22,11 @@
 
 **[Casebook and ledger →](https://github.com/DiadkoShmek/engineering-results)**
 
-**10 directly merged PRs · 4 contributions incorporated into merged maintainer fixes.** [134 external PRs: 116 open, 8 closed without merge](https://github.com/DiadkoShmek/engineering-results/blob/main/PR_STATUS.en.md). Snapshot 05.11.2026, 19:07 UTC.
+**13 directly merged PRs · 4 contributions incorporated into merged maintainer fixes.** [134 external PRs: 113 open, 8 closed without merge](https://github.com/DiadkoShmek/engineering-results/blob/main/PR_STATUS.en.md). Snapshot 05.11.2026, 21:47 UTC.
 
 - **Lezo:** [20 submissions](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/lezo-2026-11.md) · [closed pass: 35 submissions](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/lezo50-2026-11.md).
 - **Reliability:** [Semantic Kernel #14701](https://github.com/microsoft/semantic-kernel/pull/14701) · [Redis #4550](https://github.com/redis/redis-py/pull/4550) — merged.
-- **Computation:** [PyLops #837](https://github.com/PyLops/pylops/pull/837) · [ONNX #8734](https://github.com/onnx/onnx/pull/8734) · [ONNX IR #521](https://github.com/onnx/ir-py/pull/521) · [TensorLy #695](https://github.com/tensorly/tensorly/pull/695) · [BlackJAX #1068](https://github.com/blackjax-devs/blackjax/pull/1068) — merged.
+- **Computation:** [OTT-JAX #716](https://github.com/ott-jax/ott/pull/716) · [ONNX IR #529](https://github.com/onnx/ir-py/pull/529) · [ONNX IR #533](https://github.com/onnx/ir-py/pull/533) · [PyLops #837](https://github.com/PyLops/pylops/pull/837) · [ONNX #8734](https://github.com/onnx/onnx/pull/8734) — merged.
 - **SDKs:** [Braintrust #2701](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) · [Kraft #1227](https://github.com/itsOmidKarami/kraft/pull/1227) · [FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged.
 - **[Instructor](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/instructor-2026-11.md):** our #2866 incorporated into merged #2899 with a reference.
 - **Prime Intellect:** [verifiers #2973](https://github.com/PrimeIntellect-ai/verifiers/pull/2973) and prime-rl; our [#2925](https://github.com/PrimeIntellect-ai/verifiers/pull/2925) was superseded, not merged.
