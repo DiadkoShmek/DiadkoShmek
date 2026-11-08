@@ -15,7 +15,6 @@
 
 - **[Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)** — evidence checks, task lifecycle and artifact handoff.
 - **[AI Ontology](https://github.com/DiadkoShmek/ai-ontology)** — a research book, proposed audit profile and executable continuity/revision references.
-- **[Signal Desk](https://diadkoshmek.github.io/talent-research-workflow-prototype/?lang=en&showcase=1)** — public sources, human review and context handoff. [Code](https://github.com/DiadkoShmek/talent-research-workflow-prototype).
 - **[STROIKA](https://diadkoshmek.github.io/mae7-viewer/)** — architectural 3D review with project references. [Code](https://github.com/DiadkoShmek/mae7-viewer).
 - **[House book](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/en/README.md)**
 - **[Engineering results](https://github.com/DiadkoShmek/engineering-results)**

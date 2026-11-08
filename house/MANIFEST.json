@@ -8,8 +8,8 @@
     },
     {
       "path": "EVIDENCE.md",
-      "sha256": "e9ef1bc182e8223cf50b2ff3c520978fe9f3728d31d9255b245d245ce6931fe8",
-      "bytes": 9397
+      "sha256": "1dbbe692d8c15607f3dfd93cfc81262dafe47828d6b89418f9a83db1243d3e33",
+      "bytes": 9314
     },
     {
       "path": "NOTICE.md",
@@ -253,8 +253,8 @@
     },
     {
       "path": "book/en/20-craft.md",
-      "sha256": "3794dd434713858cd454deb2ad3c3f3454e42cdab0b46d43e00be7093c2414cf",
-      "bytes": 2321
+      "sha256": "ad021a2e40a62e18b8d531facdb86f8a98f4b3c592f0ddc92f5a069a94a1689a",
+      "bytes": 2334
     },
     {
       "path": "book/en/21-readiness.md",
@@ -263,8 +263,8 @@
     },
     {
       "path": "book/en/22-open-layer.md",
-      "sha256": "106af8eb8b73ef342f9fd56e823d16e7659a50540aca95c30e0e352be10d331a",
-      "bytes": 2467
+      "sha256": "bd2f0b5672824090ee4f1124c78e722f213455d2db65b878b9d1b11d75f7840d",
+      "bytes": 2352
     },
     {
       "path": "book/en/23-basis.md",
@@ -278,8 +278,8 @@
     },
     {
       "path": "book/en/BOOK.md",
-      "sha256": "46304de7b68b53129bb65eaecc56a8c9104f6376b31895d49e595f99147c8a46",
-      "bytes": 52267
+      "sha256": "89ffd733d5a5d0aa27acd22faf2fdfc4ccdf7ec34ab2579a0eb8cef17e11870d",
+      "bytes": 52165
     },
     {
       "path": "book/en/README.md",
@@ -293,8 +293,8 @@
     },
     {
       "path": "book/manuscript.json",
-      "sha256": "28f039cb877b2897a178c44e0a1130f30f431792acbb80090315e12838dc01c0",
-      "bytes": 160100
+      "sha256": "e4d0b3200fdc5b23430eee8a378f3e2bf351823cd3cc2f99c655a4f939dc1134",
+      "bytes": 159818
     },
     {
       "path": "book/uk/01-intent.md",
@@ -393,8 +393,8 @@
     },
     {
       "path": "book/uk/20-craft.md",
-      "sha256": "4e56caec30a5ac5ad9fcc2a5a0d8711def36f565e21d50f9c0959ef7248499a9",
-      "bytes": 3973
+      "sha256": "488566376fc23506947280e236e784b4d874df5968a7c7844de8d69d21dee16a",
+      "bytes": 4006
     },
     {
       "path": "book/uk/21-readiness.md",
@@ -403,8 +403,8 @@
     },
     {
       "path": "book/uk/22-open-layer.md",
-      "sha256": "c317e35f5835ac35752642729fab81ccf45d65b3dac2e7a1197ea43d2a951aff",
-      "bytes": 3689
+      "sha256": "8818eabb6ddc725e18d91c5a5d1cf9741bf66ea8336fcc1b3da75ec8f833adfe",
+      "bytes": 3543
     },
     {
       "path": "book/uk/23-basis.md",
@@ -418,8 +418,8 @@
     },
     {
       "path": "book/uk/BOOK.md",
-      "sha256": "920b2850b2b7eb988287ef96b909ed0a8e0d049c8b3db01872ebb6805b8da9b2",
-      "bytes": 86326
+      "sha256": "dfcd3c0a8512059f8090909fe3679d6a132761e7b01f3ec72d313a6ee9477622",
+      "bytes": 86213
     },
     {
       "path": "book/uk/README.md",
@@ -428,13 +428,13 @@
     },
     {
       "path": "pdf/the-house-en.pdf",
-      "sha256": "2d1b23b83fadd88459af89036208598caab1e47b3e57021e6c1081f0f0f18136",
-      "bytes": 195849
+      "sha256": "63860346c787f1ee0499cf9074f60a0b6d8601ebda7c84c8670d1ecf19dbbcb8",
+      "bytes": 195545
     },
     {
       "path": "pdf/the-house-uk.pdf",
-      "sha256": "a2118099e96bcb912cdebd01480cba1ac491779c5e997d900f83713a02d56041",
-      "bytes": 234670
+      "sha256": "b935f082a515370365fc68f969e583e3a551b03e3893fa9ae5a25e03e7969e66",
+      "bytes": 234354
     },
     {
       "path": "publication.json",

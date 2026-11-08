@@ -536,7 +536,7 @@ Actual compute зберіг 132 фізичні виходи; окреме при
 
 ## Публічний результат
 
-У FilesDrop прийнятий PR #32 виправив повтори cleanup і timeout під час DNS-очікування. Evidence-gated Agent Workflows і Signal Desk відкривають менші виконувані приклади. Я використовую ці артефакти як конкретні точки входу: чужий читач може побачити проблему, зміну й її перевірку.
+У FilesDrop прийнятий PR #32 виправив повтори cleanup і timeout під час DNS-очікування. Evidence-gated Agent Workflows містить виконувані приклади перевірки підстав і передачі роботи. Я використовую ці артефакти як конкретні точки входу: чужий читач може побачити проблему, зміну й її перевірку.
 
 Опори: [B15](../../EVIDENCE.md#b15), [B16](../../EVIDENCE.md#b16).
 
@@ -587,7 +587,6 @@ Actual compute зберіг 132 фізичні виходи; окреме при
 
 - [AI Ontology — публічне видання](https://github.com/DiadkoShmek/ai-ontology)
 - [Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)
-- [Signal Desk - приклад джерельного дослідження](https://github.com/DiadkoShmek/talent-research-workflow-prototype)
 - [FilesDrop #32 - прийнята зміна](https://github.com/AndreyBegma/FilesDrop/pull/32)
 - [OpenClaw - upstream runtime](https://github.com/openclaw/openclaw)
 

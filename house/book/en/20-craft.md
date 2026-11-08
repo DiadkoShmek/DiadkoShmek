@@ -20,7 +20,7 @@ For editing I retain the plan, editable project and final export. One rendering 
 
 ## Public work
 
-FilesDrop merged PR #32, repairing cleanup retries and timeout handling during DNS waiting. Evidence-gated Agent Workflows and Signal Desk expose smaller executable examples. I use these artifacts as concrete entry points: another reader can inspect the problem, change and verification.
+FilesDrop merged PR #32, repairing cleanup retries and timeout handling during DNS waiting. Evidence-gated Agent Workflows exposes executable examples of evidence checks and work handoff. I use these artifacts as concrete entry points: another reader can inspect the problem, change and verification.
 
 Evidence basis: [B15](../../EVIDENCE.md#b15), [B16](../../EVIDENCE.md#b16).
 

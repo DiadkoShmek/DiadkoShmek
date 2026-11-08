@@ -14,7 +14,6 @@
 
 - [AI Ontology — публічне видання](https://github.com/DiadkoShmek/ai-ontology)
 - [Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)
-- [Signal Desk - приклад джерельного дослідження](https://github.com/DiadkoShmek/talent-research-workflow-prototype)
 - [FilesDrop #32 - прийнята зміна](https://github.com/AndreyBegma/FilesDrop/pull/32)
 - [OpenClaw - upstream runtime](https://github.com/openclaw/openclaw)
 

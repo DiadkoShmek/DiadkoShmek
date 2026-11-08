@@ -1349,8 +1349,8 @@
         },
         {
           "type": "paragraph",
-          "uk": "У FilesDrop прийнятий PR #32 виправив повтори cleanup і timeout під час DNS-очікування. Evidence-gated Agent Workflows і Signal Desk відкривають менші виконувані приклади. Я використовую ці артефакти як конкретні точки входу: чужий читач може побачити проблему, зміну й її перевірку.",
-          "en": "FilesDrop merged PR #32, repairing cleanup retries and timeout handling during DNS waiting. Evidence-gated Agent Workflows and Signal Desk expose smaller executable examples. I use these artifacts as concrete entry points: another reader can inspect the problem, change and verification."
+          "uk": "У FilesDrop прийнятий PR #32 виправив повтори cleanup і timeout під час DNS-очікування. Evidence-gated Agent Workflows містить виконувані приклади перевірки підстав і передачі роботи. Я використовую ці артефакти як конкретні точки входу: чужий читач може побачити проблему, зміну й її перевірку.",
+          "en": "FilesDrop merged PR #32, repairing cleanup retries and timeout handling during DNS waiting. Evidence-gated Agent Workflows exposes executable examples of evidence checks and work handoff. I use these artifacts as concrete entry points: another reader can inspect the problem, change and verification."
         }
       ],
       "refs": [
@@ -1532,13 +1532,6 @@
                 "en": "Evidence-gated Agent Workflows"
               },
               "url": "https://github.com/DiadkoShmek/evidence-gated-agent-workflows"
-            },
-            {
-              "label": {
-                "uk": "Signal Desk - приклад джерельного дослідження",
-                "en": "Signal Desk - source-bound research example"
-              },
-              "url": "https://github.com/DiadkoShmek/talent-research-workflow-prototype"
             },
             {
               "label": {

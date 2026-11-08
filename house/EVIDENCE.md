@@ -139,5 +139,4 @@ GitHub API підтверджує merge FilesDrop #32; відкриті прик
 - [AI Ontology: pinned edition](https://github.com/DiadkoShmek/ai-ontology/tree/f6997bf2c2f65683505ed719d8038f428b952de1)
 - [FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · [API readback endpoint](https://api.github.com/repos/AndreyBegma/FilesDrop/pulls/32)
 - [Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)
-- [Signal Desk](https://github.com/DiadkoShmek/talent-research-workflow-prototype)
 - [OpenClaw](https://github.com/openclaw/openclaw)

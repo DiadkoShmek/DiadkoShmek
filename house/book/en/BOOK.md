@@ -536,7 +536,7 @@ For editing I retain the plan, editable project and final export. One rendering 
 
 ## Public work
 
-FilesDrop merged PR #32, repairing cleanup retries and timeout handling during DNS waiting. Evidence-gated Agent Workflows and Signal Desk expose smaller executable examples. I use these artifacts as concrete entry points: another reader can inspect the problem, change and verification.
+FilesDrop merged PR #32, repairing cleanup retries and timeout handling during DNS waiting. Evidence-gated Agent Workflows exposes executable examples of evidence checks and work handoff. I use these artifacts as concrete entry points: another reader can inspect the problem, change and verification.
 
 Evidence basis: [B15](../../EVIDENCE.md#b15), [B16](../../EVIDENCE.md#b16).
 
@@ -587,7 +587,6 @@ There is always a choice of form between an internal intention and a published t
 
 - [AI Ontology — public edition](https://github.com/DiadkoShmek/ai-ontology)
 - [Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)
-- [Signal Desk - source-bound research example](https://github.com/DiadkoShmek/talent-research-workflow-prototype)
 - [FilesDrop #32 - merged contribution](https://github.com/AndreyBegma/FilesDrop/pull/32)
 - [OpenClaw - upstream runtime](https://github.com/openclaw/openclaw)
 

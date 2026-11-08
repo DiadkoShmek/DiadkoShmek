@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parent
 README = ROOT / "README.md"
 WORKFLOW = ROOT / ".github" / "workflows" / "profile-proof.yml"
 PROOF = "https://github.com/DiadkoShmek/evidence-gated-agent-workflows"
-SIGNAL_DESK = "https://diadkoshmek.github.io/talent-research-workflow-prototype/?lang=uk&showcase=1"
+HOUSE_BOOK = "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/uk/README.md"
 
 
 class ProfileDiscoveryContractTest(unittest.TestCase):
@@ -16,7 +16,7 @@ class ProfileDiscoveryContractTest(unittest.TestCase):
         self.workflow = WORKFLOW.read_text(encoding="utf-8")
 
     def test_profile_leads_to_real_work_without_personal_contact(self):
-        for route in (PROOF, SIGNAL_DESK):
+        for route in (PROOF, HOUSE_BOOK):
             self.assertIn(route, self.readme)
         self.assertNotIn("linkedin.com/in/", self.readme)
         self.assertNotIn("mailto:", self.readme)

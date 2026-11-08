@@ -14,7 +14,6 @@ There is always a choice of form between an internal intention and a published t
 
 - [AI Ontology — public edition](https://github.com/DiadkoShmek/ai-ontology)
 - [Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)
-- [Signal Desk - source-bound research example](https://github.com/DiadkoShmek/talent-research-workflow-prototype)
 - [FilesDrop #32 - merged contribution](https://github.com/AndreyBegma/FilesDrop/pull/32)
 - [OpenClaw - upstream runtime](https://github.com/openclaw/openclaw)
 

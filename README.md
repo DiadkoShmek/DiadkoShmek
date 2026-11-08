@@ -15,7 +15,6 @@
 
 - **[Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)** — підстави, стани задач, передача артефактів.
 - **[AI Ontology](https://github.com/DiadkoShmek/ai-ontology)** — книга, профіль аудиту, приклади тяглості й перегляду.
-- **[Signal Desk](https://diadkoshmek.github.io/talent-research-workflow-prototype/?lang=uk&showcase=1)** — джерела, рішення, передача контексту. [Код](https://github.com/DiadkoShmek/talent-research-workflow-prototype).
 - **[STROIKA](https://diadkoshmek.github.io/mae7-viewer/)** — архітектурний 3D-переглядач із проєктними посиланнями. [Код](https://github.com/DiadkoShmek/mae7-viewer).
 - **[Книга Дому](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/uk/README.md)**
 - **[Інженерні результати](https://github.com/DiadkoShmek/engineering-results)**
