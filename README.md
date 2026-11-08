@@ -17,22 +17,22 @@
 - **[AI Ontology](https://github.com/DiadkoShmek/ai-ontology)** — книга, профіль аудиту, приклади тяглості й перегляду.
 - **[Signal Desk](https://diadkoshmek.github.io/talent-research-workflow-prototype/?lang=uk&showcase=1)** — джерела, рішення, передача контексту. [Код](https://github.com/DiadkoShmek/talent-research-workflow-prototype).
 - **[STROIKA](https://diadkoshmek.github.io/mae7-viewer/)** — архітектурний 3D-переглядач із проєктними посиланнями. [Код](https://github.com/DiadkoShmek/mae7-viewer).
+- **[Книга Дому](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/uk/README.md)**
+- **[Інженерні результати](https://github.com/DiadkoShmek/engineering-results)**
 
-## Зовнішні результати
+[Усі власні репозиторії](https://github.com/DiadkoShmek?tab=repositories&type=source)
+
+<details>
+<summary>Внески у зовнішні проєкти — PR та історія</summary>
 
 **[Книга →](https://github.com/DiadkoShmek/engineering-results)**
 
 **13 власних merged · 4 внески у злиті рішення мейнтейнерів.** [134 PR: 113 відкритих, 8 закритих без merge](https://github.com/DiadkoShmek/engineering-results/blob/main/PR_STATUS.md). Зріз 05.11.2026, 21:47 UTC.
 
-- **Лезо:** [20 подань](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/lezo-2026-11.md) · [завершений прохід: 35 подань](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/lezo50-2026-11.md).
-- **Надійність:** [Semantic Kernel #14701](https://github.com/microsoft/semantic-kernel/pull/14701) · [Redis #4550](https://github.com/redis/redis-py/pull/4550) — merged.
-- **Обчислення:** [OTT-JAX](https://github.com/ott-jax/ott/pull/716) · [ONNX IR #529](https://github.com/onnx/ir-py/pull/529) · [ONNX IR #533](https://github.com/onnx/ir-py/pull/533) · [PyLops #837](https://github.com/PyLops/pylops/pull/837) · [ONNX #8734](https://github.com/onnx/onnx/pull/8734) — merged.
-- **SDK:** [Braintrust #2701](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2701) · [Kraft #1227](https://github.com/itsOmidKarami/kraft/pull/1227) · [FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged.
-- **[Instructor](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/instructor-2026-11.md):** наш #2866 включено в merged #2899 із reference.
-- **Prime Intellect:** [verifiers #2973](https://github.com/PrimeIntellect-ai/verifiers/pull/2973) та prime-rl; наш [#2925](https://github.com/PrimeIntellect-ai/verifiers/pull/2925) superseded, не злитий.
-- **[TensorDict](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/tensordict-2026-11.md) · [TVM-FFI](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/tvm-ffi-2026-11.md):** внески у злиті рішення мейнтейнерів.
-- **[M7 MCP](https://github.com/DiadkoShmek/engineering-results/blob/main/reports/m7-2026-10.md):** review/triage credit у v3.18.1.
-- **Змагання:** Zoria / UA SKILLS — призер сезону; CodinGame — Legend, 86/1657 у зрізі 21.10.2026.
+- [FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · merged.
+- Prime Intellect: [verifiers #2973](https://github.com/PrimeIntellect-ai/verifiers/pull/2973); наш [#2925](https://github.com/PrimeIntellect-ai/verifiers/pull/2925) — superseded, не злитий.
+
+</details>
 
 ## Документація
 
