@@ -58,19 +58,21 @@ def readme(lang):
     copy = DATA["languages"][lang]
     book, results = (route[lang] for route in DATA["primary"])
     book_pdf = f"{PROFILE}house/pdf/the-house-{lang}.pdf"
-    stroika = "https://github.com/DiadkoShmek/mae7-viewer"
     originals = "https://github.com/DiadkoShmek?tab=repositories&type=source"
     lines = [
         picture(),
         f'\n**{copy["intro"]}**',
-        f'\n- **[{book["title"]}]({book["url"]})** — {book["description"]} [PDF]({book_pdf})',
-        f'- **[{results["title"]}]({results["url"]})** — {results["description"]}',
+        f'\n{copy["summary"]}',
         f'\n[{copy["other_language"]}]({PROFILE}{copy["other_file"]})',
+        f'\n## {copy["start"]}\n',
+        f'- **[{results["title"]}]({results["url"]})** · {results["description"]}',
+        f'- **[{book["title"]}]({book["url"]})** · {book["description"]} [PDF]({book_pdf})',
         f'\n## {copy["projects"]}\n',
     ]
     for project in DATA["projects"]:
-        lines.append(f'- **[{project["title"]}]({project["url"]})** — {project[lang]}')
-    lines[-1] += f' [{"Код" if lang == "uk" else "Code"}]({stroika})'
+        action = project["actions"][lang]
+        lines.append(f'- **[{project["title"]}]({project["url"]})** · {project[lang]} '
+                     f'[{action["title"]}]({action["url"]})')
     lines.extend([
         f'\n[{"Усі власні репозиторії" if lang == "uk" else "All original repositories"}]({originals})',
         f'\n<details>\n<summary>{copy["archive"]}</summary>\n',

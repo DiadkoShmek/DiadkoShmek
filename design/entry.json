@@ -2,44 +2,48 @@
   "brand": "Resonance",
   "languages": {
     "uk": {
-      "intro": "Дім для AI-систем, пам’яті та інженерних інструментів.",
+      "intro": "AI-системи з перевірними підставами",
       "other_language": "English",
       "other_file": "README.en.md",
       "projects": "Власні проєкти",
       "archive": "Внески у зовнішні проєкти",
-      "method": "Про роботу й перевірки"
+      "method": "Про роботу й перевірки",
+      "summary": "Відтворювані приклади агентів, дослідження пам’яті та виправлення у відкритих бібліотеках.",
+      "start": "Почати тут"
     },
     "en": {
-      "intro": "A house for AI systems, memory and engineering tools.",
+      "intro": "AI systems with inspectable evidence",
       "other_language": "Українська",
       "other_file": "README.md",
       "projects": "Original projects",
       "archive": "Contributions to external projects",
-      "method": "Work and verification"
+      "method": "Work and verification",
+      "summary": "Runnable agent examples, research on memory, and fixes merged into open-source libraries.",
+      "start": "Start here"
     }
   },
   "primary": [
     {
       "uk": {
         "title": "Книга Дому",
-        "description": "Архітектура, пам’ять і принципи роботи Дому.",
+        "description": "Архітектура Дому та як у ньому пов’язані агенти, пам’ять і робота.",
         "url": "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/uk/README.md"
       },
       "en": {
         "title": "The House",
-        "description": "Architecture, memory and the principles behind the House.",
+        "description": "The architecture behind the House and how agents, memory, and work connect.",
         "url": "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/en/README.md"
       }
     },
     {
       "uk": {
         "title": "Інженерні результати",
-        "description": "Переглянути злиті виправлення й технічні кейси з першоджерелами.",
+        "description": "Злиті виправлення, технічні кейси й посилання на першоджерела.",
         "url": "https://github.com/DiadkoShmek/engineering-results"
       },
       "en": {
         "title": "Engineering results",
-        "description": "Browse merged fixes and case studies linked to upstream evidence.",
+        "description": "Merged fixes, engineering case studies, and links to upstream evidence.",
         "url": "https://github.com/DiadkoShmek/engineering-results/blob/main/README.en.md"
       }
     }
@@ -48,20 +52,50 @@
     {
       "title": "Agent Workflows",
       "url": "https://github.com/DiadkoShmek/evidence-gated-agent-workflows",
-      "uk": "Запустити приклади перевірки підстав і передачі результатів між агентами.",
-      "en": "Run examples of evidence checks and handoffs between agents."
+      "uk": "Приклади, де агент зупиняється, коли даних бракує або вони суперечать одне одному.",
+      "en": "Runnable examples of agents that stop when evidence is missing or conflicting.",
+      "actions": {
+        "uk": {
+          "title": "Приклади",
+          "url": "https://diadkoshmek.github.io/evidence-gated-agent-workflows/"
+        },
+        "en": {
+          "title": "Examples",
+          "url": "https://diadkoshmek.github.io/evidence-gated-agent-workflows/en.html"
+        }
+      }
     },
     {
       "title": "AI Ontology",
       "url": "https://github.com/DiadkoShmek/ai-ontology",
-      "uk": "Дослідити пам’ять агентів, перевірку підстав і перегляд рішень.",
-      "en": "Explore agent memory, evidence and revision."
+      "uk": "Книга і відтворювані дослідження пам’яті агентів та перегляду рішень.",
+      "en": "A book and reproducible studies of agent memory and decision revision.",
+      "actions": {
+        "uk": {
+          "title": "Читати",
+          "url": "https://diadkoshmek.github.io/ai-ontology/"
+        },
+        "en": {
+          "title": "Read",
+          "url": "https://diadkoshmek.github.io/ai-ontology/en/"
+        }
+      }
     },
     {
       "title": "STROIKA",
-      "url": "https://diadkoshmek.github.io/mae7-viewer/",
-      "uk": "Оглянути будинок у 3D, фасади й креслення для перегляду.",
-      "en": "Explore the 3D model, façades and review drawings."
+      "url": "https://github.com/DiadkoShmek/mae7-viewer",
+      "uk": "Інтерактивна 3D-модель, фасади й креслення для перегляду.",
+      "en": "An interactive 3D model with façades and review drawings.",
+      "actions": {
+        "uk": {
+          "title": "Відкрити 3D",
+          "url": "https://diadkoshmek.github.io/mae7-viewer/"
+        },
+        "en": {
+          "title": "Open 3D viewer",
+          "url": "https://diadkoshmek.github.io/mae7-viewer/"
+        }
+      }
     }
   ]
 }
