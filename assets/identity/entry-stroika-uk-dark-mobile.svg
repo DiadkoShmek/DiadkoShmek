@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="158" viewBox="0 0 760 158" role="img" aria-labelledby="title desc">
+<title id="title">Простір у 3D</title>
+<desc id="desc">Архітектурний переглядач будинку з посиланнями на проєктні джерела.</desc>
+<rect x="1" y="1" width="758" height="156" rx="18" fill="#141d27" stroke="#344354" stroke-width="2"/>
+<path d="M2 35V123" stroke="#f1b59b" stroke-width="4"/>
+<text x="32" y="44" font-family="monospace" font-size="23" font-weight="400" fill="#b5c3d2">STROIKA</text>
+<text x="32" y="112" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#f0f6fc">Простір у 3D</text>
+<g fill="none" stroke="#f1b59b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M669 94L699 64M673 64H699V90"/></g>
+</svg>

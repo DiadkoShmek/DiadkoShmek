@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+<title id="title">Resonance — the House of DiadkoShmek</title>
+<desc id="desc">Independent AI systems, memory, tools and verifiable engineering. Static illustration of connected parts and their return.</desc>
+<rect x="1" y="1" width="1278" height="318" rx="26" fill="#ffffff" stroke="#b8c9d3" stroke-width="2"/>
+<path d="M44 64H94" stroke="#14694f" stroke-width="5" stroke-linecap="round"/>
+<text x="111" y="72" font-family="monospace" font-size="23" font-weight="400" fill="#455a6d">DIADKOSHMEK / THE HOUSE</text>
+<text x="40" y="202" font-family="Arial, Helvetica, sans-serif" font-size="116" font-weight="700" fill="#142330">Resonance</text>
+<path d="M45 285H1235" stroke="#b8c9d3"/>
+<g fill="none" stroke="#b8c9d3" stroke-width="2">
+<path d="M912 100H1030V150H1160V244H912Z"/>
+<path d="M912 100V244M1030 150L912 244M1160 244L1030 150"/>
+<circle cx="912" cy="100" r="19" fill="#ffffff" stroke="#14694f"/>
+<circle cx="1030" cy="150" r="13" fill="#ffffff" stroke="#79510e"/>
+<circle cx="1160" cy="244" r="19" fill="#ffffff" stroke="#14694f"/>
+<circle cx="912" cy="244" r="9" fill="#14694f" stroke="none"/>
+</g>
+</svg>

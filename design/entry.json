@@ -1,0 +1,114 @@
+{
+  "brand": "Resonance",
+  "account": "DiadkoShmek",
+  "languages": {
+    "uk": {
+      "intro": "Власні AI-системи. Пам’ять, інструменти й інженерія з перевіркою.",
+      "other_language": "English",
+      "other_file": "README.en.md",
+      "projects": "Власні проєкти",
+      "archive": "Внески у зовнішні проєкти",
+      "method": "Про роботу й перевірки"
+    },
+    "en": {
+      "intro": "Independent AI systems. Memory, tools and engineering with verification.",
+      "other_language": "Українська",
+      "other_file": "README.md",
+      "projects": "Original projects",
+      "archive": "Contributions to external projects",
+      "method": "Work and verification"
+    }
+  },
+  "routes": [
+    {
+      "id": "house",
+      "accent": "mint",
+      "uk": {
+        "title": "Книга Дому",
+        "label": "ЗАДУМ / АРХІТЕКТУРА",
+        "description": "Як поєднуються AI, пам’ять і власні інструменти. Книга з поясненнями та схемами.",
+        "action": "Читати",
+        "url": "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/uk/README.md"
+      },
+      "en": {
+        "title": "The House",
+        "label": "IDEA / ARCHITECTURE",
+        "description": "AI, memory and original tools as one system. A book with explanations and diagrams.",
+        "action": "Read the book",
+        "url": "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/en/README.md"
+      }
+    },
+    {
+      "id": "results",
+      "accent": "amber",
+      "uk": {
+        "title": "Інженерні результати",
+        "label": "КОД / ПРИЙНЯТІ ВНЕСКИ",
+        "description": "Виправлення у відкритих бібліотеках, аудити й змагання. Кожен кейс веде до джерел.",
+        "action": "Дивитися кейси",
+        "url": "https://github.com/DiadkoShmek/engineering-results"
+      },
+      "en": {
+        "title": "Engineering results",
+        "label": "CODE / ACCEPTED WORK",
+        "description": "Open-source fixes, audits and competitions. Each case links to its evidence.",
+        "action": "Explore the cases",
+        "url": "https://github.com/DiadkoShmek/engineering-results"
+      }
+    },
+    {
+      "id": "workflows",
+      "accent": "mint",
+      "uk": {
+        "title": "Агенти й інструменти",
+        "label": "EVIDENCE-GATED AGENT WORKFLOWS",
+        "description": "Виконувані приклади перевірки підстав, ведення задач і передачі результатів між агентами.",
+        "action": "Відкрити код",
+        "url": "https://github.com/DiadkoShmek/evidence-gated-agent-workflows"
+      },
+      "en": {
+        "title": "Agents & tools",
+        "label": "EVIDENCE-GATED AGENT WORKFLOWS",
+        "description": "Runnable examples of evidence checks, task state and artifact handoff between agents.",
+        "action": "Open the code",
+        "url": "https://github.com/DiadkoShmek/evidence-gated-agent-workflows"
+      }
+    },
+    {
+      "id": "ontology",
+      "accent": "blue",
+      "uk": {
+        "title": "Пам’ять і знання",
+        "label": "AI ONTOLOGY",
+        "description": "Дослідницька книга й приклади збереження контексту, перевірки підстав і перегляду.",
+        "action": "Дослідити проєкт",
+        "url": "https://github.com/DiadkoShmek/ai-ontology"
+      },
+      "en": {
+        "title": "Memory & knowledge",
+        "label": "AI ONTOLOGY",
+        "description": "A research book and references for continuity, evidence and revision.",
+        "action": "Explore the project",
+        "url": "https://github.com/DiadkoShmek/ai-ontology"
+      }
+    },
+    {
+      "id": "stroika",
+      "accent": "coral",
+      "uk": {
+        "title": "Простір у 3D",
+        "label": "STROIKA",
+        "description": "Архітектурний переглядач будинку з посиланнями на проєктні джерела.",
+        "action": "Відкрити переглядач",
+        "url": "https://diadkoshmek.github.io/mae7-viewer/"
+      },
+      "en": {
+        "title": "Space in 3D",
+        "label": "STROIKA",
+        "description": "An architectural house viewer with links to project references.",
+        "action": "Open the viewer",
+        "url": "https://diadkoshmek.github.io/mae7-viewer/"
+      }
+    }
+  ]
+}

@@ -22,7 +22,7 @@ class ProfileDiscoveryContractTest(unittest.TestCase):
         self.assertNotIn("mailto:", self.readme)
         self.assertIn("python3 run_proof.py", self.readme)
         self.assertIn("прототипи", self.readme.lower())
-        self.assertIn("не історії про впровадження в клієнтів", self.readme)
+        self.assertIn("Прототипи мають описані умови та межі перевірок", self.readme)
         self.assertIn("https://diadkoshmek.github.io/mae7-viewer/", self.readme)
         self.assertIn("https://github.com/DiadkoShmek/mae7-viewer", self.readme)
 
@@ -35,23 +35,25 @@ class ProfileDiscoveryContractTest(unittest.TestCase):
     def test_profile_keeps_project_index_and_static_technical_identity(self):
         for name in ("README.md", "README.en.md"):
             text = (ROOT / name).read_text(encoding="utf-8")
-            self.assertTrue(text.startswith("# DiadkoShmek\n"))
+            self.assertIn('alt="Resonance', text)
             self.assertNotIn("![", text)
-            self.assertEqual(text.count("<picture>"), 1)
-            self.assertIn("assets/identity/profile-light.svg", text)
-            self.assertIn("profile-dark-mobile.svg", text)
+            self.assertGreaterEqual(text.count("<picture>"), 1)
+            self.assertIn("assets/identity/resonance-light.svg", text)
+            self.assertIn("resonance-dark-mobile.svg", text)
             self.assertNotRegex(text, r"I build|Я будую|mailto:|linkedin\.com/in/")
             self.assertIn("/house/book/", text)
             self.assertIn("/RESULTS", text)
 
-    def test_open_source_work_links_upstream_and_states_current_disposition(self):
-        self.assertIn("https://github.com/PrimeIntellect-ai/verifiers/pull/2925", self.readme)
-        self.assertIn("https://github.com/AndreyBegma/FilesDrop/pull/32", self.readme)
-        self.assertIn("FilesDrop #32", self.readme)
-        self.assertIn("· merged", self.readme)
-        self.assertIn("https://github.com/PrimeIntellect-ai/verifiers/pull/2973", self.readme)
-        self.assertIn("superseded, не злитий", self.readme)
-        self.assertNotIn("21.10.2026 обидва PR відкриті, ще не злиті", self.readme)
+    def test_external_pr_history_is_folded_and_links_to_its_owner(self):
+        for name, index in (("README.md", "PR_STATUS.md"), ("README.en.md", "PR_STATUS.en.md")):
+            with self.subTest(name=name):
+                readme = (ROOT / name).read_text(encoding="utf-8")
+                main, details = readme.split("<details>", 1)
+                self.assertNotRegex(main, r"github\.com/[^/]+/[^/]+/pull/")
+                archive = details.split("</details>", 1)[0]
+                status = "https://github.com/DiadkoShmek/engineering-results/blob/main/" + index
+                self.assertIn(status, archive)
+                self.assertNotIn("05.11.2026", readme)
 
     def test_profile_links_are_public_https_targets(self):
         targets = re.findall(r"\[[^]]+\]\(([^)]+)\)", self.readme)
@@ -186,7 +188,8 @@ class EngineeringReportContractTest(unittest.TestCase):
         self.assertIn("відтворити матчі", self.report)
 
     def test_public_entry_is_short_and_method_remains_available(self):
-        self.assertLess(len(README.read_text(encoding="utf-8").split()), 260)
+        visible = re.sub(r"<[^>]+>", "", README.read_text(encoding="utf-8"))
+        self.assertLess(len(visible.split()), 260)
         self.assertLess(len(self.index.split()), 260)
         self.assertIn("<details>", self.report)
         self.assertIn("Методика, дані та обмеження", self.report)

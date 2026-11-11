@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 from html import escape
 from pathlib import Path
+import profile_entry
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "identity"
@@ -138,6 +139,7 @@ def outputs(only=None):
         yield OUT / f"{project}-social.svg", social_svg(project)
     if not only or only == "profile":
         yield OUT / "avatar.svg", avatar()
+        yield from profile_entry.outputs(ROOT)
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)

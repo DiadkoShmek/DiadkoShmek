@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="158" viewBox="0 0 760 158" role="img" aria-labelledby="title desc">
+<title id="title">Книга Дому</title>
+<desc id="desc">Як поєднуються AI, пам’ять і власні інструменти. Книга з поясненнями та схемами.</desc>
+<rect x="1" y="1" width="758" height="156" rx="18" fill="#f3f7f9" stroke="#b8c9d3" stroke-width="2"/>
+<path d="M2 35V123" stroke="#14694f" stroke-width="4"/>
+<text x="32" y="44" font-family="monospace" font-size="23" font-weight="400" fill="#455a6d">ЗАДУМ / АРХІТЕКТУРА</text>
+<text x="32" y="112" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#142330">Книга Дому</text>
+<g fill="none" stroke="#14694f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M669 94L699 64M673 64H699V90"/></g>
+</svg>
