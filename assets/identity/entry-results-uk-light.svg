@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="152" viewBox="0 0 1280 152" role="img" aria-labelledby="title desc">
-<title id="title">Інженерні результати</title>
-<desc id="desc">Виправлення у відкритих бібліотеках, аудити й змагання. Кожен кейс веде до джерел.</desc>
-<rect x="1" y="1" width="1278" height="150" rx="18" fill="#f3f7f9" stroke="#b8c9d3" stroke-width="2"/>
-<path d="M2 35V117" stroke="#79510e" stroke-width="4"/>
-<text x="32" y="44" font-family="monospace" font-size="24" font-weight="400" fill="#455a6d">КОД / ПРИЙНЯТІ ВНЕСКИ</text>
-<text x="32" y="112" font-family="Arial, Helvetica, sans-serif" font-size="57" font-weight="700" fill="#142330">Інженерні результати</text>
-<g fill="none" stroke="#79510e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M1189 91L1219 61M1193 61H1219V87"/></g>
-</svg>

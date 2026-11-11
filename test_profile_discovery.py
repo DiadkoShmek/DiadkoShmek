@@ -37,12 +37,18 @@ class ProfileDiscoveryContractTest(unittest.TestCase):
             text = (ROOT / name).read_text(encoding="utf-8")
             self.assertIn('alt="Resonance', text)
             self.assertNotIn("![", text)
-            self.assertGreaterEqual(text.count("<picture>"), 1)
-            self.assertIn("assets/identity/resonance-light.svg", text)
-            self.assertIn("resonance-dark-mobile.svg", text)
+            self.assertEqual(text.count("<picture>"), 1)
+            self.assertIn("assets/identity/resonance-signature-light.svg", text)
+            self.assertIn("resonance-signature-dark-mobile.svg", text)
             self.assertNotRegex(text, r"I build|Я будую|mailto:|linkedin\.com/in/")
             self.assertIn("/house/book/", text)
             self.assertIn("/RESULTS", text)
+            main = text.split("<details>", 1)[0]
+            for target in (
+                f"/house/book/{'uk' if name == 'README.md' else 'en'}/README.md",
+                "https://github.com/DiadkoShmek/engineering-results",
+            ):
+                self.assertEqual(main.count(target), 1, (name, target))
 
     def test_external_pr_history_is_folded_and_links_to_its_owner(self):
         for name, index in (("README.md", "PR_STATUS.md"), ("README.en.md", "PR_STATUS.en.md")):

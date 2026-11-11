@@ -21,24 +21,15 @@ Repository READMEs reference these covers directly. The static social previews
 and geometric avatar use the same source. Existing project licences and
 attribution remain unchanged.
 
-## Resonance profile entrance · 2026-11-08
+## Resonance profile entrance
 
-The profile's editable content owner is `entry.json`; `profile_entry.py`
-renders the bilingual README and its static SVG navigation. `render.py`
-remains the single generation/check command. Other project covers and the
-avatar retain their existing sources.
+`entry.json` owns the bilingual content. `profile_entry.py` generates the
+README and its compact masthead. A three-node return path carries the shared
+identity into the masthead's separate narrow and wide compositions, each with
+light and dark palettes.
 
-Thesis: one House, several clear entrances. The book and engineering results
-lead; three original projects follow. Wide and narrow SVGs have separate
-compositions, with light/dark palettes. Each whole card links to its real
-destination; ordinary text and links below it preserve discovery and meaning
-when images are unavailable. Illustrations are static and carry no live status.
-
-The entrance uses only public book/project material. Local Resonance language
-sources, private runtime and model weights are not published. Repo statuses
-and counts live in their source ledgers instead of decorative numeric badges.
-
-GitHub owns the surrounding layout and sanitizes README markup. The profile
-uses native headings, links, pictures and collapsed details; there is no custom
-JavaScript, injected CSS, animation, remote font or tracking. Review the native
-GitHub rendering as well as light/dark mobile and desktop previews after edits.
+The book and engineering results lead directly to their sources. Three
+original projects follow in a native text list. GitHub headings, links and
+collapsed details keep navigation available with images disabled. The current
+PR inventory and result counts are maintained in the engineering-results
+repository. Review the live GitHub rendering and mobile width after edits.
