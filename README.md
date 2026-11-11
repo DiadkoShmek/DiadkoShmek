@@ -8,7 +8,7 @@
 **Дім для AI-систем, пам’яті та інженерних інструментів.**
 
 - **[Книга Дому](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/uk/README.md)** — Архітектура, пам’ять і принципи роботи Дому. [PDF](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/pdf/the-house-uk.pdf)
-- **[Інженерні результати](https://github.com/DiadkoShmek/engineering-results)** — Прийняті виправлення й технічні кейси з першоджерелами.
+- **[Інженерні результати](https://github.com/DiadkoShmek/engineering-results)** — Переглянути злиті виправлення й технічні кейси з першоджерелами.
 
 [English](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/README.en.md)
 
@@ -16,7 +16,7 @@
 
 - **[Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)** — Запустити приклади перевірки підстав і передачі результатів між агентами.
 - **[AI Ontology](https://github.com/DiadkoShmek/ai-ontology)** — Дослідити пам’ять агентів, перевірку підстав і перегляд рішень.
-- **[STROIKA](https://diadkoshmek.github.io/mae7-viewer/)** — Оглянути будинок у 3D та відкрити проєктні джерела. [Код](https://github.com/DiadkoShmek/mae7-viewer)
+- **[STROIKA](https://diadkoshmek.github.io/mae7-viewer/)** — Оглянути будинок у 3D, фасади й креслення для перегляду. [Код](https://github.com/DiadkoShmek/mae7-viewer)
 
 [Усі власні репозиторії](https://github.com/DiadkoShmek?tab=repositories&type=source)
 

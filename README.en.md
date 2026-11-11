@@ -8,7 +8,7 @@
 **A house for AI systems, memory and engineering tools.**
 
 - **[The House](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/en/README.md)** — Architecture, memory and the principles behind the House. [PDF](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/pdf/the-house-en.pdf)
-- **[Engineering results](https://github.com/DiadkoShmek/engineering-results)** — Accepted fixes and technical case studies with primary sources.
+- **[Engineering results](https://github.com/DiadkoShmek/engineering-results/blob/main/README.en.md)** — Browse merged fixes and case studies linked to upstream evidence.
 
 [Українська](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/README.md)
 
@@ -16,7 +16,7 @@
 
 - **[Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)** — Run examples of evidence checks and handoffs between agents.
 - **[AI Ontology](https://github.com/DiadkoShmek/ai-ontology)** — Explore agent memory, evidence and revision.
-- **[STROIKA](https://diadkoshmek.github.io/mae7-viewer/)** — Explore the house in 3D and inspect its project references. [Code](https://github.com/DiadkoShmek/mae7-viewer)
+- **[STROIKA](https://diadkoshmek.github.io/mae7-viewer/)** — Explore the 3D model, façades and review drawings. [Code](https://github.com/DiadkoShmek/mae7-viewer)
 
 [All original repositories](https://github.com/DiadkoShmek?tab=repositories&type=source)
 

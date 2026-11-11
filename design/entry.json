@@ -34,13 +34,13 @@
     {
       "uk": {
         "title": "Інженерні результати",
-        "description": "Прийняті виправлення й технічні кейси з першоджерелами.",
+        "description": "Переглянути злиті виправлення й технічні кейси з першоджерелами.",
         "url": "https://github.com/DiadkoShmek/engineering-results"
       },
       "en": {
         "title": "Engineering results",
-        "description": "Accepted fixes and technical case studies with primary sources.",
-        "url": "https://github.com/DiadkoShmek/engineering-results"
+        "description": "Browse merged fixes and case studies linked to upstream evidence.",
+        "url": "https://github.com/DiadkoShmek/engineering-results/blob/main/README.en.md"
       }
     }
   ],
@@ -60,8 +60,8 @@
     {
       "title": "STROIKA",
       "url": "https://diadkoshmek.github.io/mae7-viewer/",
-      "uk": "Оглянути будинок у 3D та відкрити проєктні джерела.",
-      "en": "Explore the house in 3D and inspect its project references."
+      "uk": "Оглянути будинок у 3D, фасади й креслення для перегляду.",
+      "en": "Explore the 3D model, façades and review drawings."
     }
   ]
 }
