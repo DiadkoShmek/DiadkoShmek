@@ -6,7 +6,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 README = ROOT / "README.md"
 WORKFLOW = ROOT / ".github" / "workflows" / "profile-proof.yml"
-PROOF = "https://github.com/DiadkoShmek/evidence-gated-agent-workflows"
 HOUSE_BOOK = "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/uk/README.md"
 
 
@@ -20,8 +19,9 @@ class ProfileDiscoveryContractTest(unittest.TestCase):
             text = (ROOT / filename).read_text(encoding="utf-8")
             lines = [line for line in text.splitlines() if line.strip()]
             self.assertTrue(lines[0].startswith("# "))
-            self.assertEqual(len(lines), 6)
-            self.assertTrue(all(line.startswith("- [") for line in lines[1:-1]))
+            self.assertEqual(len(lines), 7)
+            self.assertTrue(lines[1].startswith("> "))
+            self.assertTrue(all(line.startswith("- [") for line in lines[2:-1]))
             for path in ("/library/movy-1-20/", "/library/ai-ontology/", "/house/book/", "/library/benchmark-lezo/"):
                 self.assertEqual(text.count(path), 1)
             self.assertTrue(lines[-1].startswith("["))

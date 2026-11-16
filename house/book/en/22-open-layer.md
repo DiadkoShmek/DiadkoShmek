@@ -13,7 +13,7 @@ There is always a choice of form between an internal intention and a published t
 ## Where to look more closely
 
 - [AI Ontology — public edition](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/ai-ontology/README.md)
-- [Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)
+- [Benchmark Lezo](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/benchmark-lezo/README.md)
 - [FilesDrop #32 - merged contribution](https://github.com/AndreyBegma/FilesDrop/pull/32)
 - [OpenClaw - upstream runtime](https://github.com/openclaw/openclaw)
 

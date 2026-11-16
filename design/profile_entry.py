@@ -52,6 +52,8 @@ def readme(lang):
     return "\n".join([
         f'# {copy["heading"]}',
         "",
+        f'> {copy["epigraph"]}',
+        "",
         *links,
         "",
         f'[{copy["other_language"]}]({PROFILE}{copy["other_file"]})',

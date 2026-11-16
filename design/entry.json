@@ -3,11 +3,13 @@
   "languages": {
     "uk": {
       "heading": "Бібліотека",
+      "epigraph": "Світ починається з тиші.",
       "other_language": "English",
       "other_file": "README.en.md"
     },
     "en": {
       "heading": "Library",
+      "epigraph": "The world begins in silence.",
       "other_language": "Українська",
       "other_file": "README.md"
     }

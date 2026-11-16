@@ -13,7 +13,7 @@
 ## Де подивитися ближче
 
 - [AI Ontology — публічне видання](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/ai-ontology/README.md)
-- [Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)
+- [Бенчмарк «Лезо»](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/benchmark-lezo/README.md)
 - [FilesDrop #32 - прийнята зміна](https://github.com/AndreyBegma/FilesDrop/pull/32)
 - [OpenClaw - upstream runtime](https://github.com/openclaw/openclaw)
 

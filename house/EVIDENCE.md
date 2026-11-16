@@ -138,5 +138,5 @@ GitHub API підтверджує merge FilesDrop #32; відкриті прик
 
 - [AI Ontology](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/ai-ontology/README.md)
 - [FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · [API readback endpoint](https://api.github.com/repos/AndreyBegma/FilesDrop/pulls/32)
-- [Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)
+- [Бенчмарк «Лезо» / Benchmark Lezo](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/benchmark-lezo/README.md)
 - [OpenClaw](https://github.com/openclaw/openclaw)

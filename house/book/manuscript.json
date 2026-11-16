@@ -1528,10 +1528,10 @@
             },
             {
               "label": {
-                "uk": "Evidence-gated Agent Workflows",
-                "en": "Evidence-gated Agent Workflows"
+                "uk": "Бенчмарк «Лезо»",
+                "en": "Benchmark Lezo"
               },
-              "url": "https://github.com/DiadkoShmek/evidence-gated-agent-workflows"
+              "url": "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/benchmark-lezo/README.md"
             },
             {
               "label": {
