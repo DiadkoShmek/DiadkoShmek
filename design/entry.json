@@ -2,17 +2,37 @@
   "brand": "Resonance",
   "languages": {
     "uk": {
-      "heading": "Проєкти й тексти",
+      "heading": "Бібліотека",
       "other_language": "English",
       "other_file": "README.en.md"
     },
     "en": {
-      "heading": "Projects and texts",
+      "heading": "Library",
       "other_language": "Українська",
       "other_file": "README.md"
     }
   },
-  "primary": [
+  "books": [
+    {
+      "uk": {
+        "title": "Мови 1–20",
+        "url": "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/movy-1-20/README.md"
+      },
+      "en": {
+        "title": "Languages 1–20",
+        "url": "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/movy-1-20/README.md"
+      }
+    },
+    {
+      "uk": {
+        "title": "Онтологія AI",
+        "url": "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/ai-ontology/README.md"
+      },
+      "en": {
+        "title": "AI Ontology",
+        "url": "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/ai-ontology/BOOK.en.md"
+      }
+    },
     {
       "uk": {
         "title": "Книга Дому",
@@ -25,27 +45,13 @@
     },
     {
       "uk": {
-        "title": "Інженерні результати",
-        "url": "https://github.com/DiadkoShmek/engineering-results"
+        "title": "Бенчмарк «Лезо»",
+        "url": "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/benchmark-lezo/README.md"
       },
       "en": {
-        "title": "Engineering results",
-        "url": "https://github.com/DiadkoShmek/engineering-results/blob/main/README.en.md"
+        "title": "Benchmark Lezo",
+        "url": "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/benchmark-lezo/README.md"
       }
-    }
-  ],
-  "projects": [
-    {
-      "title": "Agent Workflows",
-      "url": "https://github.com/DiadkoShmek/evidence-gated-agent-workflows"
-    },
-    {
-      "title": "AI Ontology",
-      "url": "https://github.com/DiadkoShmek/ai-ontology"
-    },
-    {
-      "title": "STROIKA",
-      "url": "https://github.com/DiadkoShmek/mae7-viewer"
     }
   ]
 }

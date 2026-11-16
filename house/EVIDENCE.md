@@ -82,9 +82,9 @@ Statistical, search and algebraic functions; a retained isolated 55-test receipt
 
 **AI Ontology / AI Ontology**
 
-Public pinned commit, book v3.7.0, record model, audit and claim ledger. A proposed profile; record completeness is not general learning.
+The reading edition of AI Ontology. The record model and study material belong to an earlier edition. A proposed profile; record completeness is not general learning.
 
-Публічний зафіксований commit, книга v3.7.0, модель записів, audit і реєстр тверджень. Запропонований профіль; повнота записів не означає загальне навчання.
+Читацька редакція книги «Онтологія AI». Модель записів і дослідницький матеріал належать попередньому виданню. Запропонований профіль; повнота записів не означає загальне навчання.
 
 ## B11
 
@@ -136,7 +136,7 @@ GitHub API підтверджує merge FilesDrop #32; відкриті прик
 
 ## Public sources / Публічні джерела
 
-- [AI Ontology: pinned edition](https://github.com/DiadkoShmek/ai-ontology/tree/f6997bf2c2f65683505ed719d8038f428b952de1)
+- [AI Ontology](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/ai-ontology/README.md)
 - [FilesDrop #32](https://github.com/AndreyBegma/FilesDrop/pull/32) · [API readback endpoint](https://api.github.com/repos/AndreyBegma/FilesDrop/pulls/32)
 - [Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)
 - [OpenClaw](https://github.com/openclaw/openclaw)

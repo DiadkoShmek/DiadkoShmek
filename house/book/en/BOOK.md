@@ -585,7 +585,7 @@ There is always a choice of form between an internal intention and a published t
 
 ## Where to look more closely
 
-- [AI Ontology — public edition](https://github.com/DiadkoShmek/ai-ontology)
+- [AI Ontology — public edition](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/ai-ontology/README.md)
 - [Evidence-gated Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)
 - [FilesDrop #32 - merged contribution](https://github.com/AndreyBegma/FilesDrop/pull/32)
 - [OpenClaw - upstream runtime](https://github.com/openclaw/openclaw)
@@ -630,7 +630,7 @@ A boundary closes not the conversation, but a particular claim. It shows where w
 | Code / subject | Basis and boundary |
 | --- | --- |
 | B09 · Shadow workbench | Statistical, search and algebraic functions; a retained isolated 55-test receipt. Mathematical/educational implementation, without production cryptographic certification. |
-| B10 · AI Ontology | Public pinned commit, book v3.7.0, record model, audit and claim ledger. A proposed profile; record completeness is not general learning. |
+| B10 · AI Ontology | The reading edition of AI Ontology. The record model and study material belong to an earlier edition. A proposed profile; record completeness is not general learning. |
 | B11 · Continuity and runtime | Current owner/evaluator/spiral/bridge sources; a separate Omnigen target event log and replay. A target and historical PASS do not establish migration of all current organs. |
 | B12 · Mirror | Completed LQ3, actual runner and standalone stored reader with source barriers. A negative paper result; controller readiness is not live profit. |
 | B13 · Budova | Project save/CAS, staging/recovery, historical fact composition and retained UI/HTTP runs. Controlled local flows; a professional user trial has not yet occurred. |

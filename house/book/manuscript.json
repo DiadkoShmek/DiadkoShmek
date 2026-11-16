@@ -1524,7 +1524,7 @@
                 "uk": "AI Ontology — публічне видання",
                 "en": "AI Ontology — public edition"
               },
-              "url": "https://github.com/DiadkoShmek/ai-ontology"
+              "url": "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/ai-ontology/README.md"
             },
             {
               "label": {
@@ -1731,11 +1731,11 @@
             {
               "uk": [
                 "B10 · AI Ontology",
-                "Публічний зафіксований commit, книга v3.7.0, модель записів, audit і реєстр тверджень. Запропонований профіль; повнота записів не означає загальне навчання."
+                "Читацька редакція книги «Онтологія AI». Модель записів і дослідницький матеріал належать попередньому виданню. Запропонований профіль; повнота записів не означає загальне навчання."
               ],
               "en": [
                 "B10 · AI Ontology",
-                "Public pinned commit, book v3.7.0, record model, audit and claim ledger. A proposed profile; record completeness is not general learning."
+                "The reading edition of AI Ontology. The record model and study material belong to an earlier edition. A proposed profile; record completeness is not general learning."
               ]
             },
             {

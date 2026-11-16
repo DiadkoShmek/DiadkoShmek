@@ -1,9 +1,8 @@
-# Проєкти й тексти
+# Бібліотека
 
+- [Мови 1–20](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/movy-1-20/README.md)
+- [Онтологія AI](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/ai-ontology/README.md)
 - [Книга Дому](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/uk/README.md)
-- [Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows)
-- [AI Ontology](https://github.com/DiadkoShmek/ai-ontology)
-- [STROIKA](https://github.com/DiadkoShmek/mae7-viewer)
-- [Інженерні результати](https://github.com/DiadkoShmek/engineering-results)
+- [Бенчмарк «Лезо»](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/library/benchmark-lezo/README.md)
 
 [English](https://github.com/DiadkoShmek/DiadkoShmek/blob/main/README.en.md)

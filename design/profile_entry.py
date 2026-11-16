@@ -45,13 +45,10 @@ def hero(theme, mobile):
 
 def readme(lang):
     copy = DATA["languages"][lang]
-    book, results = (route[lang] for route in DATA["primary"])
-    rows = [
-        (book["title"], book["url"]),
-        *((project["title"], project["url"]) for project in DATA["projects"]),
-        (results["title"], results["url"]),
+    links = [
+        f'- [{book[lang]["title"]}]({book[lang]["url"]})'
+        for book in DATA["books"]
     ]
-    links = [f"- [{title}]({url})" for title, url in rows]
     return "\n".join([
         f'# {copy["heading"]}',
         "",

@@ -143,8 +143,8 @@
         "en": "AI Ontology"
       },
       "basis": {
-        "uk": "Публічний зафіксований commit, книга v3.7.0, модель записів, audit і реєстр тверджень.",
-        "en": "Public pinned commit, book v3.7.0, record model, audit and claim ledger."
+        "uk": "Читацька редакція книги «Онтологія AI». Модель записів і дослідницький матеріал належать попередньому виданню.",
+        "en": "The reading edition of AI Ontology. The record model and study material belong to an earlier edition."
       },
       "boundary": {
         "uk": "Запропонований профіль; повнота записів не означає загальне навчання.",
