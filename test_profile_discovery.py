@@ -15,51 +15,23 @@ class ProfileDiscoveryContractTest(unittest.TestCase):
         self.readme = README.read_text(encoding="utf-8")
         self.workflow = WORKFLOW.read_text(encoding="utf-8")
 
-    def test_profile_leads_to_real_work_without_personal_contact(self):
-        for route in (PROOF, HOUSE_BOOK):
-            self.assertIn(route, self.readme)
-        self.assertNotIn("linkedin.com/in/", self.readme)
-        self.assertNotIn("mailto:", self.readme)
-        self.assertIn("python3 run_proof.py", self.readme)
-        self.assertIn("прототипи", self.readme.lower())
-        self.assertIn("Прототипи мають описані умови та межі перевірок", self.readme)
-        self.assertIn("https://diadkoshmek.github.io/mae7-viewer/", self.readme)
-        self.assertIn("https://github.com/DiadkoShmek/mae7-viewer", self.readme)
+    def test_profile_is_a_plain_bilingual_project_index(self):
+        for filename in ("README.md", "README.en.md"):
+            text = (ROOT / filename).read_text(encoding="utf-8")
+            lines = [line for line in text.splitlines() if line.strip()]
+            self.assertTrue(lines[0].startswith("# "))
+            self.assertEqual(len(lines), 7)
+            self.assertTrue(all(line.startswith("- [") for line in lines[1:-1]))
+            for path in ("/house/book/", "/engineering-results", "/evidence-gated-agent-workflows", "/ai-ontology", "/mae7-viewer"):
+                self.assertEqual(text.count(path), 1)
+            self.assertTrue(lines[-1].startswith("["))
+            self.assertNotRegex(text, r"mailto:|linkedin[.]com/in/|<picture>|<details>")
 
     def test_profile_has_no_fixed_offer_or_private_paths(self):
         for sales_fragment in ("$1,500", "Proof Sprint", "fixed-scope", "3–5 working days"):
             self.assertNotIn(sales_fragment, self.readme)
         self.assertNotRegex(self.readme, r"/home/[^/]+")
         self.assertNotIn("file://", self.readme)
-
-    def test_profile_keeps_project_index_and_static_technical_identity(self):
-        for name in ("README.md", "README.en.md"):
-            text = (ROOT / name).read_text(encoding="utf-8")
-            self.assertIn('alt="Resonance', text)
-            self.assertNotIn("![", text)
-            self.assertEqual(text.count("<picture>"), 1)
-            self.assertIn("assets/identity/resonance-signature-light.svg", text)
-            self.assertIn("resonance-signature-dark-mobile.svg", text)
-            self.assertNotRegex(text, r"I build|Я будую|mailto:|linkedin\.com/in/")
-            self.assertIn("/house/book/", text)
-            self.assertIn("/RESULTS", text)
-            main = text.split("<details>", 1)[0]
-            for target in (
-                f"/house/book/{'uk' if name == 'README.md' else 'en'}/README.md",
-                "https://github.com/DiadkoShmek/engineering-results",
-            ):
-                self.assertEqual(main.count(target), 1, (name, target))
-
-    def test_external_pr_history_is_folded_and_links_to_its_owner(self):
-        for name, index in (("README.md", "PR_STATUS.md"), ("README.en.md", "PR_STATUS.en.md")):
-            with self.subTest(name=name):
-                readme = (ROOT / name).read_text(encoding="utf-8")
-                main, details = readme.split("<details>", 1)
-                self.assertNotRegex(main, r"github\.com/[^/]+/[^/]+/pull/")
-                archive = details.split("</details>", 1)[0]
-                status = "https://github.com/DiadkoShmek/engineering-results/blob/main/" + index
-                self.assertIn(status, archive)
-                self.assertNotIn("05.11.2026", readme)
 
     def test_profile_links_are_public_https_targets(self):
         targets = re.findall(r"\[[^]]+\]\(([^)]+)\)", self.readme)
@@ -94,11 +66,6 @@ class ResultsJournalContractTest(unittest.TestCase):
         self.records = json.loads((ROOT / "results.json").read_text(encoding="utf-8"))["records"]
         self.journal = (ROOT / "RESULTS.md").read_text(encoding="utf-8")
         self.readme = README.read_text(encoding="utf-8")
-
-    def test_profile_exposes_the_results_journal_without_manual_coding_claim(self):
-        self.assertIn("https://github.com/DiadkoShmek/DiadkoShmek/blob/main/RESULTS.md", self.readme)
-        self.assertIn("AI-інструментами", self.readme)
-        self.assertNotIn("Пишу код для", self.readme)
 
     def test_each_result_is_bounded_dated_and_publicly_sourced(self):
         from datetime import date, datetime
@@ -171,7 +138,6 @@ class EngineeringReportContractTest(unittest.TestCase):
         self.extract = json.loads((ROOT / "evidence/codingame-local-evaluation-2026-10.json").read_text(encoding="utf-8"))
 
     def test_process_is_primary_and_autonomy_is_not_invented(self):
-        self.assertIn("https://github.com/DiadkoShmek/DiadkoShmek/blob/main/ENGINEERING.md", README.read_text(encoding="utf-8"))
         for boundary in ("Ігровий бот", "AI-агент розробки", "Людина визначає напрям", "не виміряні"):
             self.assertIn(boundary, self.index)
         self.assertIn("не контрольований порівняльний бенчмарк", self.index)
@@ -266,7 +232,7 @@ class ExternalContributionContractTest(unittest.TestCase):
                 self.assertIn(row["source_url"], report)
                 self.assertIn("## English summary", report)
                 self.assertNotRegex(report, r"/home/|/tmp/|mailto:|linkedin\.com/in/")
-        self.assertIn("RESULTS.en.md", (ROOT / "README.en.md").read_text(encoding="utf-8"))
+        self.assertTrue((ROOT / "RESULTS.en.md").is_file())
 
 
 if __name__ == "__main__":

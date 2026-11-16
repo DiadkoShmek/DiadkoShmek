@@ -21,15 +21,7 @@ Repository READMEs reference these covers directly. The static social previews
 and geometric avatar use the same source. Existing project licences and
 attribution remain unchanged.
 
-## Resonance profile entrance
+## Project index
 
-`entry.json` owns the bilingual content. `profile_entry.py` generates the
-README and its compact masthead. A three-node return path carries the shared
-identity into the masthead's separate narrow and wide compositions, each with
-light and dark palettes.
-
-The book and engineering results lead directly to their sources. Three
-original projects follow in a native text list. GitHub headings, links and
-collapsed details keep navigation available with images disabled. The current
-PR inventory and result counts are maintained in the engineering-results
-repository. Review the live GitHub rendering and mobile width after edits.
+`entry.json` defines the links in the bilingual project index.
+`profile_entry.py` renders both README files and the archived masthead artwork.

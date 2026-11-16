@@ -2,48 +2,34 @@
   "brand": "Resonance",
   "languages": {
     "uk": {
-      "intro": "AI-системи з перевірними підставами",
+      "heading": "Проєкти й тексти",
       "other_language": "English",
-      "other_file": "README.en.md",
-      "projects": "Власні проєкти",
-      "archive": "Внески у зовнішні проєкти",
-      "method": "Про роботу й перевірки",
-      "summary": "Відтворювані приклади агентів, дослідження пам’яті та виправлення у відкритих бібліотеках.",
-      "start": "Почати тут"
+      "other_file": "README.en.md"
     },
     "en": {
-      "intro": "AI systems with inspectable evidence",
+      "heading": "Projects and texts",
       "other_language": "Українська",
-      "other_file": "README.md",
-      "projects": "Original projects",
-      "archive": "Contributions to external projects",
-      "method": "Work and verification",
-      "summary": "Runnable agent examples, research on memory, and fixes merged into open-source libraries.",
-      "start": "Start here"
+      "other_file": "README.md"
     }
   },
   "primary": [
     {
       "uk": {
         "title": "Книга Дому",
-        "description": "Архітектура Дому та як у ньому пов’язані агенти, пам’ять і робота.",
         "url": "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/uk/README.md"
       },
       "en": {
         "title": "The House",
-        "description": "The architecture behind the House and how agents, memory, and work connect.",
         "url": "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/house/book/en/README.md"
       }
     },
     {
       "uk": {
         "title": "Інженерні результати",
-        "description": "Злиті виправлення, технічні кейси й посилання на першоджерела.",
         "url": "https://github.com/DiadkoShmek/engineering-results"
       },
       "en": {
         "title": "Engineering results",
-        "description": "Merged fixes, engineering case studies, and links to upstream evidence.",
         "url": "https://github.com/DiadkoShmek/engineering-results/blob/main/README.en.md"
       }
     }
@@ -51,51 +37,15 @@
   "projects": [
     {
       "title": "Agent Workflows",
-      "url": "https://github.com/DiadkoShmek/evidence-gated-agent-workflows",
-      "uk": "Приклади, де агент зупиняється, коли даних бракує або вони суперечать одне одному.",
-      "en": "Runnable examples of agents that stop when evidence is missing or conflicting.",
-      "actions": {
-        "uk": {
-          "title": "Приклади",
-          "url": "https://diadkoshmek.github.io/evidence-gated-agent-workflows/"
-        },
-        "en": {
-          "title": "Examples",
-          "url": "https://diadkoshmek.github.io/evidence-gated-agent-workflows/en.html"
-        }
-      }
+      "url": "https://github.com/DiadkoShmek/evidence-gated-agent-workflows"
     },
     {
       "title": "AI Ontology",
-      "url": "https://github.com/DiadkoShmek/ai-ontology",
-      "uk": "Книга і відтворювані дослідження пам’яті агентів та перегляду рішень.",
-      "en": "A book and reproducible studies of agent memory and decision revision.",
-      "actions": {
-        "uk": {
-          "title": "Читати",
-          "url": "https://diadkoshmek.github.io/ai-ontology/"
-        },
-        "en": {
-          "title": "Read",
-          "url": "https://diadkoshmek.github.io/ai-ontology/en/"
-        }
-      }
+      "url": "https://github.com/DiadkoShmek/ai-ontology"
     },
     {
       "title": "STROIKA",
-      "url": "https://github.com/DiadkoShmek/mae7-viewer",
-      "uk": "Інтерактивна 3D-модель, фасади й креслення для перегляду.",
-      "en": "An interactive 3D model with façades and review drawings.",
-      "actions": {
-        "uk": {
-          "title": "Відкрити 3D",
-          "url": "https://diadkoshmek.github.io/mae7-viewer/"
-        },
-        "en": {
-          "title": "Open 3D viewer",
-          "url": "https://diadkoshmek.github.io/mae7-viewer/"
-        }
-      }
+      "url": "https://github.com/DiadkoShmek/mae7-viewer"
     }
   ]
 }

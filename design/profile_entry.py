@@ -7,8 +7,6 @@ from pathlib import Path
 
 DATA = json.loads(Path(__file__).with_name("entry.json").read_text(encoding="utf-8"))
 PROFILE = "https://github.com/DiadkoShmek/DiadkoShmek/blob/main/"
-RESULTS = "https://github.com/DiadkoShmek/engineering-results/blob/main/"
-RAW = "https://raw.githubusercontent.com/DiadkoShmek/DiadkoShmek/main/assets/identity/"
 STEM = "resonance-signature"
 PALETTES = {
     "dark": ("#0d1117", "#102722", "#f0f6fc", "#344652", "#89e4ca", "#f1cc8d"),
@@ -45,54 +43,23 @@ def hero(theme, mobile):
 '''
 
 
-def picture():
-    return f'''<picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="{RAW}{STEM}-dark-mobile.svg">
-  <source media="(max-width: 600px)" srcset="{RAW}{STEM}-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="{RAW}{STEM}-dark.svg">
-  <img src="{RAW}{STEM}-light.svg" alt="Resonance" width="1280">
-</picture>'''
-
-
 def readme(lang):
     copy = DATA["languages"][lang]
     book, results = (route[lang] for route in DATA["primary"])
-    book_pdf = f"{PROFILE}house/pdf/the-house-{lang}.pdf"
-    originals = "https://github.com/DiadkoShmek?tab=repositories&type=source"
-    lines = [
-        picture(),
-        f'\n**{copy["intro"]}**',
-        f'\n{copy["summary"]}',
-        f'\n[{copy["other_language"]}]({PROFILE}{copy["other_file"]})',
-        f'\n## {copy["start"]}\n',
-        f'- **[{results["title"]}]({results["url"]})** · {results["description"]}',
-        f'- **[{book["title"]}]({book["url"]})** · {book["description"]} [PDF]({book_pdf})',
-        f'\n## {copy["projects"]}\n',
+    rows = [
+        (book["title"], book["url"]),
+        *((project["title"], project["url"]) for project in DATA["projects"]),
+        (results["title"], results["url"]),
     ]
-    for project in DATA["projects"]:
-        action = project["actions"][lang]
-        lines.append(f'- **[{project["title"]}]({project["url"]})** · {project[lang]} '
-                     f'[{action["title"]}]({action["url"]})')
-    lines.extend([
-        f'\n[{"Усі власні репозиторії" if lang == "uk" else "All original repositories"}]({originals})',
-        f'\n<details>\n<summary>{copy["archive"]}</summary>\n',
-        f'[{"Усі PR та їхні статуси" if lang == "uk" else "All PRs and their statuses"}]({RESULTS}PR_STATUS{"" if lang == "uk" else ".en"}.md) · '
-        f'[{"Кейси з першоджерелами" if lang == "uk" else "Source-linked case reports"}]({RESULTS}reports/README.md)',
-        '\n</details>',
-        f'\n<details>\n<summary>{copy["method"]}</summary>\n',
+    links = [f"- [{title}]({url})" for title, url in rows]
+    return "\n".join([
+        f'# {copy["heading"]}',
+        "",
+        *links,
+        "",
+        f'[{copy["other_language"]}]({PROFILE}{copy["other_file"]})',
+        "",
     ])
-    if lang == "uk":
-        lines.append("Напрям і відповідальність — мої. Розробка й перевірки — з AI-інструментами. Прототипи мають описані умови та межі перевірок.")
-    else:
-        lines.append("I direct the work and own follow-up. Development and verification use AI tools. The prototypes document their test conditions and limits.")
-    lines.extend([
-        f'\n[{"Журнал" if lang == "uk" else "Journal"}]({PROFILE}RESULTS{"" if lang == "uk" else ".en"}.md) · '
-        f'[{"Метод роботи" if lang == "uk" else "Engineering method"}]({PROFILE}ENGINEERING.md) · '
-        f'[{"Перевірки профілю" if lang == "uk" else "Profile checks"}]({PROFILE}.github/workflows/profile-proof.yml)',
-        '\n[Agent Workflows](https://github.com/DiadkoShmek/evidence-gated-agent-workflows/blob/main/run_proof.py): `python3 run_proof.py`.',
-        '\n</details>',
-    ])
-    return "\n".join(lines) + "\n"
 
 
 def outputs(root):
