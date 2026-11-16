@@ -1,1 +1,6 @@
 *.pdf binary
+
+# Publishing and verification tools are excluded from repository language stats.
+/design/*.py -linguist-detectable
+/house/tools/*.py -linguist-detectable
+/test_profile_discovery.py -linguist-detectable
